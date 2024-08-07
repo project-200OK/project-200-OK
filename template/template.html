@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="/template/css/sidebar.css">
     <link rel="stylesheet" href="/template/css/footer.css">
     <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
+    <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </head>
 <body>
     <header>
@@ -32,6 +35,16 @@
       <h1 class="hidden">메인</h1>
       <div class="main">
         <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+
+        <section>
+          <h2 class="guide">가이드</h2>
+          <div class="guide_list"></div>
+        </section>
+        <section>
+          <div class="keyword_line"></div>
+          <h2 class="keyword">키워드</h2>
+          <div class="keyword_list"></div>
+        </section>
       </div>
     </main>
     <footer>
@@ -40,5 +53,7 @@
         <!-- 푸터 내용 (푸터가 들어갈 자리) -->
          <div class="footer"></div>
     </footer>
+
+    <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
 </body>
 </html>
