@@ -1,0 +1,28 @@
+/* 작성자 :  */
+* {
+  /* background-color: #F5EDED; */
+  background-color: white;
+  font-weight: 700;
+}
+
+main {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#guideName{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E2DAD6;
+}
+
+#keywordBox {
+  display: flex;
+}
+
+.divider {
+  border-bottom: 1px solid #E2DAD6;
+}
