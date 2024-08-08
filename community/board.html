@@ -1,95 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>게시판</title>
-  <style>
-      body {
-          font-family: Arial, sans-serif;
-          background-color: #f0f0f0;
-          margin: 0;
-          padding: 0;
-      }
-      .container {
-          width: 80%;
-          margin: 0 auto;
-          background-color: #fff;
-          padding: 20px;
-          box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      }
-      h1 {
-          text-align: center;
-          margin-bottom: 20px;
-      }
-      table {
-          width: 100%;
-          border-collapse: collapse;
-      }
-      table, th, td {
-          border: 1px solid #ddd;
-      }
-      th, td {
-          padding: 12px;
-          text-align: center;
-      }
-      th {
-          background-color: #f4f4f4;
-      }
-      tr:nth-child(even) {
-          background-color: #f9f9f9;
-      }
-      .btn {
-          display: inline-block;
-          padding: 10px 20px;
-          margin: 20px 0;
-          background-color: #007bff;
-          color: #fff;
-          text-align: center;
-          text-decoration: none;
-          border-radius: 5px;
-      }
-      .btn:hover {
-          background-color: #0056b3;
-      }
-  </style>
+  <title>시맨틱 HTML 템플릿</title>
+  <!-- 공통 css 건들지 마시오!!! -->
+  <link rel="stylesheet" href="/template/css/reset.css">
+  <link rel="stylesheet" href="/template/css/common.css">
+  <link rel="stylesheet" href="/template/css/header.css">
+  <link rel="stylesheet" href="/template/css/sidebar.css">
+  <link rel="stylesheet" href="/template/css/footer.css">
+  <link rel="stylesheet" href="/community/css/board.css">
+  <link rel="stylesheet" href="/community/css/create.css">
+  <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
+  <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
+
 <body>
-
-<div class="container">
-  <h1>게시판<p>이런 저런 살아가는 이야기를 나눠요.</p></h1>
-  <table>
-      <thead>
-          <tr>
-              <th>말머리</th>
-              <th>제목</th>
-              <th>작성자</th>
-              <th>작성일</th>
-              <th>조회</th>
-          </tr>
-      </thead>
-      <tbody>
-          <!-- 게시글 리스트 예시 -->
-          <tr>
-              <td>공지</td>
-              <td><a href="#">[주택관리] 임대차보호관련 법령 최신화</a></td>
-              <td>이관리</td>
-              <td>2024-08-07</td>
-              <td>10,303</td>
-          </tr>
-          <tr>
-              <td>새글</td>
-              <td><a href="#">월세와 관리비 관련 질문</a></td>
-              <td>이전세</td>
-              <td>2024-08-06</td>
-              <td>198</td>
-          </tr>
-          <!-- 여기에 더 많은 게시글을 추가 -->
-      </tbody>
-  </table>
-
-  <a href="#" class="btn">새 글 작성</a>
-</div>
-
+  <header>
+    <!-- 헤더 내용 (네비게이션이 들어갈 자리) -->
+    <h1 class="hidden">헤더</h1>
+    <div class="header">
+    </div>
+  </header>
+  <main>
+    <!-- 메인 콘텐츠 -->
+    <h1 class="hidden">사이드바</h1>
+    <aside class="side_bar">
+      <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+    </aside>
+    <h1 class="hidden">메인</h1>
+    <div class="main">
+      <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+      <h1 class="hidden">커뮤니티 메인</h1>
+      <div class="BoardName1">커뮤니티 게시판</div>
+      <div class="container">
+        <div class="BoardName2">이런 저런 살아가는 이야기를 나눠요.</div>
+        <div class="CheckBox">
+          <label><input type="checkbox"> 공지 숨기기</label>
+          <select>
+            <option>15개씩</option>
+            <option>30개씩</option>
+            <option>50개씩</option>
+          </select>
+        </div>
+      </div>
+      <div class="CommunityBoard-Main"> <!-- 게시판 메인 -->
+        <div> <!-- 말머리 -->
+          <div class="CommunityHeadline">말머리</div>
+          <div>
+            <div class="CommunityHeadline Notice">
+              <div class="inner-box-Notice">공지</div>
+            </div>
+            <div class="CommunityHeadline Guide RealEstate">
+              <div class="inner-box">부동산</div>
+            </div>
+            <div class="CommunityHeadline Guide taxes">
+              <div class="inner-box">세금</div>
+            </div>
+            <div class="CommunityHeadline Guide Welfare">
+              <div class="inner-box">복지</div>
+            </div>
+            <div class="CommunityHeadline Guide LifeTips">
+              <div class="inner-box">생활팁</div>
+            </div>
+          </div>
+        </div>
+        <div> <!-- 제목 -->
+          <div class="CommunityTitle">제목</div>
+          <div>
+            <div class="CommunityTitleName Notice"><a href="#">[주택관리] 임대차보호관련 법령 최신화</a></div>
+            <div class="CommunityTitleName"><a href="#">월세를 들어갈려고 하는데 주의할 점은?</a></div>
+            <div class="CommunityTitleName"><a href="#">혹시.. 부산지역 청년지원금 관련 팁 있나요?</a></div>
+            <div class="CommunityTitleName"><a href="#">병원에 입원 중인데.. 급여랑 비급여에 대해서 궁금해요</a></div>
+            <div class="CommunityTitleName"><a href="#">이번에 자동차를 중고로 구매했는데 납부해야할 세금이 먼가요??</a></div>
+          </div>
+        </div>
+        <div> <!-- 작성자 -->
+          <div class="CommunityAuthor">작성자</div>
+          <div>
+            <div class="CommunityAuthorAdmin">관리자</div>
+            <div class="CommunityAuthorMember">이월세</div>
+            <div class="CommunityAuthorMember">김지원</div>
+            <div class="CommunityAuthorMember">최아픔</div>
+            <div class="CommunityAuthorMember">한동차</div>
+          </div>
+        </div>
+        <div> <!-- 작성일 -->
+          <div class="CommunityPostData">작성일</div>
+          <div>
+            <div class="CommunityPostDataInput">15:24</div>
+            <div class="CommunityPostDataInput">16:22</div>
+            <div class="CommunityPostDataInput">2024-08-06</div>
+            <div class="CommunityPostDataInput">2024-07-24</div>
+            <div class="CommunityPostDataInput">2024-07-23</div>
+          </div>
+        </div>
+        <div> <!-- 조회수 -->
+          <div class="CommunityViews">조회수</div>
+          <div>
+            <div class="CommunityViewsData">7,355</div>
+            <div class="CommunityViewsData">184</div>
+            <div class="CommunityViewsData">7,887</div>
+            <div class="CommunityViewsData">24,222</div>
+            <div class="CommunityViewsData">14,961</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="post-form-button">
+      <a href="create.html"><button>새 게시물 작성</button></a>
+    </div>
+  </main>
+  <footer>
+    <h1 class="hidden">푸터</h1>
+    <!-- 푸터 내용 (푸터가 들어갈 자리) -->
+    <div class="footer"></div>
+  </footer>
+  <script src="../community/js/board.js"></script>
+  <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
 </body>
 </html>
