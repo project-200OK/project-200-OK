@@ -4,7 +4,6 @@ const _imgPassEye = document.querySelector('#pass_eye');            // password 
 const _ipUserPassCheck = document.querySelector('#user_pass_check');    // password check input 박스
 const _imgPassEyeCheck = document.querySelector('#pass_eye_check'); // password check input 박스 내 눈 표시 아이콘
 
-const _ipPassRecheck = document.querySelector('#user_pass_check'); // password check input 박스 내 눈 표시 아이콘
 // 작업 할 사항
 // 1.패스워드 & 패스워드 확인 값 같은지 체크
 // 2.회원가입 버튼 클릭시 빈값 없는지 확인
@@ -24,6 +23,7 @@ _imgPassEye.addEventListener('click', () => {
     _ipUserPass.type = 'password';
   }
 });
+
 // 패스워드 확인
 _imgPassEyeCheck.addEventListener('click', () => {
   if(_imgPassEyeCheck.classList.contains('pass_hide')) {
@@ -38,9 +38,29 @@ _imgPassEyeCheck.addEventListener('click', () => {
     _ipUserPassCheck.type = 'password';
   }
 });
-// 패스워드 일치여부 확인 이벤트
-_ipPassRecheck.addEventListener();
 
+const _ipPasscheck = document.querySelector('#user_pass'); // password check input 박스 내 눈 표시 아이콘
+const _ipPassRecheck = document.querySelector('#user_pass_check'); // password check input 박스 내 눈 표시 아이콘
+
+// 패스워드 일치여부 확인 이벤트
+_ipPasscheck.addEventListener('input',() => {
+  let pass1 = document.getElementById('user_pass').value;
+  let pass2 = document.getElementById('user_pass_check').value;
+  if( pass1 != pass2 ) {
+    document.getElementById('msg_pass').style.display = 'block';
+  }else {
+    document.getElementById('msg_pass').style.display = 'none';
+  }
+});
+_ipPassRecheck.addEventListener('input',() => {
+  let pass1 = document.getElementById('user_pass').value;
+  let pass2 = document.getElementById('user_pass_check').value;
+      if( pass1 != pass2 ) {
+        document.getElementById('msg_pass').style.display = 'block';
+      }else {
+        document.getElementById('msg_pass').style.display = 'none';
+      }
+});
 // 지역명 for문 돌려서 option에 넣기
 const regions = [
   {name : "선택하세요", val : "no"},
