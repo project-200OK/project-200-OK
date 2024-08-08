@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "name": "property",
+      "subcategories": [
+        {
+          "name": "livealone",
+          "items": [
+            {
+              "title": "Title1",
+              "author": "author",
+              "date": "date",
+              "content": "Content1",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "name": "oneroom",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tax",
+      "subcategories": [
+        {
+          "name": "keyword1",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "name": "earntax",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "welfare",
+      "subcategories": [
+        {
+          "name": "house",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "name": "loan",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "knowhow",
+      "subcategories": [
+        {
+          "name": "money",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "name": "job",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
