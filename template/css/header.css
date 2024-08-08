@@ -4,6 +4,7 @@ a {
 }
 header {
   background-color: white;
+  z-index: 2;
 }
 .header_main {
   display: flex;
@@ -94,7 +95,6 @@ header {
   border-radius: 40px;
   font-weight: 600;
   margin-left: 10px;
-
 }
 .btn:hover {
   background-color: black;
@@ -108,6 +108,7 @@ header {
 .header_sub {
   height: 60px;
   background-color: white;
+  display: none;
 }
 .sub_menu {
   width: 600px;
