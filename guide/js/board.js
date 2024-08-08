@@ -25,7 +25,8 @@ window.onload = () => {
     for(let i = 0; i < data.categories[guideIndex].subcategories[keywordIndex].items.length; i++){
       cardHTML += `
 <div class="guideCard">
-  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)' value=${i}>
+  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+    <input class="index" type="hidden" value=${i}></input>
     <div class="guideCardName">${data.categories[guideIndex].guide}</div>
     <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
     <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
@@ -71,6 +72,7 @@ function getKeyword(object) {
       guideCardHTML += `
 <div class="guideCard">
   <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+    <input type="hidden" value=${i}></input>
     <div class="guideCardName">${data.categories[guideIndex].guide}</div>
     <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
     <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
@@ -118,15 +120,15 @@ function setLike(object) {
 // guideIndex와 keywordIndex 값을 가지고
 // detail.html 페이지로 이동한다.
 function sendParam(object, guideIndex, keywordIndex) {
-  const itemIndex = object.value;
-  alert(itemIndex);
+  let itemIndex = object.querySelector('.index').value;
+  itemIndex;
 
-  const queryString = new URLSearchParams({
-    guideIndex: guideIndex,
-    keywordIndex: keywordIndex,
-    itemIndex: itemIndex
-  }).toString();
-  alert(queryString);
-  // alert(queryString.guideIdx + " " + queryString.nowIdx);
-  window.location.href = `detail.html?${queryString}`;
+  // const queryString = new URLSearchParams({
+  //   guideIndex: guideIndex,
+  //   keywordIndex: keywordIndex,
+  //   itemIndex: itemIndex
+  // }).toString();
+  // alert(queryString);
+  // // alert(queryString.guideIdx + " " + queryString.nowIdx);
+  // window.location.href = `detail.html?${queryString}`;
 }
