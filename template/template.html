@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>푸터 템플릿</title>
+    <title>시맨틱 HTML 템플릿</title>
     <!-- 공통 css 건들지 마시오!!! -->
     <link rel="stylesheet" href="/template/css/reset.css" />
     <link rel="stylesheet" href="/template/css/common.css" />
+    <link rel="stylesheet" href="/template/css/header.css" />
+    <link rel="stylesheet" href="/template/css/sidebar.css" />
     <link rel="stylesheet" href="/template/css/footer.css" />
     <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
      <!-- font awesome - 푸터의 아이콘들을 가지고 오기 위한 링크 -->
@@ -19,7 +21,61 @@
     <header>
       <!-- 헤더 내용 (네비게이션이 들어갈 자리) -->
       <h1 class="hidden">헤더</h1>
-      <div class="header"></div>
+      <div class="header">
+        <div class="header_main">
+          <div class="left_nav_box">
+            <div class="logo">
+              <a class="logo_text" href="#">MZ-ONE</a>
+            </div>
+            <div class="tab_box">
+              <div class="tab">
+                <a class="tab_text" href="#">커뮤니티</a>
+              </div>
+              <div class="tab menu_item">가이드</div>
+            </div>
+          </div>
+          <div class="middle_nav_box">
+            <div class="search_box">
+              <input
+                class="search_bar"
+                type="text"
+                placeholder="     검색어를 입력해주세요"
+              />
+              <button class="search_btn">
+                <img
+                  class="search_icon"
+                  src="/images/icons/Search.png"
+                  alt="search"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="right_nav_box">
+            <div class="login btn">
+              <a class="btn_text" href="#">로그인</a>
+            </div>
+            <div class="sign_up btn">
+              <a class="btn_text" href="#">회원가입</a>
+            </div>
+          </div>
+        </div>
+        <div class="header_sub">
+          <div class="sub_menu">
+            <a class="sub_menu_box" href="#">
+              <div class="sub_menu_text">부동산</div>
+            </a>
+            <a class="sub_menu_box" href="#">
+              <div class="sub_menu_text">세금</div>
+            </a>
+            <a class="sub_menu_box" href="#">
+              <div class="sub_menu_text">복지</div>
+            </a>
+            <a class="sub_menu_box" href="#">
+              <div class="sub_menu_text">생활팁</div>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -90,7 +146,7 @@
         <div class="footer-bottom">&copy; 2024 MZ-ONE | 디자인: MZ-ONE 팀</div>
       </div>
     </footer>
-
     <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
+    <script src="js/header.js"></script>
   </body>
 </html>

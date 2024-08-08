@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>게시판</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+          margin: 0;
+          padding: 0;
+      }
+      .container {
+          width: 80%;
+          margin: 0 auto;
+          background-color: #fff;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+      h1 {
+          text-align: center;
+          margin-bottom: 20px;
+      }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+      table, th, td {
+          border: 1px solid #ddd;
+      }
+      th, td {
+          padding: 12px;
+          text-align: center;
+      }
+      th {
+          background-color: #f4f4f4;
+      }
+      tr:nth-child(even) {
+          background-color: #f9f9f9;
+      }
+      .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 20px 0;
+          background-color: #007bff;
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+      }
+      .btn:hover {
+          background-color: #0056b3;
+      }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>게시판<p>이런 저런 살아가는 이야기를 나눠요.</p></h1>
+  <table>
+      <thead>
+          <tr>
+              <th>말머리</th>
+              <th>제목</th>
+              <th>작성자</th>
+              <th>작성일</th>
+              <th>조회</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- 게시글 리스트 예시 -->
+          <tr>
+              <td>공지</td>
+              <td><a href="#">[주택관리] 임대차보호관련 법령 최신화</a></td>
+              <td>이관리</td>
+              <td>2024-08-07</td>
+              <td>10,303</td>
+          </tr>
+          <tr>
+              <td>새글</td>
+              <td><a href="#">월세와 관리비 관련 질문</a></td>
+              <td>이전세</td>
+              <td>2024-08-06</td>
+              <td>198</td>
+          </tr>
+          <!-- 여기에 더 많은 게시글을 추가 -->
+      </tbody>
+  </table>
+
+  <a href="#" class="btn">새 글 작성</a>
+</div>
+
+</body>
+</html>
