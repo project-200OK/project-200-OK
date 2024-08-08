@@ -6,6 +6,8 @@
   border-radius: 25px;
   width: 700px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .input {
   width: 100%;
@@ -25,4 +27,62 @@
 .input_button_img {
   width: 30px;
   height: 30px;
+}
+
+
+.text_box {
+ display: flex;
+ justify-content: center;
+ margin-top: 100px;
+}
+.text_post {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 250px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.text_guide {
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+
+.list_line {
+  border: 3px solid rgb(228, 206, 248);
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+.list_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.writer {
+  display: flex;
+  justify-content: center;
+}
+.date {
+  display: flex;
+  justify-content: center;
+}
+.view {
+  display: flex;
+  justify-content: center;
 }
