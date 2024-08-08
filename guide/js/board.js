@@ -1,0 +1,1 @@
+let keywords = Array("생활비", "취업", "교통비");
