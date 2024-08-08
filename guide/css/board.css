@@ -1,6 +1,5 @@
-/* 작성자 : 이석현이석현 */
+/* 작성자 : 이석현 */
 main {
-  width: 1280px;
   margin: 0 auto;
 }
 
@@ -15,9 +14,7 @@ main {
 }
 
 .keywordContainer {
-  
   padding: 50px;
-  
 }
 
 #keywordList {
@@ -71,16 +68,19 @@ main {
   transition: 0.3s ease-out;
 }
 
+.guideCardTop {
+  cursor: pointer;
+}
+
 .guideCardName {
-  display: block;
-  float: left;
+  display: inline;
   width: 50px;
   padding-top: 10px;
 }
 
 .guideCardKeyword {
-  display: block;
   float: right;
+  display: inline;
   border: 1px solid;
   border-radius: 20px;
   width: 65px auto;
@@ -93,12 +93,9 @@ main {
 
 .guideCardTitle {
   margin-top: 50px;
+  margin-bottom: 50px;
   font-size: 25px;
   font-weight: 600;
-}
-
-.guideCardAuthor {
-  margin-top: 60px;
 }
 
 .guideCardDate {
@@ -107,12 +104,6 @@ main {
   margin-top: 10px;
   float: left;
   margin-top: 10px;
-}
-
-.guideCardLike {
-  float: right;
-  width: 30px;
-  cursor: pointer;
 }
 
 .guideCardLike {
