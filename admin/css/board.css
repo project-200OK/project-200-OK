@@ -1,0 +1,71 @@
+.board_title {
+  border-bottom: 1px solid;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 120px;
+}
+
+.write_button {
+  float: right;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.guide_card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 295px;
+  height: 220px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px #eee;
+}
+
+.horse_head {
+  display: block;
+  float: left;
+  width: 50px;
+  padding-top: 10px;
+}
+
+.keyword {
+  display: block;
+  float: right;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 65px;
+  height: 16px;
+  padding: 7px 12px;
+  text-align: center;
+  background-color: #6482AD;
+  color: white;
+}
+
+.guide_title {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.author {
+  margin-top: 60px;
+}
+
+.date {
+  display: flex;
+  float: left;
+  margin-top: 10px;
+}
+
+.like_icon {
+  float: right;
+  width: 30px;
+}
