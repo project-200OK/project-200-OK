@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시맨틱 HTML 템플릿</title>
+    <!-- 공통 css 건들지 마시오!!! -->
+    <link rel="stylesheet" href="/template/css/reset.css">
+    <link rel="stylesheet" href="/template/css/common.css">
+    <link rel="stylesheet" href="/template/css/header.css">
+    <link rel="stylesheet" href="/template/css/sidebar.css">
+    <link rel="stylesheet" href="/template/css/footer.css">
+    <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
+    <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./css/searchBoard.css">
+</head>
+<body>
+    <header>
+        <!-- 헤더 내용 (네비게이션이 들어갈 자리) -->
+         <h1 class="hidden">헤더</h1>
+         <div class="header">
+
+         </div>
+    </header>
+
+   
+
+    <main>
+      <!-- 메인 콘텐츠 -->
+      <h1 class="hidden">사이드바</h1>
+      <aside class="side_bar">
+        <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+      </aside>
+      <h1 class="hidden">메인</h1>
+      <div class="main">
+        <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+        <section class="">
+          <div class="search_container">
+              <input class="input" type="text">
+              <button class="input_button" type="submit">
+                  <img class="input_button_img" src="./images/검색 아이콘.png" alt="검색 아이콘">
+              </button>
+          </div>
+        </section>
+
+      </div>
+    </main>
+    <footer>
+      <h1 class="hidden">푸터</h1>
+
+        <!-- 푸터 내용 (푸터가 들어갈 자리) -->
+         <div class="footer"></div>
+    </footer>
+
+    <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
+</body>
+</html>

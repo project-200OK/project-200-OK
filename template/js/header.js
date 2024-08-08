@@ -11,3 +11,4 @@ document.querySelector(".header").addEventListener("mouseleave", function () {
   document.querySelector(".header_sub").style.display = "none";
   document.querySelector(".sub_menu").style.display = "none";
 });
+

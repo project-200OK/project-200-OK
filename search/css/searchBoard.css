@@ -1,0 +1,28 @@
+.search_container {
+  display: flex;
+  justify-content: center;
+  background-color: #f3edf8;
+  padding: 10px;
+  border-radius: 25px;
+  width: 700px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  border-radius: 25px 0 0 25px;
+}
+.input_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: -80px;
+}
+.input_button_img {
+  width: 30px;
+  height: 30px;
+}

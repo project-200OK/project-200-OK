@@ -1,0 +1,26 @@
+[
+  {
+    "url": "#",
+    "imgUrl": "./index/images/부동산.jpg",
+    "imgName": "property",
+    "name" : "부동산"
+  },
+  {
+    "url": "#",
+    "imgUrl": "./index/images/세금.jpg",
+    "imgName": "tax",
+    "name" : "세금"
+  },
+  {
+    "url": "#",
+    "imgUrl": "./index/images/복지.jpg",
+    "imgName": "welfare",
+    "name" : "복지"
+  },
+  {
+    "url": "#",
+    "imgUrl": "./index/images/생활팁.png",
+    "imgName": "Life tips",
+    "name" : "생활팁"
+  }
+]

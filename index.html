@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>시맨틱 HTML 템플릿</title>
+    <title>홈화면</title>
     <!-- 공통 css 건들지 마시오!!! -->
     <link rel="stylesheet" href="/template/css/reset.css">
     <link rel="stylesheet" href="/template/css/common.css">
@@ -33,14 +33,23 @@
       <h1 class="hidden">메인</h1>
       <div class="main">
         <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+
         <section>
-          <h2 class="guide">가이드</h2>
+          <div class="banner_list"></div>
+        </section>
+
+        <section class="guide_container">
+        <h2 class="guide_text">가이드</h2>
           <div class="guide_list"></div>
         </section>
-        <section>
+
+        <section class="keyword_container">
           <div class="keyword_line"></div>
-          <h2 class="keyword">키워드</h2>
-          <div class="keyword_list"></div>
+          <h2 class="keyword_text">키워드</h2>
+          <div class="keyword_list_container">
+            <div class="keyword_list"></div>
+          </div>
+          <div class="keyword_arrow_box"><button class="keyword_arrow">v</button></div>
         </section>
       </div>
     </main>
