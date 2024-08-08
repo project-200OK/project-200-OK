@@ -1,44 +1,112 @@
-.guide {
+.main {
+  transition: height 0.5s ease;
+}
+
+
+.banner {
+  width: 100%;
+  height: 330px;
+  background-color: blueviolet;
+}
+.banner_img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.guide_container {
+  width: 100%;
+  height: 450px;
+}
+.guide_text {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: ‘맑은고딕’,'Noto Sans KR', 'Roboto', Arial, sans-serif;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 .guide_list {
   display: flex;
   justify-content: flex-start;
 }
 .guide_card {
-  width: 400px;
-  height: 510px;
+  width: 230px;
+  height: 300px;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 12px;
   overflow: hidden;
-  margin-bottom: 12px;
   margin: 0 auto;
+  text-align: center;
 }
-.property_img {
-  width: 100%;
-  height: 70%;
+.guide_card a {
+  text-decoration: none;
 }
-.property {
+.guide_img { 
   width: 100%;
-  height: 50%;
+  height: 85%;
+}
+.guide_list_text {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 
-.keyword {
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
+.keyword_container {
+  width: 100%;
+  height: 450px;
 }
 .keyword_line {
   border-top: 3px solid rgb(224, 209, 241);
-  padding-top: 20px;
-  width: 2000px;
+  width: 1000px;
   margin: 0 auto;
+}
+.keyword_text {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: ‘맑은고딕’,'Noto Sans KR', 'Roboto', Arial, sans-serif;
+  font-size: 32px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  text-decoration: none;
+}
+.keyword_list_container {
+  width: 50%;
+  margin: 0 auto;
+}
+.keyword_box {
+  padding: 15px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: aliceblue;
+  font-family: ‘맑은고딕’,'Noto Sans KR', 'Roboto', Arial, sans-serif;
 }
 .keyword_list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  height: 170px;
+  overflow: hidden; 
+  transition: height 0.5s ease;
 }
-
+.keyword_list a {
+  text-decoration: none;
+}
+.keyword_arrow_box {
+  display: flex;
+  justify-content: center;
+}
+.keyword_arrow {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(180, 129, 228);
+}
