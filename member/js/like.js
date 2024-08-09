@@ -17,12 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function filterData(data) {
         allItems = [];
-        data.categories.forEach(category => {
-            category.subcategories.forEach(subcategory => {
-                subcategory.items.forEach(item => {
+        data.categories.forEach((category, guideIndex) => {
+            category.subcategories.forEach((subcategory, keywordIndex) => {
+                subcategory.items.forEach((item, itemIndex) => {
                     allItems.push({
                         guide: category.guide,
                         keyword: subcategory.keyword,
+                        itemIndex: itemIndex,
+                        guideIndex: guideIndex,
+                        keywordIndex: keywordIndex,
                         ...item
                     });
                 });
@@ -37,8 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const itemsToShow = allItems.slice(startIndex, endIndex);
 
         itemsToShow.forEach(item => {
+            const detailUrl = `http://localhost:5500/guide/detail.html?guideIndex=${item.guideIndex}&keywordIndex=${item.keywordIndex}&itemIndex=${item.itemIndex}`;
             cardHTML += `
-            <div class="guide_card">
+            <div class="guide_card" onclick="window.location.href='${detailUrl}'">
                 <div class="guide_card_top">
                     <p class="horse_head">${item.guide}</p>
                     <p class="keyword">${item.keyword}</p>
@@ -46,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="guide_title">${item.title}</div>
                 <div class="author">${item.author}</div>
                 <div class="date">${item.date}</div>
-                <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon" onclick="removeCard(this)">
+                <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon" onclick="removeCard(this, event)">
             </div>`;
         });
 
@@ -76,7 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    window.removeCard = function(element) {
+    window.removeCard = function(element, event) {
+        event.stopPropagation();  // 이벤트 버블링을 막아 클릭시 이동하지 않도록 처리
         const card = element.closest(".guide_card");
         const cardIndex = Array.from(guideCardList.children).indexOf(card);
 
@@ -115,3 +120,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 });
+
