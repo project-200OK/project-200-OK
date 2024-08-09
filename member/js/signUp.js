@@ -63,36 +63,29 @@ _ipPassRecheck.addEventListener('input',() => {
 });
 // 지역명 for문 돌려서 option에 넣기
 const regions = [
-  {name : "선택하세요", val : "no"},
-  {name : "서울", val : "seoul"},
-  {name : "부산", val : "busan"},
-  {name : "대구", val : "daegu"},
-  {name : "인천", val : "incheon"},
-  {name : "광주", val : "gwangju"},
-  {name : "대전", val : "daejeon"},
-  {name : "울산", val : "ulsan"},
-  {name : "강원", val : "gangwon"},
-  {name : "경기", val : "gyeonggi"},
-  {name : "경남", val : "gyeongnam"},
-  {name : "경북", val : "gyeongbuk"},
-  {name : "전남", val : "jeonnam"},
-  {name : "전북", val : "jeonbuk"},
-  {name : "제주", val : "jeju"},
-  {name : "충남", val : "chungnam"},
-  {name : "충북", val : "chungbuk"}];
+  {name : "선택하세요"},
+  {name : "서울"},
+  {name : "부산"},
+  {name : "대구"},
+  {name : "인천"},
+  {name : "광주"},
+  {name : "대전"},
+  {name : "울산"},
+  {name : "강원"},
+  {name : "경기"},
+  {name : "경남"},
+  {name : "경북"},
+  {name : "전남"},
+  {name : "전북"},
+  {name : "제주"},
+  {name : "충남"},
+  {name : "충북"}];
 
 const _selUserRegion = document.querySelector('#user_region');
 
 regions.forEach((region, index) => {
   let option = document.createElement('option');
-  option.value = region.val;
+  option.value = region.name;
   option.textContent = region.name;
   _selUserRegion.appendChild(option);
 });
-                 
-
-const _btnLogin = document.querySelector('.member_btn');  // 로그인
-_btnLogin.addEventListener('click', (event) => {
-  event.preventDefault(); // 폼제출 방지
-  window.location.href = 'login.html';
-})
