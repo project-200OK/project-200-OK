@@ -20,24 +20,26 @@
 #keywordList {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content:flex-start;
 }
 
 .keywordBox {
   padding: 12px 24px;
-  margin: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   display: inline-block;
   font-size: 20px;
   width: auto;
   border-radius: 23px;
   text-align: center;
   color: #F5EDED;
-  background-color: #6482AD;
+  background-color: #007bff;
   cursor: pointer;
 }
 
 .keywordBox:hover {
   background-color: #2d4a72;
+  transition: 0.5s ease-out;
 }
 
 .guideCardContainer {
@@ -46,23 +48,28 @@
 
 #guideCardList {
   clear: both;
+  display: inline-block;
+  padding-bottom: 100px;
 }
 
 .guideCard {
   border: 1px solid #ddd;
   border-radius: 10px;
-  width: 295px;
+  width: 305px;
   height: 220px;
-  margin-bottom: 50px;
-  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   padding: 20px;
   float: left;
   box-sizing: border-box;
   box-shadow: 3px 3px 3px #eee;
 }
+.guideCard:nth-child(4n) {
+  margin-right: 0px;
+}
 
 .guideCard:hover {
-  box-shadow: 5px 5px 5px #7b7b7b;
+  box-shadow: 3px 3px 3px #ccc;
   transition: 0.3s ease-out;
 }
 

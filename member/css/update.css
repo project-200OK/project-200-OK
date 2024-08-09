@@ -1,4 +1,4 @@
-/* ====================회원정보 수정 화면==================== */
+/* ====================회원탈퇴 화면==================== */
 /* common css 수정내용 */
 /* header position 순위 */
 header {
@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #6482AD;
+  color: #007bff;
 }
 /* button */
 .member_btn {
@@ -31,7 +31,7 @@ a:hover {
 }
 .btn_gray:hover {
   transition: 0.5s ease-out;
-  background-color: #6482AD;
+  background-color: #007bff;
   font-weight: bold;
 }
 .btn_white {
