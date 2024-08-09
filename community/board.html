@@ -30,7 +30,23 @@
     <h1 class="hidden">사이드바</h1>
     <aside class="side_bar">
       <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+
+      <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+      <div class="side_bar_top_box">
+        <h1 class="sied_bar_title">마이페이지</h1>
+        <img class="close_btn" src="/images/icons/Arrow-left-circle.png"></img>
+      </div>
+      <div class="side_bar_bottom_box">
+        <a href="#" class="side_bar_bottom_menu">회원정보수정</a>
+        <a href="#" class="side_bar_bottom_menu">나의 캘린더</a>
+        <a href="#" class="side_bar_bottom_menu">좋아요</a>
+        <a href="#" class="side_bar_bottom_menu">회원탈퇴</a>
+      </div>
     </aside>
+    <aside class="open_btn">
+      <img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
+    
+          </aside>
     <h1 class="hidden">메인</h1>
     <div class="main">
       <!-- 실제 적으로 main 코드가 들어가는 장소 -->
@@ -109,9 +125,9 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="post-form-button">
-      <a href="create.html"><button>새 게시물 작성</button></a>
+      <div class="post-form-button">
+        <a href="create.html"><button>새 게시물 작성</button></a>
+      </div>
     </div>
   </main>
   <footer>
@@ -120,6 +136,9 @@
     <div class="footer"></div>
   </footer>
   <script src="../community/js/board.js"></script>
+  <script src="/template/js/insert.js"></script>
+  <script src="/template/js/sidebar.js"></script>
   <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
 </body>
+
 </html>
