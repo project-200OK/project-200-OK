@@ -78,7 +78,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.removeCard = function(element) {
         const card = element.closest(".guide_card");
-        card.remove();
+        const cardIndex = Array.from(guideCardList.children).indexOf(card);
+
+        // Remove the item from the allItems array
+        const removeIndex = (currentPage - 1) * itemsPerPage + cardIndex;
+        allItems.splice(removeIndex, 1);
+
+        // Re-render the current page
+        renderCards();
+
+        // If after removal the current page has fewer items and there are more items in the next page, adjust the pages
+        if (guideCardList.children.length < itemsPerPage && allItems.length > itemsPerPage * currentPage) {
+            renderCards();
+        }
+
+        // Re-render pagination
+        renderPagination();
     }
 
     window.showTab = function(tab) {

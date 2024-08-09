@@ -1,5 +1,5 @@
 .board_title {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 30px;
 }
 
@@ -79,7 +79,7 @@
 .pagination_section {
   position:absolute;
   top: 1200px;
-  margin-left: 400px;
+  margin-left: 440px;
 }
 
 .pagination_button, .pagination_button_1, .pagination_button_2 {

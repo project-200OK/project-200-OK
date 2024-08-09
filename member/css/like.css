@@ -2,20 +2,21 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  border-bottom: 1px solid #ddd;
 }
 
 .tab_title {
   font-size: 50px;
-  margin: 10px 20px 0px 20px;
+  margin-top: 14px;
   font-weight: bolder;
-  width: 300px;
+  width: 640px;
   text-align: center;
   padding: 20px;
   cursor: pointer;
   box-sizing: border-box;
-  background-color: #c2dafc;
-  border: 2px solid #6482AD;
-  border-radius: 10px;
+  background-color: white;
+  /* border: 2px solid #6482AD; */
+  border-radius: 10px 10px 0 0px;
 }
 
 .tab_title.active {
