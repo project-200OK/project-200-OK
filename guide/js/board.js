@@ -6,6 +6,7 @@ let itemIndex;
 // url의 값을 받아옴
 const params = new URLSearchParams(location.search);
 guideIndex = params.get('value');
+keywordIndex = params.get('name');
 
 if(!keywordIndex)
   keywordIndex = 0;

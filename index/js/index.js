@@ -47,7 +47,7 @@ window.onload = ()=>{
     let keyword = keywords[i];
     keywordHTML +=  `
     <div>
-        <a href="${keyword.url}">
+        <a href="${keyword.url}?value=${keyword.headline}&name=${keyword.number}">
             <div class="keyword_box">${keyword.name}</div>
         </a>
     </div>`;
