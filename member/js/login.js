@@ -17,8 +17,8 @@ _imgPassEye.addEventListener('click', () => {
   }
 });
 
-const _btnLogin = document.querySelector('.member_btn');  // 로그인
-_btnLogin.addEventListener('click', (event) => {
+const _MemberSubmitBtn = document.querySelector('.member_btn');  // 로그인
+_MemberSubmitBtn.addEventListener('click', (event) => {
   event.preventDefault(); // 폼제출 방지
   window.location.href = '../index.html';
 })
