@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>시맨틱 HTML 템플릿</title>
+  <!-- 공통 css 건들지 마시오!!! -->
+  <link rel="stylesheet" href="/template/css/reset.css" />
+  <link rel="stylesheet" href="/template/css/common.css" />
+  <link rel="stylesheet" href="/template/css/header.css" />
+  <link rel="stylesheet" href="/template/css/sidebar.css" />
+  <link rel="stylesheet" href="/template/css/footer.css" />
+  <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
+  <link rel="stylesheet" href="/community/css/deatil.css">
+  <!-- font awesome - 푸터의 아이콘들을 가지고 오기 위한 링크 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
+  <!-- axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+    <!-- 메인 콘텐츠 -->
+    <h1 class="hidden">사이드바</h1>
+    <aside class="side_bar">
+      <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+
+      <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+      <div class="side_bar_top_box">
+        <h1 class="sied_bar_title">마이페이지</h1>
+        <img class="close_btn" src="/images/icons/Arrow-left-circle.png"></img>
+      </div>
+      <div class="side_bar_bottom_box">
+        <a href="#" class="side_bar_bottom_menu">회원정보수정</a>
+        <a href="#" class="side_bar_bottom_menu">나의 캘린더</a>
+        <a href="#" class="side_bar_bottom_menu">좋아요</a>
+        <a href="#" class="side_bar_bottom_menu">회원탈퇴</a>
+      </div>
+    </aside>
+    <aside class="open_btn">
+      <img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
+
+    </aside>
+    <h1 class="hidden">메인</h1>
+    <div class="main">
+      <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+      <div class="detalimain">
+        <div>
+          <div class="post-action-buttons">
+            <button>수정</button>
+            <button>삭제</button>
+          </div>
+          <div class="navigation-buttons">
+            <button>이전글</button>
+            <button>다음글</button>
+            <button>목록</button>
+          </div>
+        </div>
+        <div class="detailName">인텔 맥북 팔린김에 한마디만 하겠습니다.</div>
+        <div class="post-header">
+          <div class="post-image"><img src="../images/communityimg/PFimg.jpg" width="70" height="70" alt="PF"></div>
+          <div class="post-details">
+            <div class="post-author">강포토</div>
+            <div class="post-meta">2024. 08. 05. 10:10 | 조회 363</div>
+          </div>
+          <div class="post-comments">댓글 3</div>
+        </div>
+        <div class="created-centents">
+          <div class="contentsMain">
+            m1max 32gb 1tb 16인치 205만원으로 되게 괜찮게 구했습니다
+
+            해당 제품을 하루 써보니
+            왜 진작 안썼을까,
+            왜 미련하게 1년에 80만원씩 감가 맞으면서 썼을까,
+            하는 후회가 밀려 오더라구요.
+
+            변경하고 하루 써보니,
+            제 기존 어떤 작업을 하든 60도 잘 안넘어가는거 진짜 칭찬해.
+            100퍼 충전했을때 사용 가능시간 10시간 표시 되는거 칭찬해.
+            작업할때 빠릿빠릿하게 따라와주는거 칭찬해.
+            캡쳐원 컨버팅 하는 중에 크롬이나 포토샵 사용할 정도로 쾌적한거 칭찬해.
+
+            똑같은 프로그램 띄워봐도 인텔이 램 5기가 정도 더 먹네요
+            인텔은 포토샵+크롬 돌려도 6580도 왔다갔다에 스크롤링 걸리고~~
+            로우파일 컨버팅 돌리면 다른작업 절대 못하고
+            진짜 진작 바꿀걸 후회만 계속 드네요 ㅋㅋㅋ
+
+            잘가라 인텔~ 너를 다시 볼 일은 없을거야..
+            88만원에 팔았지만 저는 그돈으로 인텔 안살거 같습니다.. </div>
+        </div>
+        <div class="likesComment">
+          <div class="like-section">
+            <img id="heart-button-1" src="../images/icnos/emptyLike.png" alt="하트 버튼"
+              onclick="toggleHeart('heart-button-1')"> 스크랩
+              <span id="like-count-heart-button-1">0</span>
+          </div>
+          
+          <div class="commentcount">댓글 8</div>
+<!--           <button id="replyButton">답글쓰기</button> -->
+        </div>
+        <div id="replySection"></div>
+        <div class="orderbutton">
+          <button class="order-button">등록순</button>
+          <button class="order-button">최신순</button>
+          <button class="refresh-button"></button>
+        </div>
+        <div class="main-comment">
+          <div>image</div>
+          <div>닉네임</div>
+          <div>댓글내용</div>
+          <div>
+            <div>작성일 2024.8.8. 00:00</div>
+            <div class="like-section">
+              <img id="heart-button-2" src="../images/icnos/emptyLike.png" alt="하트 버튼"
+                onclick="toggleHeart('heart-button-2')">
+                <span id="like-count-heart-button-2">0</span>
+            </div>
+            <button>답글쓰기</button>
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer></footer>
+
+  <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
+  <script src="/template/js/insert.js"></script>
+  <script src="/template/js/sidebar.js"></script>
+  <script src="/community/js/deatil.js"></script>
+</body>
+
+</html>
