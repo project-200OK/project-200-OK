@@ -92,8 +92,8 @@ regions.forEach((region, index) => {
                  
 
 // ========== 하단 버튼 영역 ==========
-const _btnLogin = document.querySelector('.member_btn');  // 로그인
-_btnLogin.addEventListener('click', (event) => {
+const _MemberSubmitBtn = document.querySelector('.member_btn');  // 수정하기
+_MemberSubmitBtn.addEventListener('click', (event) => {
   event.preventDefault(); // 폼제출 방지
   window.location.href = 'update.html';
 })
