@@ -1,4 +1,4 @@
-/* ====================회원가입 화면==================== */
+/* ====================회원정보 수정 화면==================== */
 /* common css 수정내용 */
 /* header position 순위 */
 header {
@@ -46,7 +46,20 @@ a:hover {
   color: #fff;
 }
 
-/* ==========로그인 박스 영역 ========== */
+/* ========== 컨텐츠 박스 영역 ========== */
+.member_mypage_wrap {
+  width: 100%;
+  padding: 50px 0;
+}
+.member_mypage_title {
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
 .member_wrap {
   width: 100%;
   padding: 100px 0;
@@ -74,6 +87,7 @@ a:hover {
 }
 .member_subtitle a {
   text-decoration: underline;
+  cursor: pointer;
 }
 .member_form {
   margin-top: 40px;
