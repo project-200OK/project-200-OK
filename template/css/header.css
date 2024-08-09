@@ -5,13 +5,13 @@ a {
 header {
   background-color: white;
   z-index: 2;
+  border-bottom: 1px solid #ddd;
 }
 .header_main {
   display: flex;
   justify-content: space-between;
   background-color: white;
   height: 80px;
-  border-bottom: 1px solid #ddd;
 }
 /* 왼쪽 박스 */
 .left_nav_box {

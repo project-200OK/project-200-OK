@@ -9,7 +9,7 @@ window.onload = ()=>{
     bannerHTML +=  `
     <div class="banner"><img class="banner_img" src="${banner.imageUrl}" alt="배너"></div>`;
   }
-  document.querySelector('.banner_list').innerHTML = bannerHTML;
+  document.querySelector('#bannerList').innerHTML = bannerHTML;
   })
   .catch((error)=>{
     console.log('error 발생 : ' + error)

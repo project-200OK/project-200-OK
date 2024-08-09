@@ -1,0 +1,880 @@
+{
+  "categories": [
+    {
+      "guide": "부동산",
+      "subcategories": [
+        {
+          "keyword": "자취",
+          "items": [
+            {
+              "title": "자취방 구하기",
+              "author": "관리자",
+              "date": "2024-08-08",
+              "content": "Content1",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "좋은 자취방이란?",
+              "content": "Content2",
+              "author": "관리자",
+              "date": "2024/08/08",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            },
+            {
+              "title": "좋은 자취방이란?",
+              "content": "Content2",
+              "author": "관리자",
+              "date": "2024/08/08",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            },
+            {
+              "title": "좋은 자취방이란?",
+              "content": "Content2",
+              "author": "관리자",
+              "date": "2024/08/08",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            },
+            {
+              "title": "좋은 자취방이란?",
+              "content": "Content2",
+              "author": "관리자",
+              "date": "2024/08/08",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            },
+            {
+              "title": "좋은 자취방이란?",
+              "content": "Content2",
+              "author": "관리자",
+              "date": "2024/08/08",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "원룸",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "월세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "독립",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "청년 주택",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "임대차 계약",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "부동산",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "전세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "세금",
+      "subcategories": [
+        {
+          "keyword": "공과금",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "소득세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "주택 관련세금",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "재산세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "주거용 부가가치세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "지방세",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "보험료",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "복지",
+      "subcategories": [
+        {
+          "keyword": "청년 주택",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "대출",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "주거 지원",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "생활비 지원",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "건강 보험",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "청년 수당",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 지원 프로그램",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "의료 지원",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "식비 지원",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "문화 지원",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        {
+          "keyword": "생활비",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "취업",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "교통비",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "식비",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "재테크",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "저축",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "생활용품",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "인테리어",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 준비",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "건강 관리",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "자산 관리",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "식생활 관리",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "시간 관리",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "청소",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        },
+        {
+          "keyword": "의류 관리",
+          "items": [
+            {
+              "title": "Title1",
+              "content": "Content1",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/1",
+              "imageLink": "http://example.com/img1.jpg"
+            },
+            {
+              "title": "Title2",
+              "content": "Content2",
+              "author": "author",
+              "date": "date",
+              "link": "http://example.com/2",
+              "imageLink": "http://example.com/img2.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

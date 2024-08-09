@@ -1,7 +1,16 @@
 // 다른 페이지에서 무슨 가이드를 눌렀는지 가져오는값
 let guideIndex = 0;
-let keywordIndex = 0;
-let itemIndex = 0;
+let keywordIndex;
+let itemIndex;
+
+// url의 값을 받아옴
+const params = new URLSearchParams(location.search);
+guideIndex = params.get('value');
+
+if(!keywordIndex)
+  keywordIndex = 0;
+if(!itemIndex)
+  itemIndex = 0;
 
 // 처음 뿌려줄 값
 window.onload = () => {
@@ -25,7 +34,8 @@ window.onload = () => {
     for(let i = 0; i < data.categories[guideIndex].subcategories[keywordIndex].items.length; i++){
       cardHTML += `
 <div class="guideCard">
-  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)' value=${i}>
+  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+    <input class="index" type="hidden" value=${i}></input>
     <div class="guideCardName">${data.categories[guideIndex].guide}</div>
     <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
     <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
@@ -34,7 +44,7 @@ window.onload = () => {
   <p class="guideCardDate">${data.categories[guideIndex].subcategories[keywordIndex].items[i].date}</p>
   <span>
     <img
-      src="/images/icnos/emptyLike.png"
+      src="/images/icons/emptyLike.png"
       alt="좋아요"
       class="guideCardLike"
       onclick="setLike(this)"
@@ -71,6 +81,7 @@ function getKeyword(object) {
       guideCardHTML += `
 <div class="guideCard">
   <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+    <input class="index" type="hidden" value=${i}></input>
     <div class="guideCardName">${data.categories[guideIndex].guide}</div>
     <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
     <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
@@ -79,7 +90,7 @@ function getKeyword(object) {
   <p class="guideCardDate">${data.categories[guideIndex].subcategories[keywordIndex].items[i].date}</p>
   <span>
     <img
-      src="/images/icnos/emptyLike.png"
+      src="/images/icons/emptyLike.png"
       alt="좋아요"
       class="guideCardLike"
       onclick="setLike(this)"
@@ -106,11 +117,11 @@ function getKeyword(object) {
 function setLike(object) {
   // 빈 하트면 빨간하트로
   if(object.src.length == 48) {
-    object.src = "/images/icnos/redLike.png";
+    object.src = "/images/icons/redLike.png";
   } 
   // 빨간하트면 빈 하트로
   else {
-    object.src = "/images/icnos/emptyLike.png";
+    object.src = "/images/icons/emptyLike.png";
   }
 }
 
@@ -118,15 +129,7 @@ function setLike(object) {
 // guideIndex와 keywordIndex 값을 가지고
 // detail.html 페이지로 이동한다.
 function sendParam(object, guideIndex, keywordIndex) {
-  const itemIndex = object.value;
-  alert(itemIndex);
-
-  const queryString = new URLSearchParams({
-    guideIndex: guideIndex,
-    keywordIndex: keywordIndex,
-    itemIndex: itemIndex
-  }).toString();
-  alert(queryString);
-  // alert(queryString.guideIdx + " " + queryString.nowIdx);
-  window.location.href = `detail.html?${queryString}`;
+  let itemIndex = object.querySelector('.index').value;
+  let setIndex = `guideIndex=${guideIndex}&keywordIndex=${keywordIndex}&itemIndex=${itemIndex}`;
+  window.location.href = `detail.html?${setIndex}`;
 }

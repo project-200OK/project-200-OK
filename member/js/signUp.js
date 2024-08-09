@@ -1,15 +1,18 @@
 const _ipUserPass = document.querySelector('#user_pass');               // password input 박스
-const _imgPassEye = document.querySelector('#pass_eye');            // password input 박스 내 눈 표시 아이콘
+const _imgPassEye = document.querySelector('#pass_eye');                // password input 박스 내 눈 표시 아이콘
 
 const _ipUserPassCheck = document.querySelector('#user_pass_check');    // password check input 박스
-const _imgPassEyeCheck = document.querySelector('#pass_eye_check'); // password check input 박스 내 눈 표시 아이콘
+const _imgPassEyeCheck = document.querySelector('#pass_eye_check');     // password check input 박스 내 눈 표시 아이콘
 
-// 작업 할 사항
-// 1.패스워드 & 패스워드 확인 값 같은지 체크
-// 2.회원가입 버튼 클릭시 빈값 없는지 확인
+// 회원가입 화면 작업 할 사항
+// 1.회원가입 버튼 클릭시 빈값 없는지 확인(지역은 선택하세요가 아니여야함)
+//   ㄴ 아이디, 비밀번호, 비밀번호확인, 닉네임, 거주지역
+// 2.회원가입 버튼 클릭시 비밀번호 두개 일치한지 확인하기
+// 3.모든데이터를 입력하였을때만 회원가입 버튼에 색이 바뀌도록 하고싶음
+//   ㄴ 입력안했을경우 비활성화시키기
 
-// ========== 눈 아이콘 클릭시 이벤트 발생 ==========
-// 패스워드
+// ========== 패스워드 영역 이벤트 ==========
+// 패스워드 숨김/보임 아이콘 이벤트
 _imgPassEye.addEventListener('click', () => {
   if(_imgPassEye.classList.contains('pass_hide')) {
     // 비밀번호 숨김 > 보여줌으로 변경
@@ -23,8 +26,6 @@ _imgPassEye.addEventListener('click', () => {
     _ipUserPass.type = 'password';
   }
 });
-
-// 패스워드 확인
 _imgPassEyeCheck.addEventListener('click', () => {
   if(_imgPassEyeCheck.classList.contains('pass_hide')) {
     // 비밀번호 숨김 > 보여줌으로 변경
@@ -39,11 +40,8 @@ _imgPassEyeCheck.addEventListener('click', () => {
   }
 });
 
-const _ipPasscheck = document.querySelector('#user_pass'); // password check input 박스 내 눈 표시 아이콘
-const _ipPassRecheck = document.querySelector('#user_pass_check'); // password check input 박스 내 눈 표시 아이콘
-
-// 패스워드 일치여부 확인 이벤트
-_ipPasscheck.addEventListener('input',() => {
+// 패스워드 & 패스워드 확인 일치여부 확인
+_ipUserPass.addEventListener('input',() => {
   let pass1 = document.getElementById('user_pass').value;
   let pass2 = document.getElementById('user_pass_check').value;
   if( pass1 != pass2 ) {
@@ -52,7 +50,7 @@ _ipPasscheck.addEventListener('input',() => {
     document.getElementById('msg_pass').style.display = 'none';
   }
 });
-_ipPassRecheck.addEventListener('input',() => {
+_ipUserPassCheck.addEventListener('input',() => {
   let pass1 = document.getElementById('user_pass').value;
   let pass2 = document.getElementById('user_pass_check').value;
       if( pass1 != pass2 ) {
@@ -61,8 +59,12 @@ _ipPassRecheck.addEventListener('input',() => {
         document.getElementById('msg_pass').style.display = 'none';
       }
 });
-// 지역명 for문 돌려서 option에 넣기
+
+
+// ========== 지역명 Select Box 영역 ==========
+const _selUserRegion = document.querySelector('#user_region'); //select태그(부모)
 const regions = [
+
   {name : "선택하세요"},
   {name : "서울"},
   {name : "부산"},
@@ -81,7 +83,8 @@ const regions = [
   {name : "충남"},
   {name : "충북"}];
 
-const _selUserRegion = document.querySelector('#user_region');
+
+// 부모안에 option 값 넣기
 
 regions.forEach((region, index) => {
   let option = document.createElement('option');

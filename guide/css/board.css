@@ -1,20 +1,20 @@
 /* 작성자 : 이석현 */
-main {
-  margin: 0 auto;
+.main {
+  height: 1200px auto;
 }
 
-#guideName{
+#guideName {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px #eee;
   padding-top: 80px;
   padding-bottom: 50px;
-  padding-left: 10px;
-  border-bottom: 1px solid #E2DAD6;
+  padding-left: 20px;
+  border-bottom: 2px solid #E2DAD6;
 }
 
 .keywordContainer {
-  padding: 50px;
+  margin: 20px 0;
 }
 
 #keywordList {
@@ -70,6 +70,8 @@ main {
 
 .guideCardTop {
   cursor: pointer;
+  margin-bottom: 20px;
+  height: 120px;
 }
 
 .guideCardName {
