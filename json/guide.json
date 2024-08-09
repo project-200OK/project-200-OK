@@ -1,0 +1,152 @@
+{
+  "categories": [
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        /* 여기부터 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                /* 출처는 있는 만큼만추가해주세용 */
+                {
+                  "url1": "",
+                  "url2": ""
+                }
+              ],
+              /* 라이크는 1 또는 0 랜덤하게 */
+              "like":""
+            }
+          }
+        },
+        /* 여기까지 글 하나 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              "like":""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        /* 여기부터 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              /* 라이크는 1 또는 0 랜덤하게 */
+              "like":""
+            }
+          }
+        },
+        /* 여기까지 글 하나 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              "like":""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        /* 여기부터 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              /* 라이크는 1 또는 0 랜덤하게 */
+              "like":""
+            }
+          }
+        },
+        /* 여기까지 글 하나 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              "like":""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "guide": "부동산",
+      "subcategories": [
+        /* 여기부터 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              /* 라이크는 1 또는 0 랜덤하게 */
+              "like":""
+            }
+          }
+        },
+        /* 여기까지 글 하나 */
+        {
+          "keyword": "",
+          "items": {
+            {
+              "title": "",
+              "date": "",
+              "contentURL": "",
+              "source": [
+                
+              ],
+              "like":""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
