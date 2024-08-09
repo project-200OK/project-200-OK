@@ -20,64 +20,65 @@
 <body>
     <header>
         <!-- 헤더 내용 (네비게이션이 들어갈 자리) -->
-        <h1 class="hidden">헤더</h1>
-        <div class="header">
-          <div class="header_main">
-            <div class="left_nav_box">
-              <div class="logo">
-                <a class="logo_text" href="#">MZ-ONE</a>
-              </div>
-              <div class="tab_box">
-                <div class="tab">
-                  <a class="tab_text" href="#">커뮤니티</a>
-                </div>
-                <div class="tab menu_item">가이드</div>
-              </div>
-            </div>
-            <div class="middle_nav_box">
-              <div class="search_box">
-                <input
-                  class="search_bar"
-                  type="text"
-                  placeholder="     검색어를 입력해주세요"
-                />
-                <button class="search_btn">
-                  <img
-                    class="search_icon"
-                    src="/images/icons/Search.png"
-                    alt="search"
-                  />
-                </button>
-              </div>
-            </div>
-            <div class="right_nav_box">
-              <div class="login btn">
-                <a class="btn_text" href="#">로그인</a>
-              </div>
-              <div class="sign_up btn">
-                <a class="btn_text" href="#">회원가입</a>
-              </div>
-            </div>
-          </div>
-          <div class="header_sub">
-            <div class="sub_menu">
-              <a class="sub_menu_box" href="#">
-                <div class="sub_menu_text">부동산</div>
-              </a>
-              <a class="sub_menu_box" href="#">
-                <div class="sub_menu_text">세금</div>
-              </a>
-              <a class="sub_menu_box" href="#">
-                <div class="sub_menu_text">복지</div>
-              </a>
-              <a class="sub_menu_box" href="#">
-                <div class="sub_menu_text">생활팁</div>
-              </a>
-            </div>
-          </div>
+<h1 class="hidden">헤더</h1>
+<div class="header">
+  <div class="header_main">
+    <div class="left_nav_box">
+      <div class="logo">
+        <a class="logo_text" href="/index.html">MZ-ONE</a>
+      </div>
+      <div class="tab_box">
+        <div class="tab">
+          <a class="tab_text" href="/community/board.html">커뮤니티</a>
         </div>
+        <div class="tab menu_item">가이드</div>
+      </div>
+    </div>
+    <div class="middle_nav_box">
+      <form action="/search/searchBoard.html" method="get">
+        <div class="search_box">
+          <input
+            class="search_bar"
+            type="text"
+            placeholder="     검색어를 입력해주세요"
+          />
+          <button type="submit" class="search_btn">
+            <img
+              class="search_icon"
+              src="/images/icons/Search.png"
+              alt="search"
+            />
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="right_nav_box">
+      <div class="login btn">
+        <a class="btn_text" href="/member/login.html">로그인</a>
+      </div>
+      <div class="sign_up btn">
+        <a class="btn_text" href="/member/signUp.html">회원가입</a>
+      </div>
+    </div>
+  </div>
+  <div class="header_sub">
+    <div class="sub_menu">
+      <a class="sub_menu_box" href="/guide/board.html?value=0">
+        <div class="sub_menu_text">부동산</div>
+      </a>
+      <a class="sub_menu_box" href="/guide/board.html?value=1">
+        <div class="sub_menu_text">세금</div>
+      </a>
+      <a class="sub_menu_box" href="/guide/board.html?value=2">
+        <div class="sub_menu_text">복지</div>
+      </a>
+      <a class="sub_menu_box" href="/guide/board.html?value=3">
+        <div class="sub_menu_text">생활팁</div>
+      </a>
+    </div>
+  </div>
+</div>
 
-         </div>
     </header>
 
    
@@ -87,6 +88,20 @@
       <h1 class="hidden">사이드바</h1>
       <aside class="side_bar">
         <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+           <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+  <div class="side_bar_top_box">
+    <h1 class="sied_bar_title">마이페이지</h1>
+    <img class="close_btn" src="/images/icons/Arrow-left-circle.png"></img>
+  </div>
+  <div class="side_bar_bottom_box">
+    <a href="/member/update.html" class="side_bar_bottom_menu">회원정보수정</a>
+    <a href="/member/calendar.html" class="side_bar_bottom_menu">나의 캘린더</a>
+    <a href="/member/like.html" class="side_bar_bottom_menu">좋아요</a>
+    <a href="/member/resign.html" class="side_bar_bottom_menu">회원탈퇴</a>
+  </div>
+</aside>
+<aside class="open_btn">
+  <img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
       </aside>
       <h1 class="hidden">메인</h1>
       <div class="main">
@@ -98,6 +113,90 @@
          </button>
          </div>
          <div class="guide_card_section">
+          <h1 class="hidden">게시물 목록</h1>
+          <div id="cardList">
+            <!-- JSON 데이터로부터 동적으로 카드 생성 -->
+          </div>
+          
+
+          <!-- <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
+          </div>
+          <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
+          </div>
+          <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
+          </div>
+          <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
+          </div><div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
+          </div>
+          <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
+          </div><div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
+          </div>
+          <div class="guide_card">
+            <p class="horse_head">공지</p>
+            <p class="keyword">분리수거</p>
+            <p class="guide_title">
+              쓰레기 분리배출 요령
+            </p>
+            <p class="author">관리자</p>
+            <p class="date">2024.08.05</p>
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
+          </div>
 
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -107,7 +206,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
           </div>
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -117,7 +216,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
           </div>
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -127,7 +226,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
           </div>
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -137,7 +236,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
           </div><div class="guide_card">
             <p class="horse_head">공지</p>
             <p class="keyword">분리수거</p>
@@ -146,7 +245,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
           </div>
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -156,7 +255,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
           </div><div class="guide_card">
             <p class="horse_head">공지</p>
             <p class="keyword">분리수거</p>
@@ -165,7 +264,7 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
+            <img src="/images/icons/emptyLike.png" alt="좋아요" class="like_icon">
           </div>
           <div class="guide_card">
             <p class="horse_head">공지</p>
@@ -175,87 +274,8 @@
             </p>
             <p class="author">관리자</p>
             <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
-          </div>
-
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
-          </div>
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
-          </div>
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
-          </div>
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
-          </div><div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
-          </div>
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
-          </div><div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/emptyLike.png" alt="좋아요" class="like_icon">
-          </div>
-          <div class="guide_card">
-            <p class="horse_head">공지</p>
-            <p class="keyword">분리수거</p>
-            <p class="guide_title">
-              쓰레기 분리배출 요령
-            </p>
-            <p class="author">관리자</p>
-            <p class="date">2024.08.05</p>
-            <img src="/images/icnos/redLike.png" alt="좋아요" class="like_icon">
-          </div>
+            <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon">
+          </div> -->
           
 
          </div>
@@ -333,5 +353,7 @@
 
     <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
     <script src="/template/js/header.js"></script>
+    <script src="/template/js/sidebar.js"></script>
+    <script src="/admin/js/board.js"></script>
 </body>
 </html>
