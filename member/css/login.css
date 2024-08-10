@@ -1,4 +1,4 @@
-/* ====================로그인 화면==================== */
+/* ====================회원탈퇴 화면==================== */
 /* common css 수정내용 */
 /* header position 순위 */
 header {
@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #6482AD;
+  color: #007bff;
 }
 /* button */
 .member_btn {
@@ -31,7 +31,7 @@ a:hover {
 }
 .btn_gray:hover {
   transition: 0.5s ease-out;
-  background-color: #6482AD;
+  background-color: #007bff;
   font-weight: bold;
 }
 .btn_white {
@@ -46,18 +46,26 @@ a:hover {
   color: #fff;
 }
 
-/* ==========로그인 박스 영역 ========== */
+/* ========== 컨텐츠 박스 영역 ========== */
+.member_mypage_wrap {
+  width: 100%;
+  padding: 50px 0 200px;
+}
+.member_mypage_title {
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
 .member_wrap {
   width: 100%;
   padding: 100px 0;
-  /* height: 100%; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .member_box {
   width: 450px;
-  height: 400px;
   padding: 50px 20px;
   margin: 0 auto;
   border: 1px solid #ddd;
@@ -67,11 +75,22 @@ a:hover {
 }
 /* 박스내 메인 타이틀 */
 .member_title {
-  margin-bottom: 40px;
   font-size: 36px;
   font-weight: 500;
   text-align: center;
   color: #333;
+}
+.member_subtitle {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.member_subtitle a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.member_form {
+  margin-top: 40px;
 }
 /* 박스내 리스트 영역 */
 .member_box_list {
@@ -94,11 +113,20 @@ a:hover {
   border-radius: 3px;
   box-sizing: border-box;
 }
-/* pw hide 때문에 사용 */
-.member_list_pw {
+/* 박스내 selectbox 영역 */
+.member_box_list select {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+/* pass hide 때문에 사용 */
+.member_list_pass {
   position: relative;
 }
-.member_list_pw img{
+.member_list_pass img{
   position: absolute;
   top:40px;
   right: 10px;
@@ -106,7 +134,7 @@ a:hover {
   height: 15px;
   cursor: pointer;
 }
-.member_list_pw img{
+.member_list_pass img{
   position: absolute;
   top:40px;
   right: 10px;
@@ -114,6 +142,14 @@ a:hover {
   height: 15px;
   cursor: pointer;
 }
+/* 비밀번호 불일치시 메세지 */
+#msg_pass {
+  display: none;
+  font-size: 12px;
+  color: #ff0000;
+}
+
+
 /* 아이디, 비밀번호 찾기 */
 .member_find {
   clear: both;

@@ -1,0 +1,164 @@
+/* 임시용 더미파일입니다.! */
+{
+  "categories": [
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        {
+          "keyword": "주방",
+          "items": [
+            {
+              "title": "음식물 쓰레기 줄이는 꿀팁",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/tips/food_waste_reduction.jpg",
+              "source": [
+                {
+                  "url1": "http://kitchenhacks.com/foodwastereduction"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "간단한 조리법으로 건강식 만들기",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/tips/healthy_cooking.jpg",
+              "source": [
+                {
+                  "url1": "http://cookinglight.com/healthycooking"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "청소",
+          "items": [
+            {
+              "title": "효과적인 청소 방법 5가지",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/tips/cleaning_tips.jpg",
+              "source": [
+                {
+                  "url1": "http://cleanhometips.com/bestpractices"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "부동산",
+      "subcategories": [
+        {
+          "keyword": "집 구매",
+          "items": [
+            {
+              "title": "첫 집 구매 시 고려해야 할 사항",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/realestate/home_buying.jpg",
+              "source": [
+                {
+                  "url1": "http://realestateguide.com/homebuying"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "임대",
+          "items": [
+            {
+              "title": "임대 계약 시 주의할 점",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/realestate/rent_contract.jpg",
+              "source": [
+                {
+                  "url1": "http://rentaladvice.com/contracttips"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "세금",
+      "subcategories": [
+        {
+          "keyword": "세금 신고",
+          "items": [
+            {
+              "title": "세금 신고 시 필요한 서류들",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/tax/tax_documents.jpg",
+              "source": [
+                {
+                  "url1": "http://taxhelp.com/requiredpapers"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "절세",
+          "items": [
+            {
+              "title": "절세를 위한 전략 3가지",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/tax/tax_saving.jpg",
+              "source": [
+                {
+                  "url1": "http://savemoney.com/taxstrategies"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "복지",
+      "subcategories": [
+        {
+          "keyword": "노인 복지",
+          "items": [
+            {
+              "title": "노인 복지 혜택 알아보기",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/welfare/elderly_benefits.jpg",
+              "source": [
+                {
+                  "url1": "http://welfareguide.com/elderlybenefits"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "아동 복지",
+          "items": [
+            {
+              "title": "아동 복지 정책과 혜택",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/welfare/child_benefits.jpg",
+              "source": [
+                {
+                  "url1": "http://childwelfare.com/benefits"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
