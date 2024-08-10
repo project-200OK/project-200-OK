@@ -83,15 +83,36 @@
     </header>
 
     <main>
-      <!-- 메인 콘텐츠 -->
+      <!-- 메인컨텐츠 -->
       <h1 class="hidden">메인</h1>
-      <div class="main">
-        <!-- 실제 적으로 main 코드가 들어가는 장소 -->
 
-        <section>
-          <div id="bannerList"></div>
-        </section>
+      <!-- 메인배너 영역-->
+      <div class="banner_wrap">
+        <div id="bannerList"></div>
+      </div>
 
+      <!-- 가이드영역 -->
+      <div class="guide_container">
+        <div class="main">
+          <h2 class="guide_text">가이드</h2>
+          <div class="guide_list"></div>
+        </div>
+      </div>
+
+      <!-- 키워드 영역 -->
+      <div class="keyword_container">
+        <div class="main">
+          <h2 class="keyword_text">키워드</h2>
+          <div class="keyword_list_container">
+            <div class="keyword_list"></div>
+          </div>
+          <div class="keyword_arrow_box">
+            <button class="keyword_arrow">v</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="main">
         <section class="guide_container">
           <h2 class="guide_text">가이드</h2>
           <div class="guide_list"></div>
@@ -107,7 +128,7 @@
             <button class="keyword_arrow">v</button>
           </div>
         </section>
-      </div>
+      </div> -->
     </main>
 
     <footer>
