@@ -193,17 +193,29 @@
 }
 
 
-.pagination {
-  text-align: center;
-  margin-top: 20px;
+
+.pagination_box {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 50px;
 }
-.pagination button {
+.prev_button {
   margin: 0 5px;
-  padding: 10px 20px;
   cursor: pointer;
-  border: none;
-  background: transparent;
 }
-.pagination button:hover {
-  background-color: #ddd;
+.next_button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.number_button_box {
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+} 
+.number_button {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  line-height: 0;
 }
