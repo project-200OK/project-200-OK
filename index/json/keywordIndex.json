@@ -1,236 +1,162 @@
 [
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "자취"
+    "name": "자취",
+    "headline": "0",
+    "number":"0"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "원룸"
+    "name": "임대차 계약",
+    "headline": "0" ,
+    "number":"1"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "월세"
+    "name": "원룸",
+    "headline": "0",
+    "number":"2"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "독립"
+    "name": "월세",
+    "headline": "0",
+    "number":"3"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "청년주택"
+    "name": "독립",
+    "headline": "0",
+    "number":"4"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "임대차 계약"
+    "name": "청년주택",
+    "headline": "0",
+    "number":"5"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "부동산"
+    "name": "부동산",
+    "headline": "0",
+    "number":"6"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "전세"
+    "name": "전세",
+    "headline": "0",
+    "number":"7"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "공과금"
+    "name": "공과금",
+    "headline":"1",
+    "number":"0"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "소득세"
+    "name": "소득세",
+    "headline":"1",
+    "number":"1"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "주택 관련 세금"
+    "name": "주택 관련 세금",
+    "headline":"1",
+    "number":"2"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "재산세"
+    "name": "재산세",
+    "headline":"1",
+    "number":"3"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "주거용 부가가치세"
+    "name": "주거용 부가가치세",
+    "headline":"1",
+    "number":"4"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "지방세"
+    "name": "지방세",
+    "headline":"1",
+    "number":"5"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "보험료"
+    "name": "보험료",
+    "headline":"1",
+    "number":"6"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "대출"
+    "name": "대출",
+    "headline":"2",
+    "number":"0"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "주거 지원"
+    "name": "주거 지원",
+    "headline":"2",
+    "number":"1"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "생활비 지원"
+    "name": "생활비 지원",
+    "headline":"2",
+    "number":"2"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "건강 보험"
+    "name": "건강 보험",
+    "headline":"2",
+    "number":"3"
   },
   {
-    "url": "./search/searchBoard.html",
+    "url": "/guide/board.html",
     "imgUrl": "#",
     "imgName": "",
-    "name": "청년 수당"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "취업 지원 프로그램"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "의료 지원"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "식비 지원"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "문화 지원"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "생활비"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "취업"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "교통비"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "식비"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "재테크"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "저축"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "생활 용품"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "인테리어"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "취업 준비"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "건강 관리"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "자산 관리"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "식생활 관리"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "시간 관리"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "청소"
-  },
-  {
-    "url": "./search/searchBoard.html",
-    "imgUrl": "#",
-    "imgName": "",
-    "name": "의류 관리"
+    "name": "청년 수당",
+    "headline":"2",
+    "number":"4"
   }
 ]
