@@ -64,6 +64,7 @@
   box-sizing: border-box;
   box-shadow: 3px 3px 3px #eee;
 }
+
 .guideCard:nth-child(4n) {
   margin-right: 0px;
 }
@@ -115,6 +116,7 @@
 
 .guideCardLike {
   float: right;
+  margin-top: 8px;
   width: 30px;
   cursor: pointer;
 }
