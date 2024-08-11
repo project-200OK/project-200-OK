@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="/template/css/sidebar.css" />
     <link rel="stylesheet" href="/template/css/footer.css" />
     <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
-    <link rel="stylesheet" href="/guide/css/detail.css">
-     <!-- font awesome - 푸터의 아이콘들을 가지고 오기 위한 링크 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/guide/css/detail.css" />
+    <!-- font awesome - 푸터의 아이콘들을 가지고 오기 위한 링크 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
-     <!-- axios -->
+    <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
@@ -83,7 +86,7 @@
 
     <main>
       <!-- 메인 콘텐츠 -->
-      
+
       <h1 class="hidden">메인</h1>
       <div class="main">
         <!-- 실제 적으로 main 코드가 들어가는 장소 -->
@@ -96,14 +99,20 @@
         <div class="cardHead">
           <div class="upper">
             <h1 id="cardTitle"><!-- json 파일 받아와서 출력 --></h1>
-            <span id="like"><img src="/images/icons/emptyLike.png" onclick="setLike(this)"></span>
+            <span id="like"
+              ><img src="/images/icons/emptyLike.png" onclick="setLike(this)"
+            /></span>
           </div>
 
           <div class="lower">
             <div id="root"><!-- json 파일 받아와서 출력 --></div>
             <div class="btns">
-              <p class="lowerBtn" id="prev" onclick="buttonWorks(this)">이전글</p>
-              <p class="lowerBtn" id="next" onclick="buttonWorks(this)">다음글</p>
+              <p class="lowerBtn" id="prev" onclick="buttonWorks(this)">
+                이전글
+              </p>
+              <p class="lowerBtn" id="next" onclick="buttonWorks(this)">
+                다음글
+              </p>
               <p class="lowerBtn" id="list" onclick="buttonWorks(this)">목록</p>
             </div>
           </div>
@@ -113,7 +122,7 @@
           <div id="summary">
             <!-- json 파일 받아와서 출력 -->
           </div>
-          <div id="imgBox"><img src="" id="imgs"></div>
+          <div id="imgBox"><img src="" id="imgs" /></div>
           <div class="content">
             <div id="mainText">
               <!-- json 파일 받아와서 출력 -->
@@ -123,7 +132,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </main>
     <footer>
@@ -134,12 +142,14 @@
           <div class="footer-section about">
             <h2 class="logo-text">MZ-ONE</h2>
             <p class="footer-info">
-              MZ-ONE은 MZ(20-30)세대를 위한 종합 정보 플랫폼입니다. <br />부동산,
-              세금, 복지, 생활팁 등 다양한 정보를 제공합니다.
+              MZ-ONE은 MZ(20-30)세대를 위한 종합 정보 플랫폼입니다.
+              <br />부동산, 세금, 복지, 생활팁 등 다양한 정보를 제공합니다.
             </p>
             <div class="contact">
               <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
-              <span><i class="fas fa-envelope"></i> &nbsp; info@mz-one.com</span>
+              <span
+                ><i class="fas fa-envelope"></i> &nbsp; info@mz-one.com</span
+              >
             </div>
             <div class="socials">
               <a href="#"><i class="fab fa-facebook"></i></a>
@@ -180,7 +190,6 @@
         </div>
         <div class="footer-bottom">&copy; 2024 MZ-ONE | 디자인: MZ-ONE 팀</div>
       </div>
-
     </footer>
     <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
     <script src="/template/js/header.js"></script>
