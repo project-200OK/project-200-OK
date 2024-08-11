@@ -1,151 +1,131 @@
-.BoardName1 {
-  font-family: 'Malgun Gothic', sans-serif;
-  font-size: 40px;
-  font-weight: bold; 
-  padding: 50px 0 10px 60px;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
-}
-
-.container {
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px 20px 60px;
-}
-
-.BoardName2 {
-  font-size: 20px;
-  color: #aaa;
-}
-
-.CheckBox {
-  font-size: 20px;
-  color: #000;
-}
-
-.CommunityBoard-Main {
-  display: flex; 
-  flex-wrap: wrap; /* 한 줄에 요소가 다 들어가지 않으면 다음 줄로 */
-  justify-content: space-between; /* 자식 요소 사이 간격 조절 */
-  padding: 10px;
-  width: 1100px;
-  height: auto;
-  max-height: 900px;
-  margin: 10px auto;
-  text-align: center;
-  border: 2px solid #ff00ff;
-}
-
-.CommunityHeadline, .CommunityTitle, .CommunityAuthor, .CommunityPostDate, .CommunityViews {
-  font-size: larger;
-  font-weight: 800;
-}
-
-.CommunityHeadline {
-  padding: 10px;
+.main {
   height: auto;
 }
-
-.CommunityHeadline.Notice {
-  text-align: center; 
-}
-
-.CommunityHeadline.Guide {}
-
-.inner-box-Notice {
-  height: 20px; 
-  background-color: rgb(255, 0, 0); 
-  border-radius: 5px; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  font-weight: bold; 
-  text-align: center; 
-  color: #ffffff;
-}
-
-.inner-box {
-  height: 20px; 
-  background-color: pink; 
-  border-radius: 5px; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  font-weight: bold; 
-  text-align: center; 
-}
-
-.CommunityTitle {
-  height: 20px;
-  padding: 10px;
-}
-
-.CommunityTitleName {
-  height: 20px;
-  padding: 10px;
-  text-align: left;
-}
-
-.CommunityTitleName a {}
-
-.CommunityTitleName.Notice a {
-  text-align: left;
-  color: rgb(246, 144, 161);
-  font-weight: bold; 
-}
-
-.CommunityAuthor {
-  height: 20px;
-  padding: 10px;
-}
-
-.CommunityAuthorAdmin {
-  height: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.CommunityAuthorMember {
-  height: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.CommunityPostData {
-  height: 20px;
-  padding: 10px;
-}
-
-.CommunityPostDataInput {
-  height: 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.CommunityViews {
-  height: 20px;
-  padding: 10px;
-}
-
-.CommunityViewsData {
-  height: 20px;
-  padding: 10px;
-}
-
-/* .CommunityBoard-Main .post {
+.board-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  height: 80px;
   display: flex;
-  width: 100%;
-  justify-content: space-between; 
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd; 
-} */
+  align-items: center;
 
-.CommunityBoard-Main .post div {
-  margin-bottom: 5px; /* 각 요소 간 간격 추가 */
 }
 
-.CommunityBoard-Main .post .CommunityTitleName a {
-  text-decoration: none;
-  color: inherit;
+#board-list {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 750px;
+}
+
+.board-header, .board-item {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.board-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #495057;
+}
+
+.board-item:hover {
+  background-color: #f8f9fa;
+}
+
+.board-item:last-child {
+  border-bottom: none;
+}
+
+.col-category, .col-author, .col-date {
+  flex: 1;
+}
+
+.col-title {
+  flex: 3;
+}
+
+.col-category {
+  color: #6c757d;
+}
+
+.col-title {
+
+  font-weight: 500;
+}
+
+.col-title:hover {
+  text-decoration: underline;
+}
+
+
+
+.col-date {
+  color: #6c757d;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .board-header, .board-item {
+    flex-direction: column;
+  }
+
+  .col-category, .col-author, .col-date, .col-title {
+    flex: 1;
+    margin-bottom: 5px;
+  }
+
+  .col-date {
+    text-align: left;
+  }
+}
+
+/* 페이징 */
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#pagination button.active {
+  font-weight: bold;
+  background-color: #007BFF;
+  color: #fff;
+}
+/* 검색창 */
+.filters {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.filters select, 
+.filters input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#search-button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
 }
