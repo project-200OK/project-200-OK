@@ -25,8 +25,8 @@
   display: inline;
 }
 
-#like img {
-  padding-top: 10px;
+#like {
+  padding-bottom: 20px;
   width: 30px;
   height: 25px;
   float: right;
@@ -67,19 +67,17 @@
   font-size: 20px;
 }
 
-#summary {
-  line-height: 40px;
-  font-weight: bold;
+#imgs {
+  width: 1280px;
+}
+
+#sources p {
   padding: 15px 15px 20px;
 }
 
-#mainText {
-  line-height: 40px;
-  padding: 15px 15px 100px;
-}
-
-.link {
+.links {
   font-weight: bold;
-  padding: 15px 15px 20px;
+  padding: 5px 15px 5px;
   cursor: pointer;
+  display: block;
 }

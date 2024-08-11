@@ -13,7 +13,7 @@
               "date": "2023-09-09",
               "summary": "자취를 시작할 때, 가장 중요한 목적에 따라 거주지를 결정하는 것이 중요하다.<br>다양한 요구 사항이 생길 수 있으나, 우선순위를 명확히 하여 이에 맞는 선택을 해야 한다.<br>이를 통해 자취 목적에 부합하는 최적의 거주지를 선정할 수 있다.",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_0.png"
+              "imgUrl": "/images/guide/sample.png"
             },
             {
               "title": "지도를 보자",
@@ -22,7 +22,7 @@
               "date": "2023-09-09",
               "summary": "summary",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_1.png"
+              "imgUrl": "/images/guide/sample.png"
             },
             {
               "title": "주변 사람에게 추천을 받자",
@@ -49,7 +49,7 @@
               "date": "2023-09-09",
               "summary": "summary",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_3.png"
+              "imgUrl": "/images/guide/sample.png"
             },
             {
               "title": "주변 사람에게 추천을 받자",
@@ -58,7 +58,7 @@
               "date": "2023-09-09",
               "summary": "summary",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_4.png"
+              "imgUrl": "/images/guide/sample.png"
             },
             {
               "title": "주변 사람에게 추천을 받자",
@@ -76,7 +76,7 @@
               "date": "2023-09-09",
               "summary": "summary",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_5.png"
+              "imgUrl": "/images/guide/sample.png"
             },
             {
               "title": "주변 사람에게 추천을 받자",
@@ -85,7 +85,7 @@
               "date": "2023-09-09",
               "summary": "summary",
               "link": "https://cafe.naver.com/jachinam/15233",
-              "imgUrl": "/images/guide/prop_prop_6.png"
+              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -150,105 +150,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -258,105 +159,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -376,105 +178,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -484,105 +187,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -602,105 +206,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -710,105 +215,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -833,105 +239,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -941,105 +248,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1059,105 +267,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1167,105 +276,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1285,105 +295,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1398,105 +309,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1506,105 +318,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1629,105 +342,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1737,105 +351,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title3",
-              "content": "Content3",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title4",
-              "content": "Content4",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title5",
-              "content": "Content5",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title6",
-              "content": "Content6",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title7",
-              "content": "Content7",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title8",
-              "content": "Content8",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title9",
-              "content": "Content9",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title10",
-              "content": "Content10",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title11",
-              "content": "Content11",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title12",
-              "content": "Content12",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1855,15 +370,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1873,15 +379,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1901,15 +398,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1919,15 +407,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -1947,15 +426,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1970,15 +440,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -1988,15 +449,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2035,15 +487,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2053,15 +496,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2081,15 +515,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2099,15 +524,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2127,15 +543,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2145,15 +552,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2173,15 +571,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2191,15 +580,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2219,15 +599,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2237,15 +608,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2265,15 +627,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2283,15 +636,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
@@ -2311,15 +655,6 @@
               "summary": "summary",
               "link": "#",
               "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
             }
           ]
         },
@@ -2329,15 +664,6 @@
             {
               "title": "Title1",
               "content": "Content1",
-              "author": "author",
-              "date": "date",
-              "summary": "summary",
-              "link": "#",
-              "imgUrl": "/images/guide/sample.png"
-            },
-            {
-              "title": "Title2",
-              "content": "Content2",
               "author": "author",
               "date": "date",
               "summary": "summary",
