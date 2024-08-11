@@ -10,7 +10,7 @@
   padding-top: 80px;
   padding-bottom: 50px;
   padding-left: 20px;
-  border-bottom: 2px solid #E2DAD6;
+  border-bottom: 2px solid #e2dad6;
 }
 
 .upper {
@@ -37,9 +37,8 @@
 .lower {
   display: flex;
   padding-bottom: 10px;
-  border-bottom: 1px solid #E2DAD6;
+  border-bottom: 1px solid #e2dad6;
   justify-content: space-between;
-  
 }
 
 #root {
@@ -55,7 +54,7 @@
 
 .lowerBtn {
   display: inline;
-  border: 1px solid #E2DAD6;
+  border: 1px solid #e2dad6;
   padding: 5px;
   margin: 5px;
   border-radius: 7px;
