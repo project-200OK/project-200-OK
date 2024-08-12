@@ -9,6 +9,57 @@ const guideIndex = params.get('value');
 // 무슨 키워드를 클릭했는지
 let keywordIndex = (params.get('name') == undefined) ? 0 : params.get('name');
 
+if(params.get('name') == undefined){
+  window.onload = () => {
+    axios.get('http://localhost:5500/json/guide.json')
+    .then((res) => {
+      // 키워드 박스 생성을 위한 html 변수
+      let keywordsHTML = '';
+      // 카드 박스 생성을 위한 html 변수
+      let cardHTML = '';
+      let data = res.data;
+      const guideName = data.categories[guideIndex];
+      const keywordName = guideName.subcategories[keywordIndex];
+      document.title = `${guideName.guide}-${keywordName.keyword}`;
+      document.getElementById('guideName').innerText = guideName.guide;
+  
+      // 클릭한 가이드의 키워드들 가져오기
+      for(let i = 0; i < guideName.subcategories.length; i++){
+        keywordsHTML += `
+  <div class="keywordBox" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      }
+  
+      // 초기 카드 내용은 
+      // 클릭한 가이드의 첫번째 키워드의 내용들
+      for(let j = 0; j < guideName.subcategories.length; j++){
+      for(let i = 0; i < guideName.subcategories[j].items.length; i++){
+        // 좋아요 여부 가져오기
+        let isLike = (guideName.subcategories[j].items[i].like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png";
+        cardHTML += `
+  <div class="guideCard">
+    <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+      <input class="index" type="hidden" value=${i}></input>
+      <div class="guideCardName">${guideName.guide}</div>
+      <div class="guideCardKeyword">${guideName.subcategories[j].keyword}</div>
+      <div class="guideCardTitle">${guideName.subcategories[j].items[i].title}</div>
+    </div>
+    <p class="guideCardDate">${guideName.subcategories[j].items[i].date}</p>
+    <span>
+      <img
+        src=${isLike}
+        alt="좋아요"
+        class="guideCardLike"
+        onclick="setLike(this)"
+        />
+    </span>
+  </div>`;
+      }
+    }
+      document.querySelector('#keywordList').innerHTML = keywordsHTML;
+      document.querySelector('#guideCardList').innerHTML = cardHTML;
+    })
+  }
+} else {
 // 키워드박스, 카드박스 내용 갱신
 window.onload = () => {
   axios.get('http://localhost:5500/json/guide.json')
@@ -61,6 +112,7 @@ window.onload = () => {
     document.querySelector('#keywordList').innerHTML = keywordsHTML;
     document.querySelector('#guideCardList').innerHTML = cardHTML;
   })
+}
 }
 
 // 키워드를 클릭했을때
