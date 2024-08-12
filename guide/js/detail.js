@@ -13,8 +13,9 @@ window.onload = () => {
     const guideName = data.categories[guideIndex];
     const keywordName = guideName.subcategories[keywordIndex];
     const itemName = keywordName.items[itemIndex];
-    const isLike = (itemName.like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png"; 
+    const isLike = (itemName.like == "1") ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png"; 
     const content = itemName.contentURL;
+    
     itemLength = keywordName.items.length;
     let sourceHTML = '<p>[참고 URL]</p><br>';
     let date = `작성일 : ${itemName.date}`;
@@ -37,9 +38,7 @@ window.onload = () => {
       document.querySelector('#sources').innerHTML = sourceHTML;
     }
   })
-  .catch((error) => {
-    console.log('error : ' + error);
-  });
+  
 }
 
 // 좋아요 기능
