@@ -7,7 +7,7 @@ let itemLength;
 
 // json 에서 값 받아와서 출력
 window.onload = () => {
-  axios.get('http://localhost:5500/json/Dummyguides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
     const data = res.data;
     const guideName = data.categories[guideIndex];

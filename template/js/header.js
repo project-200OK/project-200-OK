@@ -14,9 +14,9 @@ document.querySelector(".header").addEventListener("mouseleave", function () {
 
 
 // 김용 추가
-document.getElementById('searchForm').addEventListener('submit', function(event) {
-  const searchInput = document.getElementById('searchInput').value;
-  if (searchInput) {
-    this.action = `/search/searchBoard.html?keyword=${searchInput}`;
-  }
-});
+// document.getElementById('searchForm').addEventListener('submit', function(event) {
+//   const searchInput = document.getElementById('searchInput').value;
+//   if (searchInput) {
+//     this.action = `/search/searchBoard.html?keyword=${searchInput}`;
+//   }
+// });

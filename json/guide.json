@@ -1,42 +1,33 @@
 {
   "categories": [
-    {      /* 부동산 */
+    {
       "guide": "부동산",
       "subcategories": [
         {
           "keyword": "청년주택",
           "items": [
-            /* V 여기부터 V */
             {
               "title": "정부 및 지자체 제공 청년지원! 얼마나 알고 있니?",
               "date": "2024-08-09",
               "contentURL": "/images/guide/RealEstate/YouthHousing.png",
               "source": [
-                /* 출처는 있는 만큼만추가해주세용 */
-                {
-                  // 있는 만큼만 콤마로 연결
-                  "url1": [{
+                  {
                     "linklist":"지원사업링크",
                     "url":"http://~~~"
-                  }],
-                  "url2": [{
+                  },
+                  {
                     "linklist":"참고링크",
                     "url":"http://~~~"
-                  }] 
-                }
+                  }
               ],
-              /* 라이크는 1 또는 0 랜덤하게 */
               "like":"1"
             },
-            /* ^ 여기까지 ^ 글 하나 */
             {
               "title": "",
               "date": "",
               "contentURL": "/images/guide/RealEstate/LeaseContract.png",
               "source": [
-                /* 출처는 있는 만큼만추가해주세용 */
                 {
-                  // 있는 만큼만 콤마로 연결
                   "url1": [{
                     "linklist":"지원사업링크",
                     "url":"http://~~~"
@@ -47,7 +38,6 @@
                   }] 
                 }
               ],
-              /* 라이크는 1 또는 0 랜덤하게 */
               "like":"1"
             }
           ]
@@ -64,7 +54,7 @@
                 }
               ],
               "like":"1"
-            },
+            }
           ]
         },
         { "keyword": "임대차계약 A to Z",
@@ -79,13 +69,12 @@
               }
             ],
             "like":"0"
-          },
+          }
         ]
       }
       ]
     },
-    {      /* 생활팁 */
-    
+    {
       "guide": "생활팁",
       "subcategories": [
         {
@@ -154,7 +143,7 @@
         }
       ]
     },
-    {      /* 세금 */
+    {
       "guide": "세금",
       "subcategories": [
         {
@@ -191,7 +180,7 @@
         }
       ]
     },
-    {    /* 복지 */
+    {
       "guide": "복지",
       "subcategories": [
         {
