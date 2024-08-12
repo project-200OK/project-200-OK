@@ -12,3 +12,11 @@ document.querySelector(".header").addEventListener("mouseleave", function () {
   document.querySelector(".sub_menu").style.display = "none";
 });
 
+
+// 김용 추가
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+  const searchInput = document.getElementById('searchInput').value;
+  if (searchInput) {
+    this.action = `/search/searchBoard.html?keyword=${searchInput}`;
+  }
+});

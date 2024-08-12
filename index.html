@@ -37,11 +37,27 @@
             </div>
           </div>
           <div class="middle_nav_box">
-            <form action="/search/searchBoard.html" method="get">
+
+            <!-- 김용 id="searchForm" 추가, /template/js/header.js에 추가사항 있음 -->
+            <form id="searchForm" action="/search/searchBoard.html" method="get">
+            
+            
+
+              <!-- 김용 name="keyword", id="searchInput" 추가 -->
               <div class="search_box">
                 <input
+
+
+                  id="searchInput"
+
+
                   class="search_bar"
                   type="text"
+
+                  
+                  name="keyword"
+
+
                   placeholder="     검색어를 입력해주세요"
                 />
                 <button type="submit" class="search_btn">
@@ -65,16 +81,16 @@
         </div>
         <div class="header_sub">
           <div class="sub_menu">
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=0">
               <div class="sub_menu_text">부동산</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=1">
               <div class="sub_menu_text">세금</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=2">
               <div class="sub_menu_text">복지</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=3">
               <div class="sub_menu_text">생활팁</div>
             </a>
           </div>

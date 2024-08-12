@@ -71,7 +71,7 @@
 }
 .post_info_box {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 12px;
 }
 .post_writer {
@@ -120,84 +120,105 @@
 .guide_list_container {
   margin-top: 50px;
   width: 1000px;
-  height: 735px;
+  height: 750px;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
-#guideCardList {
-  clear: both;
+.guide_content_box {
+  margin-right: auto;
+  font-weight: bold;
+}
+.guide_title_box {
+  height: 70%;
+}
+.guide_list_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  width: 1000px;
+  height: 70px;
+}
+.guide_headline {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.guide_title {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  margin-top: 6px;
+}
+.guide_info_box {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+.guide_writer {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+}
+.guide_date {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.guide_view {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
 }
 
-.guideCard {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  width: 295px;
-  height: 220px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  padding: 20px;
-  float: left;
-  box-sizing: border-box;
-  box-shadow: 3px 3px 3px #eee;
+.guide_keyword_box { 
+  margin-left: auto;
+  height: 45px;
 }
-
-.guideCard:hover {
-  box-shadow: 5px 5px 5px #7b7b7b;
-  transition: 0.3s ease-out;
-}
-
-.guideCardTop {
-  cursor: pointer;
-}
-
-.guideCardName {
-  display: inline;
-  width: 50px;
-  padding-top: 10px;
-}
-
-.guideCardKeyword {
-  float: right;
-  display: inline;
-  border: 1px solid;
-  border-radius: 20px;
-  width: 65px auto;
-  height: 16px;
-  padding: 7px 12px;
-  text-align: center;
-  background-color: #6482AD;
+.guide_keyword {
+  background-color: rgb(86, 23, 145);
+  padding: 10px;
+  border-radius: 30px;
   color: white;
 }
 
-.guideCardTitle {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  font-size: 25px;
-  font-weight: 600;
+.guide_line {
+  border: 0.5px solid rgb(236, 223, 248);
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.guideCardDate {
+
+
+.pagination_box {
   display: flex;
-  float: left;
-  margin-top: 10px;
-  float: left;
-  margin-top: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.prev_button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.next_button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.number_button_box {
+  margin: 0 5px;
+  cursor: pointer;
+  display: inline-block;
+} 
+.number_button {
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  line-height: 0;
 }
 
-.guideCardLike {
-  float: right;
-  width: 30px;
-  cursor: pointer;
+.number_button.active {
+  font-weight: bold;
 }
