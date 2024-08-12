@@ -1,15 +1,13 @@
 /* 작성자 : 이석현 */
 .main {
-  height: 960px;
+  min-height: 1300px;
 }
 
 #guideName {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px #eee;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding :50px 0;
   border-bottom: 2px solid #E2DAD6;
 }
 
