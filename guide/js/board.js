@@ -11,7 +11,7 @@ let keywordIndex = (params.get('name') == undefined) ? 0 : params.get('name');
 
 // 키워드박스, 카드박스 내용 갱신
 window.onload = () => {
-  axios.get('http://localhost:5500/json/Dummyguides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
     // 키워드 박스 생성을 위한 html 변수
     let keywordsHTML = '';
@@ -19,7 +19,9 @@ window.onload = () => {
     let cardHTML = '';
     let data = res.data;
     const guideName = data.categories[guideIndex];
+    console.log(guideName);
     const keywordName = guideName.subcategories[keywordIndex];
+    
 
     document.getElementById('guideName').innerText = guideName.guide;
 
@@ -56,9 +58,6 @@ window.onload = () => {
     document.querySelector('#keywordList').innerHTML = keywordsHTML;
     document.querySelector('#guideCardList').innerHTML = cardHTML;
   })
-  .catch((error) => {
-    console.log('error : ' + error);
-  });
 }
 
 // 키워드를 클릭했을때
@@ -77,7 +76,7 @@ function getKeyword(object) {
         break;
       }
     }
-    // 해당 가이드, 키워드의 인덱스를 들고 체이지 이동
+    // 해당 가이드, 키워드의 인덱스를 들고 페이지 이동
     window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`
   })
   .catch((error) => {
