@@ -1,99 +1,160 @@
 {
   "categories": [
-    {
-      "guide": "생활팁",
+    {      /* 부동산 */
+      "guide": "부동산",
       "subcategories": [
         {
-          "keyword": "",
+          "keyword": "청년주택",
           "items": [
             /* V 여기부터 V */
             {
-              "title": "",
+              "title": "정부 및 지자체 제공 청년지원! 얼마나 알고 있니?",
               "date": "2024-08-09",
-              "contentURL": "/images/guide/tips/~~.jpg(png 등등)",
+              "contentURL": "/images/guide/RealEstate/YouthHousing.png",
               "source": [
                 /* 출처는 있는 만큼만추가해주세용 */
                 {
                   // 있는 만큼만 콤마로 연결
-                  "url1": "http://~~~"
+                  "url1": [{
+                    "linklist":"지원사업링크",
+                    "url":"http://~~~"
+                  }],
+                  "url2": [{
+                    "linklist":"참고링크",
+                    "url":"http://~~~"
+                  }] 
                 }
               ],
               /* 라이크는 1 또는 0 랜덤하게 */
-              "like":""
+              "like":"1"
             },
             /* ^ 여기까지 ^ 글 하나 */
             {
               "title": "",
-              "date": "2024-08-09",
-              "contentURL": "/images/guide/tips/~~.jpg(png 등등)",
+              "date": "",
+              "contentURL": "/images/guide/RealEstate/LeaseContract.png",
               "source": [
                 /* 출처는 있는 만큼만추가해주세용 */
                 {
                   // 있는 만큼만 콤마로 연결
-                  "url1": "http://~~~"
+                  "url1": [{
+                    "linklist":"지원사업링크",
+                    "url":"http://~~~"
+                  }],
+                  "url2": [{
+                    "linklist":"참고링크",
+                    "url":"http://~~~"
+                  }] 
                 }
               ],
               /* 라이크는 1 또는 0 랜덤하게 */
-              "like":""
+              "like":"1"
             }
           ]
         },
-        {
-          "keyword": "",
+        { "keyword": "임대차계약",
           "items": [
             {
-              "title": "",
-              "date": "",
-              "contentURL": "",
+              "title": "임대차 계약 완벽 가이드",
+              "date": "2024-08-06",
+              "contentURL": "/images/guide/RealEstate/LeaseContract.png",
               "source": [
                 {
 
                 }
               ],
-              "like":""
-            }
+              "like":"1"
+            },
           ]
-        }
+        },
+        { "keyword": "임대차계약 A to Z",
+        "items": [
+          {
+            "title": "임대차 계약 완벽 가이드",
+            "date": "2024-08-10",
+            "contentURL": "/images/guide/RealEstate/LeaseContractAtoZ.png",
+            "source": [
+              {
+
+              }
+            ],
+            "like":"0"
+          },
+        ]
+      }
       ]
     },
-    {
-      "guide": "부동산",
+    {      /* 생활팁 */
+    
+      "guide": "생활팁",
       "subcategories": [
         {
-          "keyword": "",
+          "keyword": "균형 잡힌 식생활 관리",
           "items": [
             {
-              "title": "",
-              "date": "",
-              "contentURL": "",
+              "title": "건강하고 경제적인 균형 잡힌 식생활 관리 가이드",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/LifeHacks/BalancedEating.png",
               "source": [
                 {
 
                 }
               ],
-              "like":""
+              "like":"1"
             }
           ]
         },
         {
-          "keyword": "",
+          "keyword": "생활비 절약",
           "items": [
             {
-              "title": "",
+              "title": "예산관리와 지원해택을 통해 생활비 절약 극대화!",
               "date": "",
-              "contentURL": "",
+              "contentURL": "/images/guide/LifeHacks/SavingTips.png",
               "source": [
                 {
 
                 }
               ],
-              "like":""
+              "like":"1"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 및 커리어 관리",
+          "items": [
+            {
+              "title": "성공적인 경력 개발을 위한 필수 가이드",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/LifeHacks/JobSuccess.png",
+              "source": [
+                {
+
+                }
+              ],
+              "like":"1"
+            }
+          ]
+        },
+        {
+          "keyword": "재테크와 투자",
+          "items": [
+            {
+              "title": "다양한 투자방법! 리스크 관리! 자산증식의 전략!",
+              "date": "2024-08-11",
+              "contentURL": "/images/guide/LifeHacks/SmartInvesting.png",
+              "source": [
+                {
+
+                }
+              ],
+              "like":"1"
             }
           ]
         }
       ]
     },
-    {
+    {      /* 세금 */
       "guide": "세금",
       "subcategories": [
         {
@@ -130,7 +191,7 @@
         }
       ]
     },
-    {
+    {    /* 복지 */
       "guide": "복지",
       "subcategories": [
         {
