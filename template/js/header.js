@@ -27,10 +27,16 @@ document
   document.querySelector(".sub_menu").style.display = "none";
 });
 
-// 김용 추가
-// document.getElementById('searchForm').addEventListener('submit', function(event) {
-//   const searchInput = document.getElementById('searchInput').value;
-//   if (searchInput) {
-//     this.action = `/search/searchBoard.html?keyword=${searchInput}`;
-//   }
-// });
+// 검색창
+
+document.querySelector('.search_btn').addEventListener('click', (event) => {
+  event.preventDefault();
+  try {
+    const query = document.getElementById('searchInput').value;
+    window.location = `/search/searchBoard.html?value=${query}`;
+
+  }catch (error) {
+    console.log("error :" +error);
+    
+  }
+});
