@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let allPosts = [];
 
     // Load guide data
-    axios.get('http://localhost:5500/json/Dummyguides.json')
+    axios.get('http://localhost:5500/json/guide.json')
         .then((response) => {
             const data = response.data;
             filterGuideData(data);
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         boardList.innerHTML = `
             <div class="board-header">
                 <span class="col-category">카테고리</span>
-                <span class="col-title">제목</span>
+                <span class="col-title ta-center">제목</span>
                 <span class="col-author">작성자</span>
                 <span class="col-date">작성일</span>
             </div>
