@@ -40,13 +40,13 @@ window.onload = ()=>{
   // 키워드
   axios.get('http://localhost:5500/index/json/keywordIndex.json')
   .then((res)=>{
-    let keywords = res.data
+    let keywords = res.data;
     let keywordHTML = '';
   for(let i = 0; i < keywords.length; i++) {
     let keyword = keywords[i];
     keywordHTML +=  `
     <div>
-        <a href="${keyword.url}">
+        <a href="${keyword.url}?value=${keyword.headline}&name=${keyword.number}">
             <div class="keyword_box">${keyword.name}</div>
         </a>
     </div>`;
@@ -64,11 +64,11 @@ window.onload = ()=>{
   const isCollapsed = document.querySelector('.keyword_arrow').textContent === 'v';
   if (!isCollapsed) {
 
-    keywordList.style.height = '170px';
+    keywordList.style.height = '210px';
     main.style.height = '1200px'
     document.querySelector('.keyword_arrow').textContent = 'v';
   } else {
-    keywordList.style.height = '450px';
+    keywordList.style.height = '280px';
     main.style.height = '1470px'
     document.querySelector('.keyword_arrow').textContent = '^';
 
