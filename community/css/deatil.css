@@ -6,9 +6,7 @@
   font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px #eee;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding: 50px 0px;
   border-bottom: 2px solid #e2dad6;
 }
 
@@ -19,7 +17,6 @@
 #title {
   font-size: 30px;
   padding-top: 10px;
-  padding-left: 20px;
   margin-bottom: 10px;
   display: inline;
 }
@@ -29,7 +26,6 @@
   width: 30px;
   height: 25px;
   float: right;
-  margin-right: 12px;
   cursor: pointer;
 }
 
@@ -41,13 +37,11 @@
 
 #root {
   font-size: 18px;
-  padding-left: 20px;
   display: inline;
 }
 
 .btns {
   display: inline;
-  margin-right: 8px;
 }
 
 .lowerBtn {
@@ -60,25 +54,19 @@
   cursor: pointer;
 }
 .bottom {
-  border-bottom: 1px solid #e2dad6;
+  border-bottom: 1px solid #201815;
 }
 #author {
   font-size: 18px;
-  padding-left: 20px;
 }
 #created_at {
   font-size: 18px;
-  padding-left: 20px;
-}
-#keywords {
-  padding-left: 20px;
-
 }
 .keyword {
   border: 1px solid;
   padding: 5px 10px;
   border-radius: 20px;
-  background-color: #0000FF;
+  background-color: #6482ac;
   color: white;
   margin: 10px 10px 10px 0px;
   display: inline-block;
@@ -96,7 +84,7 @@
 
 #mainText {
   line-height: 40px;
-  padding: 15px 15px 100px;
+  padding: 15px 0px 100px 0px;
 }
 
 .link {
@@ -115,6 +103,7 @@
   border-radius: 8px;
   background-color: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
 }
 
 /* Styling the input form */
