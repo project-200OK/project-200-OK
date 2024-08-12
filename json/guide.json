@@ -130,7 +130,7 @@
                   "url": "http://lifestyle.example.com/first-time-solo"
                 }
               ],
-              "like": "1"
+              "like": "0"
             },
             {
               "title": "효율적인 원룸 공간 활용법",
@@ -166,7 +166,7 @@
                   "url": "http://security.example.com/solo-living-safety"
                 }
               ],
-              "like": "0"
+              "like": "1"
             }
           ]
         },
