@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>시맨틱 HTML 템플릿</title>
+    <title>통합 검색</title>
     <!-- 공통 css 건들지 마시오!!! -->
     <link rel="stylesheet" href="/template/css/reset.css">
     <link rel="stylesheet" href="/template/css/common.css">
@@ -61,16 +61,16 @@
         </div>
         <div class="header_sub">
           <div class="sub_menu">
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=0">
               <div class="sub_menu_text">부동산</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=1">
               <div class="sub_menu_text">세금</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=2">
               <div class="sub_menu_text">복지</div>
             </a>
-            <a class="sub_menu_box" href="/guide/board.html">
+            <a class="sub_menu_box" href="/guide/board.html?value=3">
               <div class="sub_menu_text">생활팁</div>
             </a>
           </div>
@@ -90,16 +90,24 @@
             <button class="text_guide" id="textGuide">가이드(<span id="guideCount">0</span>)</button>
           </div>
         </section>
+
         <div class="list_line_top"></div>
-        <section class="post_list_container" id="postSection" style="display: block;">
+        <section class="post_list_container" id="postSection" style="display: none;">
           <div id="postList"></div>
         </section>
 
-        <section class="guide_list_container" id="guideSection" style="display: none;">
-            
+        <section class="guide_list_container" id="guideSection" style="display: block;">
+          <div id="guideList"></div>
         </section>
-        
+
         <div class="list_line_bottom"></div>
+
+        <section class="pagination_box">
+          <div class="prev_button" id="prevButton">이전</div>
+          <div class="number_button_box" id="numberButtonBox">1</div>
+          <div class="next_button" id="nextButton">다음</div>
+        </section>
+      
       </div>
     </main>
     <footer>
