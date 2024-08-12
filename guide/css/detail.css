@@ -9,7 +9,6 @@
   text-shadow: 3px 3px #eee;
   padding-top: 80px;
   padding-bottom: 50px;
-  padding-left: 20px;
   border-bottom: 2px solid #e2dad6;
 }
 
@@ -20,7 +19,6 @@
 #cardTitle {
   font-size: 30px;
   padding-top: 10px;
-  padding-left: 20px;
   margin-bottom: 10px;
   display: inline;
 }
@@ -43,7 +41,11 @@
 
 #root {
   font-size: 18px;
-  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+#dateArea {
+  font-size: 18px;
   display: inline;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .contentContainer {
-  padding: 10px;
+  margin-top: 10px;
   font-size: 20px;
 }
 
@@ -73,6 +75,7 @@
 
 #sources p {
   margin-top: 10px;
+  margin-bottom: 20px;
   line-height: 30px;
 }
 

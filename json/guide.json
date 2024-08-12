@@ -23,20 +23,10 @@
               "like":"1"
             },
             {
-              "title": "",
+              "title": "url없음",
               "date": "",
               "contentURL": "/images/guide/RealEstate/LeaseContract.png",
               "source": [
-                {
-                  "url1": [{
-                    "linklist":"지원사업링크",
-                    "url":"http://~~~"
-                  }],
-                  "url2": [{
-                    "linklist":"참고링크",
-                    "url":"http://~~~"
-                  }] 
-                }
               ],
               "like":"1"
             }
@@ -58,20 +48,20 @@
           ]
         },
         { "keyword": "임대차계약 A to Z",
-        "items": [
-          {
-            "title": "임대차 계약 완벽 가이드",
-            "date": "2024-08-10",
-            "contentURL": "/images/guide/RealEstate/LeaseContractAtoZ.png",
-            "source": [
-              {
+          "items": [
+            {
+              "title": "임대차 계약 완벽 가이드",
+              "date": "2024-08-10",
+              "contentURL": "/images/guide/RealEstate/LeaseContractAtoZ.png",
+              "source": [
+                {
 
-              }
-            ],
-            "like":"0"
-          }
-        ]
-      }
+                }
+              ],
+              "like":"0"
+            }
+          ]
+        }
       ]
     },
     {
