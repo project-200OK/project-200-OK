@@ -1,15 +1,13 @@
 /* 작성자 : 이석현 */
 .main {
-  height: 1200px auto;
+  min-height: 1300px;
 }
 
 #guideName {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px #eee;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  padding-left: 20px;
+  padding :50px 0;
   border-bottom: 2px solid #E2DAD6;
 }
 
@@ -33,13 +31,17 @@
   border-radius: 23px;
   text-align: center;
   color: #F5EDED;
-  background-color: #007bff;
+  background-color: #6482ac;
   cursor: pointer;
 }
 
 .keywordBox:hover {
   background-color: #2d4a72;
   transition: 0.5s ease-out;
+}
+
+.nowKeyword {
+  background-color: #2d4a72;
 }
 
 .guideCardContainer {
@@ -81,9 +83,9 @@
 }
 
 .guideCardName {
-  display: inline;
+  display: inline-block;
   width: 50px;
-  padding-top: 10px;
+  margin-top: 8px;
 }
 
 .guideCardKeyword {
@@ -100,23 +102,21 @@
 }
 
 .guideCardTitle {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 550;
+  line-height: 30px;
 }
 
 .guideCardDate {
-  display: flex;
   float: left;
-  margin-top: 10px;
-  float: left;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .guideCardLike {
   float: right;
-  margin-top: 8px;
+  margin-top: 15px;
   width: 30px;
   cursor: pointer;
 }
