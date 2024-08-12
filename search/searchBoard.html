@@ -33,12 +33,13 @@
             </div>
           </div>
           <div class="middle_nav_box">
-            <form action="/search/searchBoard.html" method="get">
+            <form id="searchForm" method="get">
               <div class="search_box">
                 <input
+                  id="searchInput"
                   class="search_bar"
                   type="text"
-                  placeholder="     검색어를 입력해주세요"
+                  placeholder="검색어를 입력해주세요"
                 />
                 <button type="submit" class="search_btn">
                   <img
@@ -84,31 +85,55 @@
       <h1 class="hidden">사이드바</h1>
       <div class="main">
         <!-- 실제 적으로 main 코드가 들어가는 장소 -->
-        <section>
-          <div class="text_box">
-            <button class="text_post" id="textPost">게시물(<span id="postCount">0</span>)</button>
-            <button class="text_guide" id="textGuide">가이드(<span id="guideCount">0</span>)</button>
+        <div class="member_mypage_wrap">
+          <div class="member_mypage_title">통합 검색</div>
+
+          <div class="board_title">
+              <h2 id="guideTab" class="tab_title active" onclick="showTab('guide')">가이드</h2>
+              <h2 id="postTab" class="tab_title" onclick="showTab('post')">게시물</h2>
           </div>
-        </section>
 
-        <div class="list_line_top"></div>
-        <section class="post_list_container" id="postSection" style="display: none;">
-          <div id="postList"></div>
-        </section>
+          <!-- 가이드 섹션 -->
+          <div class="guide_section" id="guideSection">
+            <div id="guideCardList"></div>
+            <div id="guide-pagination" class="pagination"></div>
+        </div>
 
-        <section class="guide_list_container" id="guideSection" style="display: block;">
-          <div id="guideList"></div>
-        </section>
-
-        <div class="list_line_bottom"></div>
-
-        <section class="pagination_box">
-          <div class="prev_button" id="prevButton">이전</div>
-          <div class="number_button_box" id="numberButtonBox">1</div>
-          <div class="next_button" id="nextButton">다음</div>
-        </section>
-      
+        <!-- 게시물 섹션 -->
+        <div class="post_section hidden" id="postSection">
+            <div id="board-list">
+                <div class="board-header">
+                    <span class="col-category">카테고리</span>
+                    <span class="col-title">제목</span>
+                    <span class="col-author">작성자</span>
+                    <span class="col-date">작성일</span>
+                </div>
+            </div>
+            <div id="post-pagination" class="pagination"></div>
+              <div class="filters">
+                  <label for="filter-date">작성일:</label>
+                  <select id="filter-date">
+                      <option value="all">전체</option>
+                      <option value="today">오늘</option>
+                      <option value="week">이번 주</option>
+                      <option value="month">이번 달</option>
+                  </select>
+                  <label for="search-type">검색 기준:</label>
+                  <select id="search-type">
+                      <option value="title">제목</option>
+                      <option value="author">작성자</option>
+                  </select>
+                  <input type="text" id="search-box" placeholder="검색...">
+                  <button id="search-button">검색</button>
+              </div>
+          </div>
       </div>
+  </div>
+
+  <h2 class="hidden">페이지네이션</h2>
+  <nav aria-label="Page navigation example" class="pagination_section">
+      <div id="paginationContainer"></div>
+  </nav>
     </main>
     <footer>
       <h1 class="hidden">푸터</h1>
