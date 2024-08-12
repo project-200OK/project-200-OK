@@ -72,12 +72,11 @@
 }
 
 #sources p {
-  padding: 15px 15px 20px;
+  margin-top: 10px;
+  line-height: 30px;
 }
 
 .links {
   font-weight: bold;
-  padding: 5px 15px 5px;
   cursor: pointer;
-  display: block;
 }

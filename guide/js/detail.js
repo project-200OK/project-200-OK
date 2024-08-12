@@ -16,7 +16,7 @@ window.onload = () => {
     const isLike = (itemName.like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png"; 
     const content = itemName.contentURL;
     itemLength = keywordName.items.length;
-    let sourceHTML = '<p>[참고 URL]</p>';
+    let sourceHTML = '';
 
     document.getElementById('guideName').innerText = guideName.guide;
     document.getElementById('cardTitle').innerText = itemName.title;
@@ -25,7 +25,7 @@ window.onload = () => {
     document.getElementById('imgs').src = content;
 
     for(let i = 0; i < itemName.source.length; i++){
-      let addHTML = `<a href="${itemName.source[i].url}" class="links">${itemName.source[i].list}</a>`;
+      let addHTML = `<p><a href="${itemName.source[i].url}" class="links" target='_blank'>${itemName.source[i].list}</a></p>`;
       sourceHTML += addHTML;
     }
 

@@ -77,7 +77,7 @@ function getKeyword(object) {
         break;
       }
     }
-    // 해당 가이드, 키워드의 인덱스를 들고 체이지 이동
+    // 해당 가이드, 키워드의 인덱스를 들고 페이지 이동
     window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`
   })
   .catch((error) => {
