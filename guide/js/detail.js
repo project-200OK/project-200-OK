@@ -16,20 +16,26 @@ window.onload = () => {
     const isLike = (itemName.like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png"; 
     const content = itemName.contentURL;
     itemLength = keywordName.items.length;
-    let sourceHTML = '';
+    let sourceHTML = '<p>[참고 URL]</p><br>';
+    let date = `작성일 : ${itemName.date}`;
 
+    document.title = `${itemName.title}`;
+    
     document.getElementById('guideName').innerText = guideName.guide;
     document.getElementById('cardTitle').innerText = itemName.title;
     document.getElementById('root').innerText = `${guideName.guide} > ${keywordName.keyword} > ${itemName.title}`;
     document.getElementById('like').src = isLike;
+    document.getElementById('dateArea').innerText = date;
     document.getElementById('imgs').src = content;
 
-    for(let i = 0; i < itemName.source.length; i++){
-      let addHTML = `<p><a href="${itemName.source[i].url}" class="links" target='_blank'>${itemName.source[i].list}</a></p>`;
-      sourceHTML += addHTML;
+    // 링크있는경우만 적용 ㄱㄱ
+    if(itemName.source.length !== 0){
+      for(let i = 0; i < itemName.source.length; i++){
+        let addHTML = `<p><a href="${itemName.source[i].url}" class="links" target='_blank'>${itemName.source[i].list}</a></p>`;
+        sourceHTML += addHTML;
+      }
+      document.querySelector('#sources').innerHTML = sourceHTML;
     }
-
-    document.querySelector('#sources').innerHTML = sourceHTML;
   })
   .catch((error) => {
     console.log('error : ' + error);

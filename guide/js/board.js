@@ -19,16 +19,19 @@ window.onload = () => {
     let cardHTML = '';
     let data = res.data;
     const guideName = data.categories[guideIndex];
-    console.log(guideName);
     const keywordName = guideName.subcategories[keywordIndex];
-    
-
+    document.title = `${guideName.guide}-${keywordName.keyword}`;
     document.getElementById('guideName').innerText = guideName.guide;
 
     // 클릭한 가이드의 키워드들 가져오기
     for(let i = 0; i < guideName.subcategories.length; i++){
-      keywordsHTML += `
+      if(i == keywordIndex){
+        keywordsHTML += `
+<div class="keywordBox nowKeyword" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      } else {
+        keywordsHTML += `
 <div class="keywordBox" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      }
     }
 
     // 초기 카드 내용은 
@@ -62,13 +65,12 @@ window.onload = () => {
 
 // 키워드를 클릭했을때
 function getKeyword(object) {
-  axios.get('http://localhost:5500/json/Dummyguides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
     let data = res.data;
     const guideName = data.categories[guideIndex];
     let nowKeyword = object.innerText;
-    console.log(nowKeyword);
-
+    
     // 클릭한 키워드 판별
     for(let i = 0; i < guideName.subcategories.length; i++){
       if(guideName.subcategories[i].keyword == nowKeyword){
@@ -76,8 +78,9 @@ function getKeyword(object) {
         break;
       }
     }
+
     // 해당 가이드, 키워드의 인덱스를 들고 페이지 이동
-    window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`
+    window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`;
   })
   .catch((error) => {
     console.log('error : ' + error);
