@@ -21,12 +21,13 @@ window.onload = () => {
       const created_at = data.posts[communityIndex].created_at;
       const keywords = data.posts[communityIndex].keywords;
       const comments = data.posts[communityIndex].comments;
+      const like = data.posts[communityIndex].like;
 
       itemLength = data.posts.length;
 
-      document.getElementById("headline").innerText = headline;
+      document.getElementById("headline").innerText = '커뮤니티';
       document.getElementById("title").innerText = title;
-      document.getElementById("root").innerText = `커뮤니티 > ${title}`;
+      document.getElementById("root").innerText = `커뮤니티 > ${headline} > ${title}`;
       document.getElementById("mainText").innerText = content;
       document.getElementById("author").innerText = `작성자 : ${author}`;
       document.getElementById(
@@ -63,6 +64,12 @@ window.onload = () => {
         comment_box.appendChild(comment);
         
       }
+      if (like) {
+        document.querySelector('.like_img').src = '/images/icons/redLike.png'
+      } else {
+        document.querySelector('.like_img').src = '/images/icons/emptyLike.png'
+      }
+
     })
     .catch((error) => {
       console.log("error : " + error);

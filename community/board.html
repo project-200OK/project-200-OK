@@ -27,10 +27,10 @@
               <a class="logo_text" href="/index.html">MZ-ONE</a>
             </div>
             <div class="tab_box">
+              <div class="tab menu_item">가이드</div>
               <div class="tab">
                 <a class="tab_text" href="/community/board.html">커뮤니티</a>
               </div>
-              <div class="tab menu_item">가이드</div>
             </div>
           </div>
           <div class="middle_nav_box">
@@ -39,7 +39,7 @@
                 <input
                   class="search_bar"
                   type="text"
-                  placeholder="     검색어를 입력해주세요"
+                  placeholder="검색어를 입력해주세요"
                 />
                 <button type="submit" class="search_btn">
                   <img
@@ -52,29 +52,29 @@
             </form>
           </div>
           <div class="right_nav_box">
-            <div class="login btn">
-              <a class="btn_text" href="/member/login.html">로그인</a>
-            </div>
-            <div class="sign_up btn">
-              <a class="btn_text" href="/member/signUp.html">회원가입</a>
-            </div>
+            <a href="/member/login.html">
+              <div class="login btn btn_text">로그인</div>
+            </a>
+            <a href="/member/signUp.html">
+              <div class="sign_up btn btn_text">회원가입</div>
+            </a>
           </div>
         </div>
-        <div class="header_sub">
-          <div class="sub_menu">
-            <a class="sub_menu_box" href="/guide/board.html?value=0">
-              <div class="sub_menu_text">부동산</div>
-            </a>
-            <a class="sub_menu_box" href="/guide/board.html?value=1">
-              <div class="sub_menu_text">세금</div>
-            </a>
-            <a class="sub_menu_box" href="/guide/board.html?value=2">
-              <div class="sub_menu_text">복지</div>
-            </a>
-            <a class="sub_menu_box" href="/guide/board.html?value=3">
-              <div class="sub_menu_text">생활팁</div>
-            </a>
-          </div>
+      </div>
+      <div class="header_sub">
+        <div class="sub_menu">
+          <a class="sub_menu_box" href="/guide/board.html?value=0">
+            <div class="sub_menu_text">부동산</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=1">
+            <div class="sub_menu_text">생활팁</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=2">
+            <div class="sub_menu_text">세금</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=3">
+            <div class="sub_menu_text">복지</div>
+          </a>
         </div>
       </div>
     </header>
@@ -85,23 +85,10 @@
         <!-- 실제 적으로 main 코드가 들어가는 장소 -->
         <h2 class="board-title">커뮤니티 게시판</h2>
         <div id="board-list">
-          <div class="board-header">
-            <span class="col-category">카테고리</span>
-            <span class="col-title">제목</span>
-            <span class="col-author">작성자</span>
-            <span class="col-date">작성일</span>
-            <!-- 게시물 목록 시작 -->
-            <!-- 
-            <span class="col-category"></span>
-            <a href="/community/detail.html?index=${i}" class="col-title"</a>
-            <span class="col-author"></span>
-            <span class="col-date"></span> -->
-            <!-- 게시물 목록 끝 -->
-          </div>
+          <div class="board-header"></div>
         </div>
         <!-- 페이징 처리 -->
         <div id="pagination" class="pagination"></div>
-
 
         <!-- 검색창 -->
         <div class="filters">
@@ -112,14 +99,14 @@
             <option value="week">이번 주</option>
             <option value="month">이번 달</option>
           </select>
-        
+
           <label for="search-type">검색 기준:</label>
           <select id="search-type">
             <option value="title">제목</option>
             <option value="author">작성자</option>
           </select>
-        
-          <input type="text" id="search-box" placeholder="검색...">
+
+          <input type="text" id="search-box" placeholder="검색..." />
           <button id="search-button">검색</button>
         </div>
       </div>
