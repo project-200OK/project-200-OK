@@ -65,10 +65,10 @@ document.addEventListener("DOMContentLoaded", () => {
         const endIndex = startIndex + guideItemsPerPage;
         const itemsToShow = allItems.slice(startIndex, endIndex);
 
-        itemsToShow.forEach(item => {
+        itemsToShow.forEach((item, index) => {
             const detailUrl = `http://localhost:5500/guide/detail.html?guideIndex=${item.guideIndex}&keywordIndex=${item.keywordIndex}&itemIndex=${item.itemIndex}`;
             cardHTML += `
-            <div class="guide_card">
+            <div class="guide_card" data-index="${startIndex + index}">
                 <div class="guide_card_top">
                     <p class="headline">${item.guide}</p>
                     <p class="keyword">${item.keyword}</p>
@@ -81,6 +81,25 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         guideCardList.innerHTML = cardHTML;
+    }
+
+    // 가이드 카드에서 좋아요 제거
+    window.removeCard = function (element, event) {
+        event.stopPropagation();
+        const card = element.closest('.guide_card');
+        const index = parseInt(card.getAttribute('data-index'));
+        const item = allItems[index];
+        
+        // like 값을 0으로 변경 (이 부분은 서버로 요청을 보내어 실제로 변경해야 함)
+        item.like = "0";
+        
+        // 리스트에서 해당 항목 제거
+        allItems.splice(index, 1);
+        
+        // UI 업데이트
+        renderGuideCards();
+        renderGuidePagination();
+        guideTab.textContent = `가이드 (${allItems.length})`; // 가이드 갯수 표시
     }
 
     function renderPosts(page) {
