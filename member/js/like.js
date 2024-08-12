@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const guidePagination = document.getElementById("guide-pagination");
     const postPagination = document.getElementById("post-pagination");
 
+    const guideTab = document.getElementById("guideTab");
+    const postTab = document.getElementById("postTab");
+
     const guideItemsPerPage = 16;  // 가이드의 페이지당 아이템 수
     const postItemsPerPage = 15;   // 게시물의 페이지당 아이템 수
     let currentGuidePage = 1;
@@ -18,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             filterGuideData(data);
             renderGuideCards();
             renderGuidePagination();
+            guideTab.textContent = `가이드 (${allItems.length})`; // 가이드 갯수 표시
         })
         .catch((error) => {
             console.error("Error loading JSON:", error);
@@ -29,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             allPosts = response.data.posts;
             renderPosts(currentPostPage);
             renderPostPagination();
+            postTab.textContent = `게시물 (${allPosts.length})`; // 게시물 갯수 표시
         })
         .catch((error) => {
             console.error("Error loading JSON:", error);
@@ -63,15 +68,15 @@ document.addEventListener("DOMContentLoaded", () => {
         itemsToShow.forEach(item => {
             const detailUrl = `http://localhost:5500/guide/detail.html?guideIndex=${item.guideIndex}&keywordIndex=${item.keywordIndex}&itemIndex=${item.itemIndex}`;
             cardHTML += `
-            <div class="guide_card" onclick="window.location.href='${detailUrl}'">
+            <div class="guide_card">
                 <div class="guide_card_top">
                     <p class="headline">${item.guide}</p>
                     <p class="keyword">${item.keyword}</p>
                 </div>
                 <div class="guide_title">${item.title}</div>
-                <div class="author">${item.author}</div>
                 <div class="date">${item.date}</div>
                 <img src="/images/icons/redLike.png" alt="좋아요" class="like_icon" onclick="removeCard(this, event)">
+                <div class="clickable-area" onclick="window.location.href='${detailUrl}'"></div> <!-- 클릭 가능한 영역 -->
             </div>`;
         });
 
@@ -196,23 +201,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     window.showTab = (tab) => {
-        const guideTab = document.getElementById("guideTab");
-        const postTab = document.getElementById("postTab");
-        const guideSection = document.getElementById("guideSection");
-        const postSection = document.getElementById("postSection");
-
         if (tab === 'guide') {
             guideTab.classList.add("active");
             postTab.classList.remove("active");
-            guideSection.classList.remove("hidden");
-            postSection.classList.add("hidden");
+            document.getElementById("guideSection").classList.remove("hidden");
+            document.getElementById("postSection").classList.add("hidden");
             renderGuideCards();
             renderGuidePagination();
         } else if (tab === 'post') {
             guideTab.classList.remove("active");
             postTab.classList.add("active");
-            guideSection.classList.add("hidden");
-            postSection.classList.remove("hidden");
+            document.getElementById("guideSection").classList.add("hidden");
+            document.getElementById("postSection").classList.remove("hidden");
             renderPosts(currentPostPage);
             renderPostPagination();
         }

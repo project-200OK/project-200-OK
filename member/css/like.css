@@ -17,7 +17,6 @@
 .board_title {
   display: flex;
   justify-content: center;
-  /* padding-top: 20px; */
 }
 
 .tab_title {
@@ -38,29 +37,23 @@
 }
 
 #guideCardList {
-  display: inline-block;
-  height: 960px;
-}
-
-/* .guide_card_section, .post_card_section {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-} */
+  height: 960px;
+  gap: 20px; /* 카드 사이의 간격을 20px로 설정 */
+  justify-content: space-between;
+}
 
 .guide_card, .post_card {
   border: 1px solid #ddd;
   border-radius: 10px;
-  width: 295px;
+  width: 305px;
   height: 220px;
   margin-top: 20px;
-  margin-left: 20px;
   padding: 20px;
   float: left;
   box-shadow: 3px 3px 3px #eee;
   box-sizing: border-box;
-  cursor: pointer;
   position: relative;
 }
 
@@ -93,28 +86,22 @@
 }
 
 .guide_title {
-  margin-top: 50px;
+  margin-top: 62px;
   font-size: 25px;
   font-weight: 600;
-}
-
-.author {
-  position: absolute;
-  bottom: 48px;
 }
 
 .date {
   display: flex;
   float: left;
   position: absolute;
-  bottom: 21px;
-  margin-top: 10px;
+  bottom: 35px;
 }
 
 .like_icon {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 28px;
+  right: 20px;
   width: 30px;
   cursor: pointer;
 }
@@ -267,4 +254,15 @@
   background-color: #007BFF;
   color: #fff;
   cursor: pointer;
+}
+
+/* 클릭 가능한 영역 */
+.clickable-area {
+  position: absolute;
+  top: 0; /* 헤드라인과 키워드의 시작 위치에 맞추기 */
+  left: 0;
+  width: 100%; /* 카드의 전체 가로 길이 */
+  height: 140px; /* 헤드라인과 키워드의 높이에서 아래로 120px */
+  cursor: pointer;
+  z-index: 1; /* 클릭 가능 영역이 다른 요소 위에 오도록 설정 */
 }
