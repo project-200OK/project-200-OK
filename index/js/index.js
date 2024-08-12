@@ -14,7 +14,6 @@ window.onload = ()=>{
   .catch((error)=>{
     console.log('error 발생 : ' + error)
   });
-
     
   // 가이드 카드
   axios.get('http://localhost:5500/index/json/guideIndex.json')
@@ -47,7 +46,7 @@ window.onload = ()=>{
     let keyword = keywords[i];
     keywordHTML +=  `
     <div>
-        <a href="${keyword.url}?value=${keyword.headline}&name=${keyword.number}">
+        <a href="${keyword.url}">
             <div class="keyword_box">${keyword.name}</div>
         </a>
     </div>`;
@@ -65,17 +64,14 @@ window.onload = ()=>{
   const isCollapsed = document.querySelector('.keyword_arrow').textContent === 'v';
   if (!isCollapsed) {
 
-    keywordList.style.height = '210px';
-    // main.style.height = '1200px'
+    keywordList.style.height = '170px';
+    main.style.height = '1200px'
     document.querySelector('.keyword_arrow').textContent = 'v';
   } else {
-    keywordList.style.height = '280px';
-    // main.style.height = '1470px'
+    keywordList.style.height = '450px';
+    main.style.height = '1470px'
     document.querySelector('.keyword_arrow').textContent = '^';
 
   }
 });
 };
-
-
-

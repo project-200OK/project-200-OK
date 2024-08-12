@@ -37,7 +37,7 @@ _MemberSubmitBtn.addEventListener('click', (event) => {
       document.getElementById('msg_pass').style.display = 'block';
     }else {
       document.getElementById('msg_pass').style.display = 'none';
-      window.location.href = '../index2.html';
+      window.location.href = '/index2.html';
     }
   });
 })
