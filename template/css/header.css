@@ -109,7 +109,10 @@ header {
 /* 서브 네비가 들어갈 자리 */
 .header_sub {
   height: 60px;
+  width: 100%;
   background-color: white;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   display: none;
 }
 .sub_menu {
@@ -118,7 +121,7 @@ header {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-left: 250px;
+  margin-left: 470px;
   display: none;
 }
 .sub_menu_box {

@@ -2,7 +2,7 @@
   height: auto;
 }
 .board-title {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #333;
@@ -10,7 +10,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-
+  padding: 50px 0px
 }
 
 #board-list {
@@ -40,12 +40,18 @@
   border-bottom: none;
 }
 
-.col-category, .col-author, .col-date {
+.col-category{
   flex: 1;
+  text-align: center;
 }
 
 .col-title {
-  flex: 3;
+  flex: 9;
+  padding-left: 15px;
+}
+.col-author, .col-date {
+  flex: 1;
+  text-align: center;
 }
 
 .col-category {
@@ -53,8 +59,11 @@
 }
 
 .col-title {
-
   font-weight: 500;
+}
+.ta-center {
+  text-align: center;
+
 }
 
 .col-title:hover {
@@ -65,7 +74,6 @@
 
 .col-date {
   color: #6c757d;
-  text-align: right;
 }
 
 @media (max-width: 768px) {

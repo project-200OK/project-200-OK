@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
         boardList.innerHTML = `
             <div class="board-header">
               <span class="col-category">카테고리</span>
-              <span class="col-title">제목</span>
-              <span class="col-author">작성자</span>
+              <span class="col-title ta-center">제목</span>
+              <span class="col-author ta-center">작성자</span>
               <span class="col-date">작성일</span>
             </div>
             `; // 기존 게시물 목록 초기화
