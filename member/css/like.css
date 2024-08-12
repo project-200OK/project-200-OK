@@ -1,17 +1,16 @@
 /* ========== 마이페이지 상단 서브메뉴명 영역 ========== */
 .member_mypage_wrap {
   width: 100%;
-  padding: 50px 0 200px;
+  padding-bottom: 200px;
 }
 
 .member_mypage_title {
   width: 100%;
   border-bottom: 2px solid #ddd;
-  padding: 10px 0;
+  padding: 50px 0;
   margin-bottom: 50px;
-  font-size: 22px;
+  font-size: 50px;
   font-weight: bold;
-  color: #333;
 }
 
 .board_title {
@@ -28,6 +27,7 @@
   cursor: pointer;
   box-sizing: border-box;
   background-color: #f6f6f6;
+  margin-bottom: 20px;
 }
 
 .tab_title.active {
@@ -41,7 +41,8 @@
   flex-wrap: wrap;
   height: 960px;
   gap: 20px; /* 카드 사이의 간격을 20px로 설정 */
-  justify-content: space-between;
+  justify-content: flex-start; /* 왼쪽 정렬을 유지하면서 일정한 간격 유지 */
+  align-content: flex-start; /* 아이템이 채워지지 않는 경우 위쪽으로 정렬 */
 }
 
 .guide_card, .post_card {
@@ -49,9 +50,7 @@
   border-radius: 10px;
   width: 305px;
   height: 220px;
-  margin-top: 20px;
   padding: 20px;
-  float: left;
   box-shadow: 3px 3px 3px #eee;
   box-sizing: border-box;
   position: relative;
@@ -142,7 +141,6 @@
 #board-list {
   height: 750px;  /* 세로 크기를 750px로 고정 */
   overflow-y: auto;  /* 내용이 넘칠 경우 스크롤 추가 */
-  margin-top: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -210,9 +208,13 @@
 /* 페이징 */
 .pagination {
   display: flex;
-  justify-content: center;
-  align-items: center;  /* 세로 가운데 정렬 추가 */
   margin-top: 20px;
+  position: absolute;
+  top: 1320px;
+  left: 50%; /* 좌우 중앙에 맞추기 위해 */
+  transform: translateX(-50%); /* 좌우 중앙 정렬 */
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination button {
