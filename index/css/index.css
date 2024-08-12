@@ -116,6 +116,10 @@
   font-size: 20px;
   color: #fff;
 } 
+.keyword_box:hover {
+  background-color: #0056b3;
+  transition: 0.5s ease-out;
+}
 .keyword_list {
   display: flex;
   flex-wrap: wrap;
