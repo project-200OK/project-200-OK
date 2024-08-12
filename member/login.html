@@ -24,55 +24,62 @@
       <div class="header_main">
         <div class="left_nav_box">
           <div class="logo">
-            <a class="logo_text" href="#">MZ-ONE</a>
+            <a class="logo_text" href="/index.html">MZ-ONE</a>
           </div>
           <div class="tab_box">
-            <div class="tab">
-              <a class="tab_text" href="#">커뮤니티</a>
-            </div>
             <div class="tab menu_item">가이드</div>
+            <div class="tab">
+              <a class="tab_text" href="/community/board.html">커뮤니티</a>
+            </div>
           </div>
         </div>
         <div class="middle_nav_box">
-          <div class="search_box">
-            <input
-              class="search_bar"
-              type="text"
-              placeholder="     검색어를 입력해주세요"
-            />
-            <button class="search_btn">
-              <img
-                class="search_icon"
-                src="/images/icons/Search.png"
-                alt="search"
+          <form id="searchForm" method="get">
+            <div class="search_box">
+              <input
+                id="searchInput"
+                class="search_bar"
+                type="text"
+                placeholder="검색어를 입력해주세요"
               />
-            </button>
-          </div>
+              <button type="submit" class="search_btn">
+                <img
+                  class="search_icon"
+                  src="/images/icons/Search.png"
+                  alt="search"
+                />
+              </button>
+            </div>
+          </form>
         </div>
         <div class="right_nav_box">
-          <div class="login btn">
-            <a class="btn_text" href="#">로그인</a>
-          </div>
-          <div class="sign_up btn">
-            <a class="btn_text" href="#">회원가입</a>
-          </div>
+          <a href="/member/login.html">
+            <div class="login btn btn_text">
+              로그인
+            </div>
+          </a>
+          <a href="/member/signUp.html">
+            <div class="sign_up btn btn_text">
+              회원가입
+            </div>
+          </a>
         </div>
       </div>
-      <div class="header_sub">
-        <div class="sub_menu">
-          <a class="sub_menu_box" href="#">
-            <div class="sub_menu_text">부동산</div>
-          </a>
-          <a class="sub_menu_box" href="#">
-            <div class="sub_menu_text">세금</div>
-          </a>
-          <a class="sub_menu_box" href="#">
-            <div class="sub_menu_text">복지</div>
-          </a>
-          <a class="sub_menu_box" href="#">
-            <div class="sub_menu_text">생활팁</div>
-          </a>
-        </div>
+    </div>
+    <div class="header_sub">
+      <div class="sub_menu">
+        <a class="sub_menu_box" href="/guide/board.html?value=0">
+          <div class="sub_menu_text">부동산</div>
+        </a>
+        <a class="sub_menu_box" href="/guide/board.html?value=1">
+          <div class="sub_menu_text">생활팁</div>
+        </a>
+        <a class="sub_menu_box" href="/guide/board.html?value=2">
+          <div class="sub_menu_text">세금</div>
+        </a>
+        <a class="sub_menu_box" href="/guide/board.html?value=3">
+          <div class="sub_menu_text">복지</div>
+        </a>
       </div>
     </div>
   </header>
@@ -85,7 +92,7 @@
       <div class="member_wrap">
         <div class="member_box">
           <h2 class="member_title">로그인</h2>
-          <form method="post" class="member_form">
+          <form method="get" class="member_form">
             <div class="member_box_list">
               <label for="user_id">아이디</label>
               <input type="text" id="user_id" placeholder="아이디를 입력하세요.">
@@ -94,6 +101,7 @@
               <label for="user_pass">비밀번호 </label>
               <input type="password" id="user_pass" placeholder="비밀번호를 입력하세요.">
               <img src="../images/icons/free-icon-eye-hidden.png" alt="비밀번호 보기 아이콘" id="pass_eye" class="pass_hide">
+              <span id="msg_pass">아이디 또는 비밀번호가 일치하지 않습니다.</span>
             </div>
             <button class="member_btn btn_gray">로그인</button>
             <ul class="member_find">
@@ -179,7 +187,7 @@
     </div>
   </footer>
   <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
-  <script src="/template/js/insert.js"></script>
+  <script src="/template/js/header.js"></script>
   <script src="./js/login.js"></script>
 </body>
 </html>

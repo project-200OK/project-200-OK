@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "a@a.com",
+      "password": "1111",
+      "nickname": "이용자1",
+      "region": "busan"
+    }
+  ]
+}

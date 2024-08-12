@@ -1,0 +1,245 @@
+{
+  "categories": [
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        {
+          "keyword": "생활비",
+          "items": [
+            {
+              "title": "월세 줄이는 협상 전략",
+              "date": "2024-08-03",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 전문가 칼럼",
+                  "url": "http://realestate.example.com/negotiation-tips"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "스마트한 생필품 구매 방법",
+              "date": "2024-07-29",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "소비자 가이드",
+                  "url": "http://consumer.example.com/smart-shopping"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "재활용으로 생활비 절약하기",
+              "date": "2024-08-07",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "환경부 캠페인",
+                  "url": "http://environment.example.com/recycle-save"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "취업",
+          "items": [
+            
+          ]
+        },
+        {
+          "keyword": "교통비",
+          "items": [
+            
+          ]
+        },
+        {
+          "keyword": "식비",
+          "items": [
+            
+          ]
+        },
+        {
+          "keyword": "재테크",
+          "items": [
+            
+          ]
+        },
+        {
+          "keyword": "저축",
+          "items": [
+            
+          ]
+        },
+        {
+          "keyword": "생활용품",
+          "items": [
+            {
+              "title": "친환경 생활용품으로 전환하기",
+              "date": "2024-07-28",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "환경 단체 추천 목록",
+                  "url": "http://eco.example.com/green-products"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "인테리어",
+          "items": [
+            {
+              "title": "작은 공간 활용 인테리어 아이디어",
+              "date": "2024-08-06",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "인테리어 디자이너 팁",
+                  "url": "http://interior.example.com/small-spaces"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 준비",
+          "items": [
+            {
+              "title": "취업 준비 체크리스트",
+              "date": "2024-07-23",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "취업 지원 센터 자료",
+                  "url": "http://career.example.com/preparation-checklist"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "건강 관리",
+          "items": [
+            {
+              "title": "직장인 스트레스 관리법",
+              "date": "2024-08-08",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "정신건강 전문의 조언",
+                  "url": "http://mentalhealth.example.com/work-stress"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "자산 관리",
+          "items": [
+            {
+              "title": "30대를 위한 자산 관리 전략",
+              "date": "2024-07-26",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융 플래너 추천 전략",
+                  "url": "http://finance.example.com/30s-asset-management"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "식생활 관리",
+          "items": [
+            {
+              "title": "바쁜 직장인을 위한 간편 건강식",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "영양사 추천 메뉴",
+                  "url": "http://nutrition.example.com/quick-meals"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "시간 관리",
+          "items": [
+            {
+              "title": "일과 삶의 균형을 위한 시간 관리법",
+              "date": "2024-07-31",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "생산성 전문가 조언",
+                  "url": "http://productivity.example.com/work-life-balance"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "청소",
+          "items": [
+            {
+              "title": "15분 빠른 청소 루틴",
+              "date": "2024-08-05",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "홈케어 전문가 팁",
+                  "url": "http://homecare.example.com/15min-cleaning"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "의류 관리",
+          "items": [
+            {
+              "title": "옷 수명 연장을 위한 세탁 팁",
+              "date": "2024-07-29",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "패션 전문가 조언",
+                  "url": "http://fashion.example.com/clothing-care"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "부동산",
+      "subcategories": [
+      ]
+    },
+    {
+      
+    },
+    {
+      "guide": "복지",
+      "subcategories": [
+        
+  ]
+}

@@ -7,10 +7,8 @@
   font-size: 50px;
   font-weight: bold;
   text-shadow: 3px 3px #eee;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  border-bottom: 2px solid #E2DAD6;
+  padding: 50px 0px;
+  border-bottom: 2px solid #e2dad6;
 }
 
 .upper {
@@ -20,42 +18,42 @@
 #cardTitle {
   font-size: 30px;
   padding-top: 10px;
-  padding-left: 20px;
   margin-bottom: 10px;
   display: inline;
 }
 
-#like img {
-  padding-top: 10px;
+#like {
+  padding-bottom: 20px;
   width: 30px;
   height: 25px;
   float: right;
-  margin-right: 12px;
   cursor: pointer;
 }
 
 .lower {
   display: flex;
   padding-bottom: 10px;
-  border-bottom: 1px solid #E2DAD6;
+  border-bottom: 1px solid #e2dad6;
   justify-content: space-between;
-  
 }
 
 #root {
   font-size: 18px;
-  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+#dateArea {
+  font-size: 18px;
   display: inline;
 }
 
 .btns {
   display: inline;
-  margin-right: 8px;
 }
 
 .lowerBtn {
   display: inline;
-  border: 1px solid #E2DAD6;
+  border: 1px solid #e2dad6;
   padding: 5px;
   margin: 5px;
   border-radius: 7px;
@@ -64,27 +62,22 @@
 }
 
 .contentContainer {
-  padding: 10px;
+  margin-top: 10px;
   font-size: 20px;
+  padding-bottom: 50px;
 }
 
-#summary {
-  line-height: 40px;
+#imgs {
+  width: 1280px;
+}
+
+#sources p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.links {
   font-weight: bold;
-  padding: 15px 15px 20px;
-}
-
-#imgBox {
-
-}
-
-#mainText {
-  line-height: 40px;
-  padding: 15px 15px 100px;
-}
-
-.link {
-  font-weight: bold;
-  padding: 15px 15px 20px;
   cursor: pointer;
 }

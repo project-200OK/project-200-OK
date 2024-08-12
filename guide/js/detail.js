@@ -3,35 +3,39 @@ const detailParams = new URLSearchParams(location.search);
 const guideIndex = detailParams.get('guideIndex');
 const keywordIndex = detailParams.get('keywordIndex');
 let itemIndex = detailParams.get('itemIndex');
-let itemLength = 0;
+let itemLength;
 
 // json 에서 값 받아와서 출력
 window.onload = () => {
-  axios.get('http://localhost:5500/guide/json/guides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
     const data = res.data;
-    const guideName = data.categories[guideIndex].guide;
-    const keywordName = data.categories[guideIndex].subcategories[keywordIndex].keyword;
-    const itemName = data.categories[guideIndex].subcategories[keywordIndex].items[itemIndex].title;
-    const content = data.categories[guideIndex].subcategories[keywordIndex].items[itemIndex].content;
-    const summary = data.categories[guideIndex].subcategories[keywordIndex].items[itemIndex].summary;
-    const imgurl = data.categories[guideIndex].subcategories[keywordIndex].items[itemIndex].imgUrl;
-    const sourceurl = data.categories[guideIndex].subcategories[keywordIndex].items[itemIndex].link;
-    itemLength = data.categories[guideIndex].subcategories[keywordIndex].items.length;
+    const guideName = data.categories[guideIndex];
+    const keywordName = guideName.subcategories[keywordIndex];
+    const itemName = keywordName.items[itemIndex];
+    const isLike = (itemName.like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png"; 
+    const content = itemName.contentURL;
+    itemLength = keywordName.items.length;
+    let sourceHTML = '<p>[참고 URL]</p><br>';
+    let date = `작성일 : ${itemName.date}`;
 
-    document.getElementById('guideName').innerText = guideName;
-    document.getElementById('cardTitle').innerText = itemName;
-    document.getElementById('root').innerText = `${guideName} > ${keywordName} > ${itemName}`
-    document.getElementById('summary').innerHTML = `핵심요약 <br>${summary}`;
-    document.getElementById('mainText').innerHTML = content;
+    document.title = `${itemName.title}`;
     
-    if(imgurl !== 'none'){
-      document.getElementById('imgs').src = imgurl;
-      console.log('success');
+    document.getElementById('guideName').innerText = guideName.guide;
+    document.getElementById('cardTitle').innerText = itemName.title;
+    document.getElementById('root').innerText = `${guideName.guide} > ${keywordName.keyword} > ${itemName.title}`;
+    document.getElementById('like').src = isLike;
+    document.getElementById('dateArea').innerText = date;
+    document.getElementById('imgs').src = content;
+
+    // 링크있는경우만 적용 ㄱㄱ
+    if(itemName.source.length !== 0){
+      for(let i = 0; i < itemName.source.length; i++){
+        let addHTML = `<p><a href="${itemName.source[i].url}" class="links" target='_blank'>${itemName.source[i].list}</a></p>`;
+        sourceHTML += addHTML;
+      }
+      document.querySelector('#sources').innerHTML = sourceHTML;
     }
-    
-    document.getElementById('source').src = sourceurl;
-    
   })
   .catch((error) => {
     console.log('error : ' + error);
@@ -76,7 +80,7 @@ function buttonWorks(object){
       }
       break;
     case 'list':
-      window.location.href = `board.html?value=${guideIndex}`;
+      window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`;
       break;
   }
 }

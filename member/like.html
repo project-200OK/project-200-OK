@@ -11,11 +11,9 @@
     <link rel="stylesheet" href="/template/css/sidebar.css">
     <link rel="stylesheet" href="/template/css/footer.css">
     <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
-     <link rel="stylesheet" href="./css/like.css">
-     
+    <link rel="stylesheet" href="./css/like.css">
     <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
 </head>
 <body>
     <header>
@@ -28,19 +26,20 @@
         <a class="logo_text" href="/index.html">MZ-ONE</a>
       </div>
       <div class="tab_box">
+        <div class="tab menu_item">가이드</div>
         <div class="tab">
           <a class="tab_text" href="/community/board.html">커뮤니티</a>
         </div>
-        <div class="tab menu_item">가이드</div>
       </div>
     </div>
     <div class="middle_nav_box">
-      <form action="/search/searchBoard.html" method="get">
+      <form id="searchForm" method="get">
         <div class="search_box">
           <input
+            id="searchInput"
             class="search_bar"
             type="text"
-            placeholder="     검색어를 입력해주세요"
+            placeholder="검색어를 입력해주세요"
           />
           <button type="submit" class="search_btn">
             <img
@@ -53,145 +52,167 @@
       </form>
     </div>
     <div class="right_nav_box">
-      <div class="login btn">
-        <a class="btn_text" href="/member/login.html">로그인</a>
-      </div>
-      <div class="sign_up btn">
-        <a class="btn_text" href="/member/signUp.html">회원가입</a>
-      </div>
+      <a href="/member/update.html">
+        <div class="login btn btn_text">
+          마이페이지
+        </div>
+      </a>
+      <a href="/index.html">
+        <div class="sign_up btn btn_text">
+          로그아웃
+        </div>
+      </a>
     </div>
   </div>
-  <div class="header_sub">
-    <div class="sub_menu">
-      <a class="sub_menu_box" href="/guide/board.html?value=0">
-        <div class="sub_menu_text">부동산</div>
-      </a>
-      <a class="sub_menu_box" href="/guide/board.html?value=1">
-        <div class="sub_menu_text">세금</div>
-      </a>
-      <a class="sub_menu_box" href="/guide/board.html?value=2">
-        <div class="sub_menu_text">복지</div>
-      </a>
-      <a class="sub_menu_box" href="/guide/board.html?value=3">
-        <div class="sub_menu_text">생활팁</div>
-      </a>
-    </div>
+</div>
+<div class="header_sub">
+  <div class="sub_menu">
+    <a class="sub_menu_box" href="/guide/board.html?value=0">
+      <div class="sub_menu_text">부동산</div>
+    </a>
+    <a class="sub_menu_box" href="/guide/board.html?value=1">
+      <div class="sub_menu_text">생활팁</div>
+    </a>
+    <a class="sub_menu_box" href="/guide/board.html?value=2">
+      <div class="sub_menu_text">세금</div>
+    </a>
+    <a class="sub_menu_box" href="/guide/board.html?value=3">
+      <div class="sub_menu_text">복지</div>
+    </a>
   </div>
 </div>
     </header>
 
     <main>
-      <!-- 메인 콘텐츠 -->
-      <h1 class="hidden">사이드바</h1>
-      <aside class="side_bar">
-          <!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
-  <div class="side_bar_top_box">
-    <h1 class="sied_bar_title">마이페이지</h1>
-    <img class="close_btn" src="/images/icons/Arrow-left-circle.png"></img>
-  </div>
-  <div class="side_bar_bottom_box">
-    <a href="/member/update.html" class="side_bar_bottom_menu">회원정보수정</a>
-    <a href="/member/calendar.html" class="side_bar_bottom_menu">나의 캘린더</a>
-    <a href="/member/like.html" class="side_bar_bottom_menu">좋아요</a>
-    <a href="/member/resign.html" class="side_bar_bottom_menu">회원탈퇴</a>
-  </div>
+        <aside class="side_bar">
+            <h1 class="hidden">사이드바</h1>
+            
+<!-- 사이드바 내용, 안쓰는 페이지는 지워도 됨 -->
+<div class="side_bar_top_box">
+  <h1 class="sied_bar_title">마이페이지</h1>
+  <img class="close_btn" src="/images/icons/Arrow-left-circle.png"></img>
+</div>
+<div class="side_bar_bottom_box">
+  <a href="/member/update.html" class="side_bar_bottom_menu">회원정보수정</a>
+  <a href="/member/calendar.html" class="side_bar_bottom_menu">나의 캘린더</a>
+  <a href="/member/like.html" class="side_bar_bottom_menu">좋아요</a>
+  <a href="/member/resign.html" class="side_bar_bottom_menu">회원탈퇴</a>
+</div>
 </aside>
 <aside class="open_btn">
-  <img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
-      </aside>
-      <aside class="open_btn">
-        <img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
+<img class="close_btn" src="/images/icons/Arrow-right-circle.png"></img>
 
-      </aside>
-      <h1 class="hidden">메인</h1>
-      <div class="main">
-        <!-- 실제 적으로 main 코드가 들어가는 장소 -->
-        <div class="board_title">
-          <h2 id="guideTab" class="tab_title active" onclick="showTab('guide')">가이드</h2>
-          <h2 id="postTab" class="tab_title" onclick="showTab('post')">게시물</h2>
-      </div>
+        </aside>
+        
+        <!-- 메인 콘텐츠 -->
+        <h1 class="hidden">메인</h1>
+        <div class="main">
+            <div class="member_mypage_wrap">
+                <div class="member_mypage_title">좋아요</div>
 
-      <div class="guide_card_section" id="guideSection">
-          <div id="guideCardList">
-              <!-- JSON 데이터로부터 동적으로 카드 생성 -->
-          </div>
-      </div>
+                <div class="board_title">
+                    <h2 id="guideTab" class="tab_title active" onclick="showTab('guide')">가이드</h2>
+                    <h2 id="postTab" class="tab_title" onclick="showTab('post')">게시물</h2>
+                </div>
 
-      <div class="guide_card_section hidden" id="postSection">
-          <div id="postCardList">
-              <!-- 게시물 데이터로부터 동적으로 카드 생성 -->
-              <div class="post_card">게시물 예시 1</div>
-              <div class="post_card">게시물 예시 2</div>
-          </div>
-      </div>
+                <!-- 가이드 섹션 -->
+                <div class="guide_card_section" id="guideSection">
+                  <div id="guideCardList"></div>
+                  <div id="guide-pagination" class="pagination"></div>
+              </div>
 
-         </div>
+              <!-- 게시물 섹션 -->
+              <div class="guide_card_section hidden" id="postSection">
+                  <div id="board-list">
+                      <div class="board-header">
+                          <span class="col-category">카테고리</span>
+                          <span class="col-title">제목</span>
+                          <span class="col-author">작성자</span>
+                          <span class="col-date">작성일</span>
+                      </div>
+                  </div>
+                  <div id="post-pagination" class="pagination"></div>
+                    <div class="filters">
+                        <label for="filter-date">작성일:</label>
+                        <select id="filter-date">
+                            <option value="all">전체</option>
+                            <option value="today">오늘</option>
+                            <option value="week">이번 주</option>
+                            <option value="month">이번 달</option>
+                        </select>
+                        <label for="search-type">검색 기준:</label>
+                        <select id="search-type">
+                            <option value="title">제목</option>
+                            <option value="author">작성자</option>
+                        </select>
+                        <input type="text" id="search-box" placeholder="검색...">
+                        <button id="search-button">검색</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-         <h2 class="hidden">페이지네이션</h2>
-         <nav aria-label="Page navigation example" class="pagination_section">
-          <div id="paginationContainer"></div>
-      </nav>
-         
-         
-      </div>
+        <h2 class="hidden">페이지네이션</h2>
+        <nav aria-label="Page navigation example" class="pagination_section">
+            <div id="paginationContainer"></div>
+        </nav>
     </main>
+
     <footer>
-      <h1 class="hidden">푸터</h1>
-<!-- 푸터 내용 (푸터가 들어갈 자리) -->
-<div class="footer">
-  <div class="footer-content">
-    <div class="footer-section about">
-      <h2 class="logo-text">MZ-ONE</h2>
-      <p class="footer-info">
-        MZ-ONE은 MZ(20-30)세대를 위한 종합 정보 플랫폼입니다. <br />부동산,
-        세금, 복지, 생활팁 등 다양한 정보를 제공합니다.
-      </p>
-      <div class="contact">
-        <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
-        <span><i class="fas fa-envelope"></i> &nbsp; info@mz-one.com</span>
-      </div>
-      <div class="socials">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-    </div>
-    <div class="footer-section links">
-      <h2>퀵 링크</h2>
-      <ul>
-        <li><a href="/index.html">홈</a></li>
-        <li><a href="#">서비스</a></li>
-        <li><a href="#">약관</a></li>
-        <li><a href="#">개인정보처리방침</a></li>
-      </ul>
-    </div>
-    <div class="footer-section contact-form">
-      <h2>문의하기</h2>
-      <form method="get">
-        <input
-          type="email"
-          name="email"
-          class="text-input contact-input"
-          placeholder="이메일 주소를 입력하세요..."
-        />
-        <textarea
-          name="message"
-          class="text-input contact-input"
-          placeholder="메시지를 입력하세요..."
-        ></textarea>
-        <button type="submit" class="btn btn-big contact-btn">
-          <i class="fas fa-envelope"></i>
-          &nbsp;보내기
-        </button>
-      </form>
-    </div>
-  </div>
-  <div class="footer-bottom">&copy; 2024 MZ-ONE | 디자인: MZ-ONE 팀</div>
-</div>
+        <h1 class="hidden">푸터</h1>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2 class="logo-text">MZ-ONE</h2>
+                    <p class="footer-info">
+                        MZ-ONE은 MZ(20-30)세대를 위한 종합 정보 플랫폼입니다. <br />부동산,
+                        세금, 복지, 생활팁 등 다양한 정보를 제공합니다.
+                    </p>
+                    <div class="contact">
+                        <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+                        <span><i class="fas fa-envelope"></i> &nbsp; info@mz-one.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section links">
+                    <h2>퀵 링크</h2>
+                    <ul>
+                        <li><a href="/index.html">홈</a></li>
+                        <li><a href="#">서비스</a></li>
+                        <li><a href="#">약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>문의하기</h2>
+                    <form method="get">
+                        <input
+                            type="email"
+                            name="email"
+                            class="text-input contact-input"
+                            placeholder="이메일 주소를 입력하세요..."
+                        />
+                        <textarea
+                            name="message"
+                            class="text-input contact-input"
+                            placeholder="메시지를 입력하세요..."
+                        ></textarea>
+                        <button type="submit" class="btn btn-big contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            &nbsp;보내기
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">&copy; 2024 MZ-ONE | 디자인: MZ-ONE 팀</div>
+        </div>
     </footer>
 
-    <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
     <script src="/template/js/header.js"></script>
     <script src="/template/js/sidebar.js"></script>
     <script src="/member/js/like.js"></script>

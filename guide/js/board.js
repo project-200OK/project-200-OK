@@ -1,50 +1,107 @@
-// 다른 페이지에서 무슨 가이드를 눌렀는지 가져오는값
-let guideIndex = 0;
-let keywordIndex;
-let itemIndex;
-
-// url의 값을 받아옴
+// url의 값을 받아옴.
+// main의 nav 메뉴에서는 'value' 값만 받아서 이동하기 때문에 
+// 'name' 값이 없을 경우 0으로 고정.
+// main의 하단 키워드를 클릭했을 경우 'value', 'name' 값 둘다 받아옴.
 const params = new URLSearchParams(location.search);
-guideIndex = params.get('value');
+// 무슨 가이드를 클릭했는지
+// 0:생활팁, 1:부동산, 2:세금, 3:복지
+const guideIndex = params.get('value');
+// 무슨 키워드를 클릭했는지
+let keywordIndex = (params.get('name') == undefined) ? 0 : params.get('name');
 
-if(!keywordIndex)
-  keywordIndex = 0;
-if(!itemIndex)
-  itemIndex = 0;
-
-// 처음 뿌려줄 값
+if(params.get('name') == undefined){
+  window.onload = () => {
+    axios.get('http://localhost:5500/json/guide.json')
+    .then((res) => {
+      // 키워드 박스 생성을 위한 html 변수
+      let keywordsHTML = '';
+      // 카드 박스 생성을 위한 html 변수
+      let cardHTML = '';
+      let data = res.data;
+      const guideName = data.categories[guideIndex];
+      const keywordName = guideName.subcategories[keywordIndex];
+      document.title = `${guideName.guide}-${keywordName.keyword}`;
+      document.getElementById('guideName').innerText = guideName.guide;
+  
+      // 클릭한 가이드의 키워드들 가져오기
+      for(let i = 0; i < guideName.subcategories.length; i++){
+        keywordsHTML += `
+  <div class="keywordBox" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      }
+  
+      // 초기 카드 내용은 
+      // 클릭한 가이드의 첫번째 키워드의 내용들
+      for(let j = 0; j < guideName.subcategories.length; j++){
+      for(let i = 0; i < guideName.subcategories[j].items.length; i++){
+        // 좋아요 여부 가져오기
+        let isLike = (guideName.subcategories[j].items[i].like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png";
+        cardHTML += `
+  <div class="guideCard">
+    <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+      <input class="index" type="hidden" value=${i}></input>
+      <div class="guideCardName">${guideName.guide}</div>
+      <div class="guideCardKeyword">${guideName.subcategories[j].keyword}</div>
+      <div class="guideCardTitle">${guideName.subcategories[j].items[i].title}</div>
+    </div>
+    <p class="guideCardDate">${guideName.subcategories[j].items[i].date}</p>
+    <span>
+      <img
+        src=${isLike}
+        alt="좋아요"
+        class="guideCardLike"
+        onclick="setLike(this)"
+        />
+    </span>
+  </div>`;
+      }
+    }
+      document.querySelector('#keywordList').innerHTML = keywordsHTML;
+      document.querySelector('#guideCardList').innerHTML = cardHTML;
+    })
+  }
+} else {
+// 키워드박스, 카드박스 내용 갱신
 window.onload = () => {
-  axios.get('http://localhost:5500/guide/json/guides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
+    // 키워드 박스 생성을 위한 html 변수
     let keywordsHTML = '';
+    // 카드 박스 생성을 위한 html 변수
     let cardHTML = '';
     let data = res.data;
-    let guideName = data.categories[guideIndex].guide;
-
-    document.getElementById('guideName').innerText = guideName;
+    const guideName = data.categories[guideIndex];
+    const keywordName = guideName.subcategories[keywordIndex];
+    document.title = `${guideName.guide}-${keywordName.keyword}`;
+    document.getElementById('guideName').innerText = guideName.guide;
 
     // 클릭한 가이드의 키워드들 가져오기
-    for(let i = 0; i < data.categories[guideIndex].subcategories.length; i++){
-      keywordsHTML += `
-<div class="keywordBox" onclick="getKeyword(this)">${data.categories[guideIndex].subcategories[i].keyword}</div>`;
+    for(let i = 0; i < guideName.subcategories.length; i++){
+      if(i == keywordIndex){
+        keywordsHTML += `
+<div class="keywordBox nowKeyword" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      } else {
+        keywordsHTML += `
+<div class="keywordBox" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
+      }
     }
 
     // 초기 카드 내용은 
     // 클릭한 가이드의 첫번째 키워드의 내용들
-    for(let i = 0; i < data.categories[guideIndex].subcategories[keywordIndex].items.length; i++){
+    for(let i = 0; i < keywordName.items.length; i++){
+      // 좋아요 여부 가져오기
+      let isLike = (keywordName.items[i].like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png";
       cardHTML += `
 <div class="guideCard">
   <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
     <input class="index" type="hidden" value=${i}></input>
-    <div class="guideCardName">${data.categories[guideIndex].guide}</div>
-    <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
-    <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
+    <div class="guideCardName">${guideName.guide}</div>
+    <div class="guideCardKeyword">${keywordName.keyword}</div>
+    <div class="guideCardTitle">${keywordName.items[i].title}</div>
   </div>
-  <p class="guideCardAuthor">${data.categories[guideIndex].subcategories[keywordIndex].items[i].author}</p>
-  <p class="guideCardDate">${data.categories[guideIndex].subcategories[keywordIndex].items[i].date}</p>
+  <p class="guideCardDate">${keywordName.items[i].date}</p>
   <span>
     <img
-      src="/images/icons/emptyLike.png"
+      src=${isLike}
       alt="좋아요"
       class="guideCardLike"
       onclick="setLike(this)"
@@ -55,50 +112,27 @@ window.onload = () => {
     document.querySelector('#keywordList').innerHTML = keywordsHTML;
     document.querySelector('#guideCardList').innerHTML = cardHTML;
   })
-  .catch((error) => {
-    console.log('error : ' + error);
-  });
+}
 }
 
 // 키워드를 클릭했을때
 function getKeyword(object) {
-  axios.get('http://localhost:5500/guide/json/guides.json')
+  axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
-    let guideCardHTML = '';
     let data = res.data;
+    const guideName = data.categories[guideIndex];
     let nowKeyword = object.innerText;
-
+    
     // 클릭한 키워드 판별
-    for(let i = 0; i < data.categories[guideIndex].subcategories.length; i++){
-      if(data.categories[guideIndex].subcategories[i].keyword == nowKeyword){
+    for(let i = 0; i < guideName.subcategories.length; i++){
+      if(guideName.subcategories[i].keyword == nowKeyword){
         keywordIndex = i;
         break;
       }
     }
 
-    // 해당 키워드의 내용으로 카드 갱신
-    for(let i = 0; i < data.categories[guideIndex].subcategories[keywordIndex].items.length; i++){
-      guideCardHTML += `
-<div class="guideCard">
-  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
-    <input class="index" type="hidden" value=${i}></input>
-    <div class="guideCardName">${data.categories[guideIndex].guide}</div>
-    <div class="guideCardKeyword">${data.categories[guideIndex].subcategories[keywordIndex].keyword}</div>
-    <div class="guideCardTitle">${data.categories[guideIndex].subcategories[keywordIndex].items[i].title}</div>
-  </div>
-  <p class="guideCardAuthor">${data.categories[guideIndex].subcategories[keywordIndex].items[i].author}</p>
-  <p class="guideCardDate">${data.categories[guideIndex].subcategories[keywordIndex].items[i].date}</p>
-  <span>
-    <img
-      src="/images/icons/emptyLike.png"
-      alt="좋아요"
-      class="guideCardLike"
-      onclick="setLike(this)"
-      />
-  </span>
-</div>`;
-    }
-    document.querySelector('#guideCardList').innerHTML = guideCardHTML;
+    // 해당 가이드, 키워드의 인덱스를 들고 페이지 이동
+    window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`;
   })
   .catch((error) => {
     console.log('error : ' + error);
