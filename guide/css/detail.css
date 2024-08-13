@@ -1,0 +1,83 @@
+/* 작성자 : 이석현 */
+.main {
+  height: auto;
+}
+
+#guideName {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px #eee;
+  padding: 50px 0px;
+  border-bottom: 2px solid #e2dad6;
+}
+
+.upper {
+  margin: 20px 0;
+}
+
+#cardTitle {
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#like {
+  padding-bottom: 20px;
+  width: 30px;
+  height: 25px;
+  float: right;
+  cursor: pointer;
+}
+
+.lower {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2dad6;
+  justify-content: space-between;
+}
+
+#root {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#dateArea {
+  font-size: 18px;
+  display: inline;
+}
+
+.btns {
+  display: inline;
+}
+
+.lowerBtn {
+  display: inline;
+  border: 1px solid #e2dad6;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.contentContainer {
+  margin-top: 10px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+#imgs {
+  width: 1280px;
+}
+
+#sources p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.links {
+  font-weight: bold;
+  cursor: pointer;
+}

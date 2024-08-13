@@ -1,0 +1,185 @@
+/* ====================회원정보수정 화면==================== */
+/* common css 수정내용 */
+/* header position 순위 */
+header {
+  z-index: 10;
+}
+/* main class 높이 */
+.main {
+  height: auto;
+}
+/* ==========공통========== */
+/* 태그 */
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+}
+/* button */
+.member_btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn_gray {
+  border: none;
+  background-color: #ccc;
+  color: #fff;
+}
+.btn_gray:hover {
+  transition: 0.5s ease-out;
+  background-color: #007bff;
+  font-weight: bold;
+}
+.btn_white {
+  border:1px solid #999;
+  background-color: #fff;
+  color: #999;
+}
+.btn_white:hover {
+  transition: 0.5s ease-out;
+  background-color: #c6c6c6;
+  border: 1px solid #c6c6c6;
+  color: #fff;
+}
+
+/* ========== 컨텐츠 박스 영역 ========== */
+.member_mypage_wrap {
+  width: 100%;
+  padding-bottom: 200px;
+}
+.member_mypage_title {
+  width: 100%;
+  border-bottom: 2px solid #ddd;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.member_wrap {
+  width: 100%;
+  padding: 100px 0;
+}
+.member_box {
+  width: 450px;
+  padding: 50px 20px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px #eee;
+}
+/* 박스내 메인 타이틀 */
+.member_title {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+}
+.member_subtitle {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.member_subtitle a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.member_form {
+  margin-top: 40px;
+}
+/* 박스내 리스트 영역 */
+.member_box_list {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 25px;
+}
+.member_box_list label {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  line-height: 16px;
+  box-sizing: border-box;
+}
+.member_box_list input {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+/* 박스내 selectbox 영역 */
+.member_box_list select {
+  width: 100%;
+  height: 45px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+/* pass hide 때문에 사용 */
+.member_list_pass {
+  position: relative;
+}
+.member_list_pass img{
+  position: absolute;
+  top:40px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.member_list_pass img{
+  position: absolute;
+  top:40px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+/* 비밀번호 불일치시 메세지 */
+#msg_pass {
+  display: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ff0000;
+}
+
+
+/* 아이디, 비밀번호 찾기 */
+.member_find {
+  clear: both;
+  margin-top: 20px;
+}
+.member_find li {
+  float: left;
+  width: 50%;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ========== 데쉬 공간분할 영역 ========== */
+.member_dash_guide {
+  width: 450px;
+  margin: 30px auto;
+  color: #666;
+  text-align: center;
+}
+
+/* ========== 소셜로그인 영역 ========== */
+.member_social_wrap {
+  width: 450px;
+  margin: 0 auto;
+}
+.member_social_wrap button {
+  margin-bottom: 10px;
+}
+.member_social_wrap button img {
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}

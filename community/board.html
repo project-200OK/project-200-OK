@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>커뮤니티 게시판</title>
+    <!-- 공통 css 건들지 마시오!!! -->
+    <link rel="stylesheet" href="/template/css/reset.css" />
+    <link rel="stylesheet" href="/template/css/common.css" />
+    <link rel="stylesheet" href="/template/css/header.css" />
+    <link rel="stylesheet" href="/template/css/sidebar.css" />
+    <link rel="stylesheet" href="/template/css/footer.css" />
+    <!-- 본인들이 맡은 페이지의 css는 아래 작성하시오!!! -->
+    <link rel="stylesheet" href="/community/css/board.css" />
+    <!-- 부트 스트랩이나 axios같은 불러오는 js는 아래에 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- 헤더 내용 (네비게이션이 들어갈 자리) -->
+      <h1 class="hidden">헤더</h1>
+      <div class="header">
+        <div class="header_main">
+          <div class="left_nav_box">
+            <div class="logo">
+              <a class="logo_text" href="/index.html">MZ-ONE</a>
+            </div>
+            <div class="tab_box">
+              <div class="tab menu_item">가이드</div>
+              <div class="tab">
+                <a class="tab_text" href="/community/board.html">커뮤니티</a>
+              </div>
+            </div>
+          </div>
+          <div class="middle_nav_box">
+            <form id="searchForm" method="get">
+              <div class="search_box">
+                <input
+                  id="searchInput"
+                  class="search_bar"
+                  type="text"
+                  placeholder="검색어를 입력해주세요"
+                />
+                <button type="submit" class="search_btn">
+                  <img
+                    class="search_icon"
+                    src="/images/icons/Search.png"
+                    alt="search"
+                  />
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="right_nav_box">
+            <a href="/member/login.html">
+              <div class="login btn btn_text">로그인</div>
+            </a>
+            <a href="/member/signUp.html">
+              <div class="sign_up btn btn_text">회원가입</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_sub">
+        <div class="sub_menu">
+          <a class="sub_menu_box" href="/guide/board.html?value=0">
+            <div class="sub_menu_text">부동산</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=1">
+            <div class="sub_menu_text">생활팁</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=2">
+            <div class="sub_menu_text">세금</div>
+          </a>
+          <a class="sub_menu_box" href="/guide/board.html?value=3">
+            <div class="sub_menu_text">복지</div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- 메인 콘텐츠 -->
+      <h1 class="hidden">메인</h1>
+      <div class="main">
+        <!-- 실제 적으로 main 코드가 들어가는 장소 -->
+        <h2 class="board-title">커뮤니티</h2>
+        <div id="board-list">
+          <div class="board-header"></div>
+        </div>
+        <!-- 페이징 처리 -->
+        <div id="pagination" class="pagination"></div>
+
+        <!-- 검색창 -->
+        <div class="filters">
+          <label for="filter-date">작성일:</label>
+          <select id="filter-date">
+            <option value="all">전체</option>
+            <option value="today">오늘</option>
+            <option value="week">이번 주</option>
+            <option value="month">이번 달</option>
+          </select>
+
+          <label for="search-type">검색 기준:</label>
+          <select id="search-type">
+            <option value="title">제목</option>
+            <option value="author">작성자</option>
+          </select>
+
+          <input type="text" id="search-box" placeholder="검색..." />
+          <button id="search-button">검색</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h1 class="hidden">푸터</h1>
+      <!-- 푸터 내용 (푸터가 들어갈 자리) -->
+      <div class="footer">
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h2 class="logo-text">MZ-ONE</h2>
+            <p class="footer-info">
+              MZ-ONE은 MZ(20-30)세대를 위한 종합 정보 플랫폼입니다.
+              <br />부동산, 세금, 복지, 생활팁 등 다양한 정보를 제공합니다.
+            </p>
+            <div class="contact">
+              <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+              <span
+                ><i class="fas fa-envelope"></i> &nbsp; info@mz-one.com</span
+              >
+            </div>
+            <div class="socials">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section links">
+            <h2>퀵 링크</h2>
+            <ul>
+              <li><a href="/index.html">홈</a></li>
+              <li><a href="#">서비스</a></li>
+              <li><a href="#">약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact-form">
+            <h2>문의하기</h2>
+            <form method="get">
+              <input
+                type="email"
+                name="email"
+                class="text-input contact-input"
+                placeholder="이메일 주소를 입력하세요..."
+              />
+              <textarea
+                name="message"
+                class="text-input contact-input"
+                placeholder="메시지를 입력하세요..."
+              ></textarea>
+              <button type="submit" class="btn btn-big contact-btn">
+                <i class="fas fa-envelope"></i>
+                &nbsp;보내기
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">&copy; 2024 MZ-ONE | 디자인: MZ-ONE 팀</div>
+      </div>
+    </footer>
+    <script src="/community/js/board.js"></script>
+    <script src="/template/js/header.js"></script>
+    <!-- 본인이 만든 js 파일을 이곳에서 추가해 주세요 -->
+  </body>
+</html>

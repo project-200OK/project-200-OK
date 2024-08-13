@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/guide/board.html?value=0",
+    "imgUrl": "/images/index/guide_01.jpg",
+    "imgName": "property",
+    "name" : "부동산"
+  },
+  {
+    "url": "/guide/board.html?value=1",
+    "imgUrl": "/images/index/guide_02.jpg",
+    "imgName": "Life tips",
+    "name" : "생활팁"
+  },
+  {
+    "url": "/guide/board.html?value=2",
+    "imgUrl": "/images/index/guide_03.jpg",
+    "imgName": "tax",
+    "name" : "세금"
+  },
+  {
+    "url": "/guide/board.html?value=3",
+    "imgUrl": "/images/index/guide_04.jpg",
+    "imgName": "welfare",
+    "name" : "복지"
+  }
+]

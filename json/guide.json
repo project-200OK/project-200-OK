@@ -1,0 +1,958 @@
+{
+  "categories": [
+    {
+      "guide": "부동산",
+      "subcategories": [
+        {
+          "keyword": "청년주택",
+          "items": [
+            {
+              "title": "정부 및 지자체 제공 청년지원! 얼마나 알고 있니?",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/RealEstate/YouthHousing.png",
+              "source": [
+                {
+                  "list": "정부24(보조금24) 행복주택공급",
+                  "url": "https://m.gov.kr/portal/rcvfvrSvc/dtlEx/999000000026?administOrgCd=ALL"
+                },
+                {
+                  "list": "마이홈포털(마이홈)",
+                  "url": "https://www.myhome.go.kr/hws/portal/main/getMgtMainPage.do"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "청년 주거 지원 정책 총정리",
+              "date": "2024-07-19",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "정부 정책 안내",
+                  "url": "http://gov.example.com/youth-housing-support"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "임대차계약",
+          "items": [
+            {
+              "title": "임대차 계약 완벽 가이드",
+              "date": "2024-08-06",
+              "contentURL": "/images/guide/RealEstate/LeaseContract.png",
+              "source": [
+                {
+                  "list": "브이월드 지도서비스(구 국가공간정보서비스)",
+                  "url": "https://map.vworld.kr/map/dtkmap.do"
+                },
+                {
+                  "list": "한국공인중개사협회",
+                  "url": "https://www.kar.or.kr/pinfo/brokersearch.asp"
+                },
+                {
+                  "list": "인터넷등기소",
+                  "url": "http://www.iros.go.kr/PMainJ.jsp"
+                },
+                {
+                  "list": "주택임대차 표준계약서(법무부)",
+                  "url": "https://www.moj.go.kr/moj/314/subview.do"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "임대차 계약시 꼭 확인할 사항들",
+              "date": "2024-08-02",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 변호사 조언",
+                  "url": "http://legal.example.com/rental-contract-tips"
+                },
+                {
+                  "list": "주택임대차보호법 가이드",
+                  "url": "http://gov.example.com/rental-protection-law"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "임대인과 효과적으로 소통하는 방법",
+              "date": "2024-07-20",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "임차인 권리 보호 단체 팁",
+                  "url": "http://tenants.example.com/communication-guide"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "임대차 계약 갱신의 모든 것",
+              "date": "2024-07-28",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 전문가 해설",
+                  "url": "http://realestate.example.com/lease-renewal"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "보증금 반환 분쟁 예방 팁",
+              "date": "2024-08-07",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "소비자보호원 가이드",
+                  "url": "http://consumer.example.com/deposit-protection"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "자취",
+          "items": [
+            {
+              "title": "첫 자취생을 위한 체크리스트",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "생활 전문가 조언",
+                  "url": "http://lifestyle.example.com/first-time-solo"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "효율적인 원룸 공간 활용법",
+              "date": "2024-07-25",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "인테리어 디자이너 팁",
+                  "url": "http://interior.example.com/small-space-tips"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "자취생 예산 관리의 기술",
+              "date": "2024-07-18",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "재무 상담사 조언",
+                  "url": "http://finance.example.com/solo-budgeting"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "안전한 자취를 위한 보안 팁",
+              "date": "2024-08-05",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "보안 전문가 가이드",
+                  "url": "http://security.example.com/solo-living-safety"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "원룸",
+          "items": [
+            {
+              "title": "원룸 선택시 주의사항",
+              "date": "2024-08-03",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 중개사 조언",
+                  "url": "http://realestate.example.com/studio-guide"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "전세",
+          "items": [
+            {
+              "title": "전세 사기 예방을 위한 체크리스트",
+              "date": "2024-07-27",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 보안 전문가 조언",
+                  "url": "http://housing.example.com/jeonse-safety"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "월세",
+          "items": [
+            {
+              "title": "월세 vs 전세: 어떤 것이 더 유리할까?",
+              "date": "2024-07-22",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융 전문가 분석",
+                  "url": "http://finance.example.com/rent-comparison"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "독립",
+          "items": [
+            {
+              "title": "독립 준비를 위한 재정 계획",
+              "date": "2024-08-06",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "재무 상담사 가이드",
+                  "url": "http://financialplanning.example.com/independence"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "생활팁",
+      "subcategories": [
+        {
+          "keyword": "균형 잡힌 식생활 관리",
+          "items": [
+            {
+              "title": "건강하고 경제적인 균형 잡힌 식생활 관리 가이드",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/LifeHacks/BalancedEating.png",
+              "source": [
+                {
+                  "list": "농식품정보누리(농림축산식품부) 지자체 온라인몰 검색, 레시피 제공",
+                  "url": "https://www.foodnuri.go.kr/portal/main/contents.do?menuNo=300159"
+                },
+                {
+                  "list": "참가격(한국소비자원) 지역별 최저가 확인",
+                  "url": "https://www.kar.or.kr/pinfo/brokersearch.asp"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "생활비 절약",
+          "items": [
+            {
+              "title": "예산관리와 지원해택을 통해 생활비 절약 극대화!",
+              "date": "",
+              "contentURL": "/images/guide/LifeHacks/SavingTips.png",
+              "source": [
+                {
+                  "list": "소비자24(공정거래위원회)",
+                  "url": "https://www.consumer.go.kr/consumer/index.do"
+                },
+                {
+                  "list": "정보24(보조금24)",
+                  "url": "https://m.gov.kr/portal/rcvfvrSvc/svcFind/svcSearchAll?cityDoArea=ALL&siGunGuArea=&sidocode=&svccd=&tccd=&meancd=&chktype1=&startCount=0&sortOrder=DESC&collection=&range=&startDate=&endDate=&searchField=ALL&reQuery=&stQuery=&downOrgCd=&tmpReQuery=&tmpExReQuery=&realQuery=&detailLst=0&sort=RANK&showView=view22&orgSel=ALL&chktype21=&query=%EC%B2%AD%EB%85%84"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "건강한 식단으로 식비 절약하기",
+              "date": "2024-08-02",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "영양사 추천 레시피",
+                  "url": "http://nutrition.example.com/budget-recipes"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "대중교통 할인 혜택 총정리",
+              "date": "2024-07-18",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "교통공사 공식 안내",
+                  "url": "http://transport.example.com/discounts"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "효율적인 식비 절약 방법",
+              "date": "2024-07-15",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "블로그 포스트",
+                  "url": "http://blog.example.com/save-food-money"
+                },
+                {
+                  "list": "정부 식비 절약 캠페인",
+                  "url": "http://gov.example.com/food-save-campaign"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "에너지 절약 팁 10가지",
+              "date": "2024-06-22",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "에너지 공단 자료",
+                  "url": "http://energy.example.com/saving-tips"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 및 커리어 관리",
+          "items": [
+            {
+              "title": "성공적인 경력 개발을 위한 필수 가이드",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/LifeHacks/JobSuccess.png",
+              "source": [
+                {
+                  "list": "사람인",
+                  "url": "https://www.saramin.co.kr/zf_user/"
+                },
+                {
+                  "list": "커리어넷",
+                  "url": "https://www.career.go.kr/cnet/front/main/main.do"
+                },
+                {
+                  "list": "정부24(보조금24)",
+                  "url": "https://m.gov.kr/portal/rcvfvrSvc/svcFind/svcSearchAll?cityDoArea=ALL&siGunGuArea=&sidocode=&svccd=&tccd=&meancd=&chktype1=&startCount=0&sortOrder=DESC&collection=&range=&startDate=&endDate=&searchField=ALL&reQuery=&stQuery=&downOrgCd=&tmpReQuery=&tmpExReQuery=&realQuery=%28%EC%B2%AD%EB%85%84%29%7C%28%29&detailLst=0&sort=RANK&showView=view22&orgSel=ALL&chktype21=&query=%EC%B7%A8%EC%97%85"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "효과적인 이력서 작성법",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "취업 전문가 조언",
+                  "url": "http://career.example.com/resume-tips"
+                },
+                {
+                  "list": "취업 포털 가이드",
+                  "url": "http://jobportal.example.com/resume-guide"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "면접 준비 핵심 전략",
+              "date": "2024-07-20",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "HR 전문가 인터뷰",
+                  "url": "http://hr.example.com/interview-strategies"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "LinkedIn 프로필 최적화 방법",
+              "date": "2024-07-25",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "LinkedIn 공식 가이드",
+                  "url": "http://linkedin.com/profile-tips"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "취업 박람회 참가 팁",
+              "date": "2024-08-05",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "취업 지원 센터 안내",
+                  "url": "http://jobcenter.example.com/fair-guide"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "첫 직장 적응하기",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "직장인 멘토링 프로그램",
+                  "url": "http://mentoring.example.com/first-job-tips"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "재테크와 투자",
+          "items": [
+            {
+              "title": "다양한 투자방법! 리스크 관리! 자산증식의 전략!",
+              "date": "2024-08-11",
+              "contentURL": "/images/guide/LifeHacks/SmartInvesting.png",
+              "source": [{}],
+              "like": "1"
+            },
+            {
+              "title": "초보자를 위한 투자 입문 가이드",
+              "date": "2024-07-30",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융 교육 센터 자료",
+                  "url": "http://finance.example.com/investment-101"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "월급의 20% 저축하는 방법",
+              "date": "2024-08-04",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "재무 설계사 조언",
+                  "url": "http://personalfinance.example.com/saving-tips"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "세금",
+      "subcategories": [
+        {
+          "keyword": "공과금",
+          "items": [
+            {
+              "title": "공과금 절약을 위한 생활 습관",
+              "date": "2024-08-05",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "에너지 절약 전문가 팁",
+                  "url": "http://energy.example.com/save-on-bills"
+                },
+                {
+                  "list": "환경부 에너지 절약 캠페인",
+                  "url": "http://gov.example.com/energy-saving"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "공과금 납부 연체시 대처 방법",
+              "date": "2024-07-18",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융 상담사 조언",
+                  "url": "http://finance.example.com/bill-payment-help"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "공과금 할인 제도 총정리",
+              "date": "2024-07-30",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "복지 정책 안내",
+                  "url": "http://welfare.example.com/utility-discounts"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "월별 공과금 예산 세우기",
+              "date": "2024-08-02",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "가계부 전문가 팁",
+                  "url": "http://budget.example.com/utility-planning"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "공과금 청구서 읽는 법",
+              "date": "2024-07-25",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "소비자 교육 자료",
+                  "url": "http://consumer.example.com/reading-bills"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "소득세",
+          "items": [
+            {
+              "title": "직장인을 위한 소득세 절세 전략",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "세무사 조언",
+                  "url": "http://tax.example.com/income-tax-tips"
+                },
+                {
+                  "list": "국세청 안내",
+                  "url": "http://gov.example.com/income-tax-guide"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "프리랜서 소득세 신고 가이드",
+              "date": "2024-07-20",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "세무 전문가 팁",
+                  "url": "http://freelance.example.com/tax-guide"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "소득세 공제 항목 총정리",
+              "date": "2024-07-28",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "세금 상담사 해설",
+                  "url": "http://taxadvice.example.com/deductions"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "연말정산 미리 준비하기",
+              "date": "2024-08-07",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "회계사 조언",
+                  "url": "http://accounting.example.com/year-end-tax"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "소득세 환급 받는 방법",
+              "date": "2024-07-15",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "세금 전문가 팁",
+                  "url": "http://taxrefund.example.com/how-to"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "주택 관련 세금",
+          "items": [
+            {
+              "title": "첫 주택 구입시 알아야 할 세금 정보",
+              "date": "2024-07-22",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "부동산 세무사 조언",
+                  "url": "http://realestatetax.example.com/first-home"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "재산세",
+          "items": [
+            {
+              "title": "재산세 계산 방법 및 납부 일정",
+              "date": "2024-08-03",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "지방세무서 안내",
+                  "url": "http://localtax.example.com/property-tax"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "주거용 부가가치세",
+          "items": [
+            {
+              "title": "주거용 부동산 거래시 부가가치세 안내",
+              "date": "2024-07-19",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "세무법인 해설",
+                  "url": "http://taxfirm.example.com/residential-vat"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "지방세",
+          "items": [
+            {
+              "title": "알아두면 유용한 지방세 감면 제도",
+              "date": "2024-08-06",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "지방정부 세금 안내",
+                  "url": "http://localgov.example.com/tax-exemptions"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "보험료",
+          "items": [
+            {
+              "title": "건강보험료 절약을 위한 생활 습관",
+              "date": "2024-07-27",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "건강보험공단 안내",
+                  "url": "http://healthinsurance.example.com/save-on-premiums"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "guide": "복지",
+      "subcategories": [
+        {
+          "keyword": "대출",
+          "items": [
+            {
+              "title": "청년 대상 저금리 대출 프로그램",
+              "date": "2024-08-04",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융위원회 정책 안내",
+                  "url": "http://fsc.example.com/youth-loans"
+                },
+                {
+                  "list": "은행연합회 대출 정보",
+                  "url": "http://bankers.example.com/loan-programs"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "주택담보대출 vs 신용대출: 어떤 것이 유리할까?",
+              "date": "2024-07-21",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "금융 전문가 분석",
+                  "url": "http://finance.example.com/loan-comparison"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "대학생 학자금 대출 안내",
+              "date": "2024-07-29",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "교육부 학자금 지원 정보",
+                  "url": "http://education.example.com/student-loans"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "소상공인 대출 지원 프로그램",
+              "date": "2024-08-08",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "중소기업벤처부 지원 정책",
+                  "url": "http://smba.example.com/business-loans"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "대출 상환 계획 세우기",
+              "date": "2024-07-16",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "재무 상담사 조언",
+                  "url": "http://financialplanning.example.com/loan-repayment"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "주거 지원",
+          "items": [
+            {
+              "title": "청년 주거급여 신청 방법",
+              "date": "2024-08-02",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "복지부 주거 지원 안내",
+                  "url": "http://welfare.example.com/housing-subsidy"
+                },
+                {
+                  "list": "주거복지포털 정보",
+                  "url": "http://housingwelfare.example.com/youth-support"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "공공임대주택 입주 자격 및 신청 절차",
+              "date": "2024-07-23",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "LH공사 임대주택 정보",
+                  "url": "http://lh.example.com/rental-housing"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "주거 취약계층을 위한 주거 개선 사업",
+              "date": "2024-07-31",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "국토교통부 주거복지 정책",
+                  "url": "http://molit.example.com/housing-welfare"
+                }
+              ],
+              "like": "1"
+            },
+            {
+              "title": "신혼부부 주거 지원 정책 총정리",
+              "date": "2024-08-09",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "가족정책과 주거 지원 안내",
+                  "url": "http://family.example.com/housing-support"
+                }
+              ],
+              "like": "0"
+            },
+            {
+              "title": "다자녀 가구 주거 지원 혜택",
+              "date": "2024-07-17",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "복지정책 종합 안내",
+                  "url": "http://welfare.example.com/multi-child-support"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "생활비 지원",
+          "items": [
+            {
+              "title": "긴급 생계비 지원 제도 안내",
+              "date": "2024-07-24",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "복지부 긴급지원 안내",
+                  "url": "http://welfare.example.com/emergency-support"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "건강 보험",
+          "items": [
+            {
+              "title": "국민건강보험 혜택 총정리",
+              "date": "2024-08-05",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "건강보험공단 안내",
+                  "url": "http://nhis.example.com/benefits"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "청년 수당",
+          "items": [
+            {
+              "title": "지역별 청년 수당 비교 분석",
+              "date": "2024-07-19",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "청년정책 연구소 보고서",
+                  "url": "http://youthpolicy.example.com/allowance-analysis"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "취업 지원 프로그램",
+          "items": [
+            {
+              "title": "국민취업지원제도 신청 방법",
+              "date": "2024-08-07",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "고용노동부 취업지원 안내",
+                  "url": "http://moel.example.com/employment-support"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "의료 지원",
+          "items": [
+            {
+              "title": "저소득층 의료비 지원 사업 안내",
+              "date": "2024-07-26",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "보건복지부 의료지원 정책",
+                  "url": "http://mohw.example.com/medical-support"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        },
+        {
+          "keyword": "식비 지원",
+          "items": [
+            {
+              "title": "결식아동 급식 지원 프로그램",
+              "date": "2024-08-01",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "교육청 급식 지원 안내",
+                  "url": "http://edu.example.com/meal-support"
+                }
+              ],
+              "like": "1"
+            }
+          ]
+        },
+        {
+          "keyword": "문화 지원",
+          "items": [
+            {
+              "title": "문화누리카드 사용 꿀팁",
+              "date": "2024-07-20",
+              "contentURL": "/images/guide/sample.png",
+              "source": [
+                {
+                  "list": "문화체육관광부 문화 지원 정책",
+                  "url": "http://mcst.example.com/culture-voucher"
+                }
+              ],
+              "like": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+.side_bar {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 260px;
+  width: 200px;
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-out, visibility 1s ease-out;
+  z-index: 2;
+}
+
+/* 사이드바 위쪽 */
+.side_bar_top_box {
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.sied_bar_title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.close_btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 사이드바 아래쪽 */
+.side_bar_bottom_box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.side_bar_bottom_box a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 10px 0;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+.side_bar_bottom_box a:hover {
+  background-color: #eee;
+  color: #0056b3;
+}
+
+/* open_btn */
+.open_btn {
+  position: absolute;
+  left: 0px;
+  top: 240px;
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 0px 50px 50px 0px;
+}
+/* 해당 페이지에 들어갈시 사이드바 메뉴에 배경이 들어감 */
+.click_mypage {
+  background-color: #eee;
+}
