@@ -8,22 +8,21 @@ const params = new URLSearchParams(location.search);
 // 0:생활팁, 1:부동산, 2:세금, 3:복지
 const guideIndex = params.get('value');
 // 무슨 키워드를 클릭했는지
-
 let keywordIndex = params.get('name');
 
-if(params.get('name') == null || params.get('name') == undefined){
+// 키워드로 접근한 게 아닌 가이드를 클릭해서 접근 한 경우
+// (내비바 가이드 서브메뉴, 홈화면 가이드 카드 클릭 시)
+if(params.get('name') == undefined){
   window.onload = () => {
     axios.get('http://localhost:5500/json/guide.json')
     .then((res) => {
-      keywordIndex = 0;
       // 키워드 박스 생성을 위한 html 변수
       let keywordsHTML = '';
       // 카드 박스 생성을 위한 html 변수
       let cardHTML = '';
       let data = res.data;
       const guideName = data.categories[guideIndex];
-      const keywordName = guideName.subcategories[keywordIndex];
-      document.title = `${guideName.guide}-${keywordName.keyword}`;
+      document.title = `${guideName.guide}`;
       document.getElementById('guideName').innerText = guideName.guide;
       
       // 클릭한 가이드의 키워드들 가져오기
@@ -32,9 +31,7 @@ if(params.get('name') == null || params.get('name') == undefined){
         <div class="keywordBox" onclick="getKeyword(this)">${guideName.subcategories[i].keyword}</div>`;
       }
       
-      // 초기 카드 내용은 
-      // 클릭한 가이드의 첫번째 키워드의 내용들
-      
+      // 클릭한 가이드의 모든 글
       for(let j = 0; j < guideName.subcategories.length; j++){
         for(let i = 0; i < guideName.subcategories[j].items.length; i++){
           // 좋아요 여부 가져오기
@@ -65,8 +62,9 @@ if(params.get('name') == null || params.get('name') == undefined){
       document.querySelector('#guideCardList').innerHTML = cardHTML;
       })
   }
+  // 키워드를 클릭한 경우
 } else {
-// 키워드박스, 카드박스 내용 갱신
+// 해당 키워드의 글만 출력
 window.onload = () => {
   axios.get('http://localhost:5500/json/guide.json')
   .then((res) => {
@@ -98,7 +96,7 @@ window.onload = () => {
       let isLike = (keywordName.items[i].like == '1') ? "/images/icons/redLike.png" : "/images/icons/emptyLike.png";
       cardHTML += `
 <div class="guideCard">
-  <div class="guideCardTop" onclick='sendParam(this, guideIndex, keywordIndex)'>
+  <div class="guideCardTop" onclick='sendParam(this, guideIndex)'>
     <input class="index" type="hidden" value=${i}></input>
     <input class="index2" type="hidden" value=${keywordIndex}></input>
     <div class="guideCardName">${guideName.guide}</div>
@@ -138,7 +136,7 @@ function getKeyword(object) {
       }
     }
 
-    // 해당 가이드, 키워드의 인덱스를 들고 페이지 이동
+    // 해당 가이드, 키워드의 인덱스를 들고 페이지 새로고침
     window.location.href = `board.html?value=${guideIndex}&name=${keywordIndex}`;
   })
   .catch((error) => {
@@ -167,9 +165,9 @@ function setLike(object) {
 }
 
 // onclick 이벤트로 실행할 함수
-// guideIndex와 keywordIndex 값을 가지고
+// guideIndex, keywordIndex, itemIndex 값을 가지고
 // detail.html 페이지로 이동한다.
-function sendParam(object, guideIndex, keywordIndex) {
+function sendParam(object, guideIndex) {
   let itemIndex = object.querySelector('.index').value;
   keywordIndex = object.querySelector('.index2').value;
   let setIndex = `guideIndex=${guideIndex}&keywordIndex=${keywordIndex}&itemIndex=${itemIndex}`;

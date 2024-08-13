@@ -38,7 +38,6 @@ window.onload = () => {
       document.querySelector('#sources').innerHTML = sourceHTML;
     }
   })
-  
 }
 
 // 좋아요 기능
@@ -63,7 +62,7 @@ function buttonWorks(object){
     case 'prev':
       // 첫번째 원소면 제한, 나머지는 index--
       if(itemIndex == 0)
-        alert('첫번째 글입니다.');
+        alert('해당 키워드의 첫 번째 글입니다.');
       else {
         itemIndex--;
         window.location.href = `detail.html?guideIndex=${guideIndex}&keywordIndex=${keywordIndex}&itemIndex=${itemIndex}`;
@@ -72,7 +71,7 @@ function buttonWorks(object){
     case 'next':
       // 마지막 원소면 제한, 나머지는 index++
       if(itemIndex == itemLength - 1)
-        alert('마지막 글입니다.');
+        alert('해당 키워드의 마지막 글입니다.');
       else {
         itemIndex++;
         window.location.href = `detail.html?guideIndex=${guideIndex}&keywordIndex=${keywordIndex}&itemIndex=${itemIndex}`;
