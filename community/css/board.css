@@ -10,7 +10,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  padding: 50px 0px
+  padding: 50px 0px;
 }
 
 #board-list {
@@ -20,7 +20,8 @@
   height: 750px;
 }
 
-.board-header, .board-item {
+.board-header,
+.board-item {
   display: flex;
   padding: 15px;
   border-bottom: 1px solid #eee;
@@ -40,7 +41,7 @@
   border-bottom: none;
 }
 
-.col-category{
+.col-category {
   flex: 1;
   text-align: center;
 }
@@ -49,7 +50,8 @@
   flex: 9;
   padding-left: 15px;
 }
-.col-author, .col-date {
+.col-author,
+.col-date {
   flex: 1;
   text-align: center;
 }
@@ -63,25 +65,22 @@
 }
 .ta-center {
   text-align: center;
-
 }
-
-.col-title:hover {
-  text-decoration: underline;
-}
-
-
 
 .col-date {
   color: #6c757d;
 }
 
 @media (max-width: 768px) {
-  .board-header, .board-item {
+  .board-header,
+  .board-item {
     flex-direction: column;
   }
 
-  .col-category, .col-author, .col-date, .col-title {
+  .col-category,
+  .col-author,
+  .col-date,
+  .col-title {
     flex: 1;
     margin-bottom: 5px;
   }
@@ -108,7 +107,7 @@
 
 #pagination button.active {
   font-weight: bold;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
 }
 /* 검색창 */
@@ -123,7 +122,7 @@
   margin-right: 10px;
 }
 
-.filters select, 
+.filters select,
 .filters input[type="text"] {
   margin-right: 10px;
   padding: 5px;
@@ -133,7 +132,7 @@
 #search-button {
   padding: 5px 10px;
   border: 1px solid #ccc;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
   cursor: pointer;
 }
