@@ -16,12 +16,6 @@
 
 | **김재원** | **김용** | **안준수** | **이석현** | **이제희** | **조해인** |
 | :------: |  :------: | :------: | :------: | :------: | :------: |
-| [<img src="https://github.com/Jaewon94.png" height=150 width=150> <br/> @Jaewon94](https://github.com/Jaewon94) 
-| [<img src="https://github.com/kimYong91.png" height=150 width=150> <br/> @kimYong91](https://github.com/kimYong91) 
-| [<img src="https://github.com/Derit7042.png" height=150 width=150> <br/> @Derit7042](https://github.com/Derit7042) 
-| [<img src="https://github.com/maijjoo.png" height=150 width=150> <br/> @maijjoo](https://github.com/maijjoo) 
-| [<img src="https://github.com/JHLEE91.png" height=150 width=150> <br/> @JHLEE91](https://github.com/JHLEE91) 
-| [<img src="https://github.com/Haein-Jo.png" height=150 width=150> <br/> @Haein-Jo](https://github.com/Haein-Jo) 
-|
+| [<img src="https://github.com/Jaewon94.png" height=150 width=150> <br/> @Jaewon94](https://github.com/Jaewon94) | [<img src="https://github.com/kimYong91.png" height=150 width=150> <br/> @kimYong91](https://github.com/kimYong91) | [<img src="https://github.com/Derit7042.png" height=150 width=150> <br/> @Derit7042](https://github.com/Derit7042) | [<img src="https://github.com/maijjoo.png" height=150 width=150> <br/> @maijjoo](https://github.com/maijjoo) | [<img src="https://github.com/JHLEE91.png" height=150 width=150> <br/> @JHLEE91](https://github.com/JHLEE91) | [<img src="https://github.com/Haein-Jo.png" height=150 width=150> <br/> @Haein-Jo](https://github.com/Haein-Jo) |
 
 </div>
