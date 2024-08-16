@@ -277,3 +277,69 @@
 - **제한사항**
   <br>종료 단계에서 작성된 문서가 충분히 구체적이지 않거나, 중요한 데이터를 포함하지 않으면, 후속 프로젝트에서 동일한 실수를 반복할 위험이 있습니다. 또한, 성과 보고서가 부정확하거나 이해관계자 요구에 부응하지 못하면, 프로젝트 평가에서 문제가 발생할 수 있습니다.</br>
   
+## 가이드라인 예시 제안!( Auth. 이제희 / 주관적 생각이라 참고만 하세요)
+
+1. 개요 (Introduction)
+문서 목적: 가이드라인 문서의 목적과 범위를 설명.
+적용 대상: 이 가이드라인이 적용되는 팀, 프로젝트, 개발 영역 등을 명시.
+2. 개발 환경 (Development Environment)
+개발 도구
+IDE: 개발 시 사용할 통합 개발 환경(예: Visual Studio Code, IntelliJ IDEA 등).
+버전 관리 도구: Git 사용 시, GitHub, GitLab 등 사용 플랫폼과 브랜치 전략(예: Git flow).
+패키지 매니저: Node.js 프로젝트의 경우 npm 또는 yarn 등.
+프레임워크 및 라이브러리
+프론트엔드: React, Angular, Vue.js 등 선택된 프레임워크.
+백엔드: Express, Spring Boot, Django 등 선택된 프레임워크.
+코드 형식
+코드 스타일 가이드: ESLint, Prettier 등 코드 스타일 및 형식 규칙 도구.
+코딩 규칙: 변수 및 함수 이름 지정 규칙, 들여쓰기(예: 2 spaces, 4 spaces).
+3. 코딩 표준 (Coding Standards)
+HTML/CSS
+HTML
+구조적 요소: 시멘틱 태그(semantic tags) 사용 권장(예: <header>, <footer>, <article>, <section>).
+레이아웃: 테이블(<table>)은 레이아웃용으로 사용하지 않고, <div>와 CSS Grid 또는 Flexbox 사용.
+속성 규칙: HTML 속성은 항상 소문자로 작성하며, 속성 값에 작은따옴표(' ') 사용.
+CSS
+CSS 전처리기: Sass 또는 LESS 사용 지침.
+클래스 네이밍 규칙: BEM(Block Element Modifier) 방법론 사용(예: block__element--modifier).
+미디어 쿼리: 반응형 디자인을 위한 브레이크포인트 정의.
+JavaScript
+ES6+ 사용: 최신 ECMAScript 표준 준수.
+함수형 프로그래밍 권장: 순수 함수, 고차 함수 사용.
+비동기 처리: async/await 사용 권장.
+주석 처리: 중요 로직에 대해 주석 작성 규칙 명시.
+Back-end
+API 설계 가이드: RESTful API 디자인 규칙, 엔드포인트 네이밍 규칙.
+데이터베이스 규칙: 데이터베이스 스키마 설계 규칙, SQL 문법 사용 시 표준.
+에러 핸들링: 일관된 에러 핸들링 방식(예: try-catch 문법).
+4. 파일 및 폴더 구조 (File and Folder Structure)
+폴더 구조: 프로젝트 폴더 구조에 대한 명시적 정의(예: src/, public/, tests/).
+파일 네이밍 규칙: 파일 및 폴더 이름 규칙(예: 소문자와 하이픈(-) 사용).
+모듈 및 컴포넌트 분리: 프론트엔드에서 컴포넌트별 디렉토리 구조 예시.
+5. 버전 관리 규칙 (Version Control Guidelines)
+브랜치 전략: 브랜치 생성 및 병합 규칙(예: main, develop, feature/, bugfix/).
+커밋 메시지 규칙: 일관된 커밋 메시지 스타일(예: “feat: 사용자 로그인 기능 추가”).
+Pull Request(Pull Request): PR 생성 시 검토 과정과 승인 절차 명시.
+6. 테스트 가이드라인 (Testing Guidelines)
+단위 테스트(Unit Testing): 각 모듈 또는 기능별 단위 테스트 작성 기준.
+통합 테스트(Integration Testing): 시스템 통합 시나리오에 따른 테스트 기준.
+테스트 도구: Jest, Mocha, Cypress 등 사용 도구와 관련된 설정.
+테스트 커버리지 목표: 최소 테스트 커버리지 목표 설정(예: 80% 이상).
+7. 배포 및 운영 가이드라인 (Deployment and Operations Guidelines)
+배포 프로세스: 개발 -> 스테이징 -> 프로덕션 단계의 배포 절차.
+CI/CD 파이프라인: Jenkins, GitHub Actions 등을 통한 자동화 배포 설정.
+모니터링 및 로깅: 운영 중 발생하는 이슈 모니터링 및 로깅 시스템 설정(예: ELK 스택 사용).
+8. 보안 가이드라인 (Security Guidelines)
+인증 및 인가: OAuth2.0, JWT 등의 인증 방식 사용.
+데이터 보호: 민감한 데이터(예: 사용자 비밀번호)의 암호화 규칙.
+보안 업데이트: 의존성 패키지의 주기적인 보안 업데이트 절차.
+9. 문서화 가이드라인 (Documentation Guidelines)
+코드 문서화: JSDoc, Sphinx 등을 통한 코드 주석 및 문서화 규칙.
+프로젝트 문서: README.md, API 문서 등 프로젝트 관련 문서 작성 규칙.
+10. 커뮤니케이션 및 협업 가이드라인 (Communication and Collaboration Guidelines)
+일일 스탠드업 미팅: 매일 진행하는 짧은 회의 규칙.
+커뮤니케이션 도구: Slack, JIRA 등 팀 협업 도구 사용 지침.
+이슈 관리: 이슈 생성, 관리 및 해결 절차.
+11. 기타 규칙 (Miscellaneous)
+코드 리뷰: 코드 리뷰의 기준과 절차.
+기술 부채 관리: 기술 부채를 관리하는 절차와 우선순위 설정.
