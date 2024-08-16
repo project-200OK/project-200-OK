@@ -236,7 +236,7 @@
 
 | 구분 |    내용   |  결과물 |
 |------|-----------|---------|
-| ***요구사항 분석*** | <br>1. 주요활동</br> <br>이해관계자 인터뷰 및 워크숍</br><br>요구사항 수집 및 분석</br><br>기능적/비기능적 요구사항 분류</br><br>우선순위 설정</br> | <br> 결과물 </br> <br>SWOT 분석 문서 (SWOT Analysis Document): Strengths, Weaknesses, Opportunities, Threats에 대한 분석.</br><br>데이터 분석 보고서 (Data Analysis Report): 시장조사 데이터를 기반으로 한 분석 결과.</br><br>세분화 및 타겟팅 보고서 (Segmentation and Targeting Report): 시장을 세분화하고, 타겟 고객을 설정한 보고서.</br> |
+| ***요구사항 분석*** | <br>1. 주요활동</br> <br>이해관계자 인터뷰 및 워크숍</br><br>요구사항 수집 및 분석</br><br>기능적/비기능적 요구사항 분류</br><br>우선순위 설정</br> | <br> 결과물 </br> <br>요구사항 명세서 (Requirements Specification): 기능적/비기능적 요구사항을 정리한 문서.</br><br>우선순위 목록 (Priority List): 요구사항의 우선순위에 따른 작업 우선순위 목록.</br> |
   
 | 구분 |    내용   |  결과물 |
 |------|-----------|---------|
