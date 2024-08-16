@@ -28,16 +28,16 @@
 
 ## 1. 개발 환경
 
-- 프론트 : HTML, CSS, JAVASCRIPT
+- 프론트 : HTML, CSS, JAVASCRIPT
 - 데이터 : JSON
 - 버전관리 : Github
-- 협업툴 :
-  Github
-  (1. https://github.com/project-200OK/project-200-OK)
-  Figma
-  (1. https://www.figma.com/board/5Hs1rEnbBdbagu9XHfjP4I/200OK?node-id=0-1&t=mBgvhng4DqC4vXIV-1)
-  (2. https://www.figma.com/design/azzdeH6dJhrKeVkUWMFghy/200OK---1%EC%9D%B8%EA%B0%80%EA%B5%AC-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0?node-id=0-1&t=zpdRLx0qzZLKsJ06-1)
-  Google Drive
+- 협업툴 :<br>
+  Github<br>
+  (1. https://github.com/project-200OK/project-200-OK)<br>
+  Figma<br>
+  (1. https://www.figma.com/board/5Hs1rEnbBdbagu9XHfjP4I/200OK?node-id=0-1&t=mBgvhng4DqC4vXIV-1)<br>
+  (2. https://www.figma.com/design/azzdeH6dJhrKeVkUWMFghy/200OK---1%EC%9D%B8%EA%B0%80%EA%B5%AC-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0?node-id=0-1&t=zpdRLx0qzZLKsJ06-1)<br>
+  Google Drive<br>
   (1. https://drive.google.com/file/d/1lDdpNh3TMu_lYZqyGAtGUP7CkfTRomzl/view?usp=sharing)
 
 <br>
